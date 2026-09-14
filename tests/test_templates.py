@@ -76,3 +76,9 @@ def test_product_card_links_and_badge():
     h = T.product_card(RCA, "")
     assert 'href="asigurari/rca.html"' in h and "Online" in h
     assert "Ofertă personalizată" in T.product_card(IMM, "")
+
+def test_related_block_renders_items_and_empty_returns_blank():
+    h = T.related_block("Citește și", [("blog/x.html", "Articol <1>")], "../")
+    assert '<aside class="related">' in h and "<h2>Citește și</h2>" in h
+    assert 'href="../blog/x.html"' in h and "Articol &lt;1&gt;" in h
+    assert T.related_block("Gol", [], "") == ""
