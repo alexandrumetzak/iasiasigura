@@ -44,6 +44,7 @@ def test_404_uses_root_absolute_links(out):
     assert 'href="/css/styles.css"' in h
     assert 'href="css/' not in h and 'href="index.html"' not in h
     assert 'href="/index.html"' in h and 'href="/asigurari/rca.html"' in h
+    assert 'src="/js/script.js"' in h
 
 
 def test_check_site_passes_with_links(out):
