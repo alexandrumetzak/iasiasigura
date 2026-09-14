@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Generator IașiAsigură. Rulează: python3 build.py  (scrie HTML în rădăcina repo-ului)."""
-import html, json, os, re, sys, datetime
+import html, json, os, re, shutil, sys, datetime
 import markdown
 import templates as T
 
@@ -18,6 +18,8 @@ BY_SLUG = {p["slug"]: p for p in PRODUCTS}
 HOME = load_json("home.json")
 ZONES = load_json("zones.json")
 ZONE_LINKS = [(z["slug"], z["name"]) for z in ZONES]
+PAGES_META = load_json("pages/meta.json")
+STATIC = ["css", "js", "assets", "site.webmanifest"]
 WRITTEN = []
 
 def write(root, path, content):
@@ -204,6 +206,79 @@ def render_blog_index(arts):
                   "Ghiduri despre RCA, CASCO, locuință, PAD, călătorie, sănătate, malpraxis, pensii și asigurări pentru firme, scrise de un asistent în brokeraj.",
                   "/blog/", [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
 
+# ---------------------------------------------------------------- PAGINI STATICE
+def testimonials_html():
+    return "".join(f'<blockquote class="testimonial"><p>{html.escape(q)}</p><cite>{html.escape(w)}</cite></blockquote>'
+                   for q, w in HOME["testimonials"])
+
+def fill_tokens(frag, key):
+    """Înlocuiește tokenurile {{...}} din fragmentele content/pages (fără motor de template)."""
+    P = T.P
+    repl = {"{{TESTIMONIALS}}": testimonials_html(), "{{WA_LINK}}": T.wa_link(WA_DEFAULT),
+            "{{PHONE}}": P["phone_display"], "{{PHONE_E164}}": P["phone_e164"], "{{EMAIL}}": P["email"],
+            "{{RAF}}": P["raf"], "{{BROKER}}": T.S["broker"]["name"], "{{ASF_REGISTRY}}": T.S["links"]["asf_registry"],
+            "{{SMARTSALES_TERMS}}": T.smartsales_url("/privacy/terms", "legal")}
+    for k, v in repl.items():
+        frag = frag.replace(k, v)
+    rest = re.findall(r"\{\{[A-Z_]+\}\}", frag)
+    if rest:
+        raise SystemExit(f"pages/{key}.html: tokenuri necunoscute: {sorted(set(rest))}")
+    return frag
+
+def render_static(key):
+    R = ""; m = PAGES_META[key]; path = f"/{key}.html"
+    with open(os.path.join(CONTENT, "pages", f"{key}.html"), encoding="utf-8") as f:
+        frag = fill_tokens(f.read(), key)
+    crumbs = [("Acasă", "/"), (m["h1"], None)]
+    body = f"""<section class="page-hero"><div class="container container-narrow">{crumbs_html(crumbs, R)}<h1>{html.escape(m['h1'])}</h1></div></section>
+  <div class="container container-narrow prose">{frag}</div>"""
+    extra = {"despre": [T.person_node()], "contact": [T.agency_node()]}.get(key, [])
+    return T.page(m["title"], m["desc"], path, extra + [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
+
+def render_404():
+    body = """<section class="page-hero"><div class="container container-narrow"><h1>Pagina nu există</h1><p class="lead">Poate ai nevoie de una dintre acestea:</p>
+    <ul><li><a href="/asigurari/rca.html">Asigurare RCA</a></li><li><a href="/asigurari/locuinta.html">Asigurare locuință</a></li><li><a href="/asigurari/">Toate asigurările</a></li><li><a href="/blog/">Blog</a></li></ul></div></section>"""
+    out = T.page("Pagina nu există | IașiAsigură", "Pagina căutată nu există. Vezi asigurările disponibile sau scrie pe WhatsApp.", "/404.html", [], "", body, WA_DEFAULT)
+    return out.replace('content="index, follow,', 'content="noindex, follow,')
+
+# ---------------------------------------------------------------- FIȘIERE TEHNICE
+def render_sitemap(paths, root):
+    today = datetime.date.today().isoformat()
+    urls = []
+    for p in paths:
+        if p.endswith("404.html"): continue
+        loc = T.SITE + (p[:-len("index.html")] if p.endswith("index.html") else p)
+        try:
+            lastmod = datetime.date.fromtimestamp(os.path.getmtime(os.path.join(root, p.lstrip("/")))).isoformat()
+        except OSError:
+            lastmod = today
+        urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod></url>")
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n"
+
+def render_robots():
+    bots = ["*", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "PerplexityBot", "Google-Extended", "CCBot", "Bingbot"]
+    return "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {T.SITE}/sitemap.xml\n"
+
+def render_llms(arts):
+    P = T.P
+    lines = [f"# {T.S['brand']}", "", f"> Site de prezentare: {P['name']}, {P['job_title'].lower()} (cod RAF {P['raf']}) înregistrat la ASF, în numele {T.S['broker']['name']} ({T.S['broker']['rbk']}). Asigurări online pentru toată România; întâlniri la Iași cu programare. Contact: WhatsApp {P['phone_display']}, {P['email']}.", "",
+             "Site-ul nu afișează prețuri; cumpărarea se face pe platforma brokerului (metzak-marina.smartsales.ro). Serviciul e gratuit pentru client: comisionul e plătit de asigurător.", "", "## Asigurări"]
+    lines += [f"- [{p['name']}]({T.SITE}/asigurari/{p['slug']}.html): {p['short']} ({'cumpărare online' if p['type']=='online' else 'ofertă personalizată pe WhatsApp'})" for p in PRODUCTS]
+    lines += ["", "## Zone"] + [f"- [Asigurări {n}]({T.SITE}/zone/{s}.html)" for s, n in ZONE_LINKS]
+    lines += ["", "## Articole"] + [f"- [{a['title']}]({T.SITE}/blog/{a['slug']}.html): {a['desc']}" for a in arts]
+    lines += ["", "## Despre", f"- [Despre Marina]({T.SITE}/despre.html)", f"- [Contact]({T.SITE}/contact.html)", ""]
+    return "\n".join(lines)
+
+def copy_static(root):
+    """La build în alt director (teste), copiază fișierele statice ca site-ul să fie complet."""
+    if os.path.abspath(root) == ROOT: return
+    for name in STATIC:
+        src = os.path.join(ROOT, name)
+        if not os.path.exists(src): continue
+        dst = os.path.join(root, name)
+        if os.path.isdir(src): shutil.copytree(src, dst, dirs_exist_ok=True)
+        else: shutil.copy2(src, dst)
+
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):
     WRITTEN.clear()
@@ -219,6 +294,13 @@ def build(root=ROOT):
     write(root, "/blog/index.html", render_blog_index(arts))
     for a in arts:
         write(root, f"/blog/{a['slug']}.html", render_article(a, arts))
+    for k in PAGES_META:
+        write(root, f"/{k}.html", render_static(k))
+    write(root, "/404.html", render_404())
+    copy_static(root)
+    write(root, "/robots.txt", render_robots())
+    write(root, "/llms.txt", render_llms(arts))
+    write(root, "/sitemap.xml", render_sitemap([p for p in WRITTEN if p.endswith(".html")], root))
     return list(WRITTEN)
 
 if __name__ == "__main__":

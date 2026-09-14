@@ -29,8 +29,18 @@ def test_no_forbidden_smartsales_links(out):
                 t = open(os.path.join(dp, f), encoding="utf-8").read()
                 assert "destine.smartsales.ro" not in t and "/presale/" not in t, f
 
-def test_check_site_passes(out):
-    r = subprocess.run([sys.executable, "scripts/check_site.py", "--no-links", str(out)], capture_output=True, text=True)
+def test_static_pages_and_technical_files(out):
+    for p in ["despre", "contact", "termeni", "confidentialitate", "cookies"]:
+        assert read(out, f"{p}.html").count("<h1") == 1
+    assert "RAF 160354" in read(out, "despre.html") and "programare" in read(out, "contact.html")
+    assert read(out, "404.html").count("<h1") == 1
+    robots = read(out, "robots.txt"); assert "GPTBot" in robots and "ClaudeBot" in robots and "Sitemap: https://iasiasigura.com/sitemap.xml" in robots
+    sm = read(out, "sitemap.xml"); assert sm.count("<url>") >= 40 and "<lastmod>" in sm and "404" not in sm
+    llms = read(out, "llms.txt"); assert llms.startswith("# IașiAsigură") and "/asigurari/rca.html" in llms
+
+
+def test_check_site_passes_with_links(out):
+    r = subprocess.run([sys.executable, "scripts/check_site.py", str(out)], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr
 
 def test_all_products_rendered_with_correct_cta(out):
