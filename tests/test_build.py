@@ -12,7 +12,10 @@ def read(root, p): return (root / p).read_text(encoding="utf-8")
 
 def test_homepage_written_with_single_h1_and_products(out):
     h = read(out, "index.html")
-    assert h.count("<h1") == 1 and "Ia și asigură!" in h
+    assert h.count("<h1") == 1
+    # tagline-ul rămâne brand (JSON-LD slogan), dar nu se mai afișează lângă logo sau în footer
+    assert '"slogan": "Ia și asigură!"' in h
+    assert "<small>Ia și asigură!</small>" not in h and "· Ia și asigură!" not in h
     assert h.count('class="card product-card"') == 16
     assert "generat de build.py" in h
 

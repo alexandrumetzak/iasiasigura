@@ -60,13 +60,13 @@ Am avut doi frați cu același model, an, motor, amândoi cu domiciliul în Iaș
 
 ## Cum iau un preț bun fără să pierd acoperiri?
 
-În ordinea în care contează:
+Dacă vrei un preț bun, uite ce contează, cam în ordinea asta:
 
-1. Compară toți asigurătorii disponibili, nu numai pe cel de anul trecut. Între cea mai mică și cea mai mare primă pentru același profil, diferența e des mare.
-2. Verifică datele înainte de plată: capacitate cilindrică, putere, masă, an de fabricație. O greșeală acolo schimbă prima și poate încurca dosarul la daună.
-3. Nu lăsa polița să expire. Înseamnă risc de amendă, de reținere a plăcuțelor și rupi continuitatea care te ajută la bonus.
-4. Declară corect utilizarea. Faci ridesharing sau taxi, spune. O poliță pe uz personal la o mașină folosită comercial e o problemă care apare fix la daună.
-5. Uită-te și la servicii: decontare directă, cum se face constatarea, rețeaua de service.
+- Compară toți asigurătorii, nu numai pe cel de anul trecut. Pentru același profil, între cea mai mică și cea mai mare primă e des o diferență serioasă.
+- Verifică datele înainte să plătești: capacitate cilindrică, putere, masă, an de fabricație. O cifră greșită acolo îți schimbă prima și poate încurca dosarul la daună.
+- Nu lăsa polița să expire. Amendă, risc să rămâi fără plăcuțe și rupi continuitatea care te ajută la bonus.
+- Spune cum folosești mașina. Faci ridesharing sau taxi, declară. O poliță pe uz personal la o mașină care rulează comercial e o problemă care iese la iveală fix la daună.
+- Și uită-te la ce primești pe lângă preț: decontare directă, cum se face constatarea, ce service-uri au în rețea.
 
 Un ultim lucru: RCA îl despăgubește pe păgubit chiar dacă șoferul vinovat era băut sau fără permis. Doar că apoi asigurătorul se întoarce împotriva șoferului cu acțiune în regres și îi cere banii înapoi. Deci RCA nu te scapă de consecințe. Protejează victima.
 

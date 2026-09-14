@@ -26,7 +26,7 @@
   "not_covers": [
    "Mașina ta. Pentru ea există CASCO.",
    "Lucrurile tale din mașină",
-   "Dacă erai băut, drogat sau fără permis: păgubitul își ia banii de la asigurător, dar asigurătorul vine apoi la tine cu regres, adică îi recuperează de la tine",
+   "Alcool, droguri, fără permis: păgubitul tot își ia banii, dar asigurătorul vine apoi la tine să și-i recupereze (drept de regres).",
    "Rănile tale, dacă tu ai fost vinovat. Pentru asta e o asigurare de accidente."
   ],
   "docs": [
@@ -366,7 +366,7 @@
    "Medicamentele prescrise la urgență",
    "Transport medical și repatriere",
    "Urgențe la dentist, în limita din condiții",
-   "Asistență telefonică non-stop, în română"
+   "Poți suna oricând, îți răspunde cineva în română"
   ],
   "not_covers": [
    "Bolile cronice și cele pe care le aveai dinainte, fără clauză specială",

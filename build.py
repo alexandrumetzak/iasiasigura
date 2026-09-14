@@ -78,7 +78,7 @@ def render_home():
     <ul class="hero-points">{points}</ul>
   </div></section>
   <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Ce asigurare îți trebuie?</h2>
-    <p>Cele marcate <strong>Online</strong> le cumperi direct pe platforma brokerului. Cele cu <strong>Ofertă personalizată</strong> le rezolvăm pe WhatsApp: cer ofertele, le compar și ți le trimit.</p>
+    <p>Cele marcate <strong>Online</strong> le cumperi direct pe platforma brokerului. La cele cu <strong>Ofertă pe WhatsApp</strong> îmi scrii, cer ofertele, le compar și ți le trimit.</p>
     <div class="grid">{cards}</div></div></section>
   <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce prin mine</p><h2>Ce e altfel când le faci prin mine</h2><div class="grid">{why}</div></div></section>
   <section id="cum"><div class="container"><p class="eyebrow">Cum merge</p><h2>Ce ai de făcut</h2><div class="steps">{steps}</div></div></section>
@@ -108,6 +108,7 @@ def render_product(p, articles_by_slug):
     nots_col = f'<div><h2>Ce nu acoperă</h2><ul class="cross">{nots}</ul></div>' if nots else ""
     docs = "".join(f"<li>{html.escape(x)}</li>" for x in p["docs"])
     steps = "".join(f'<div class="step"><h3>{html.escape(t)}</h3><p>{html.escape(d)}</p></div>' for t, d in p["steps"])
+    steps_title = "Cum o faci, pas cu pas" if p["type"] == "online" else "Cum ajungem la ofertă"
     rel_products = [(f"asigurari/{s}.html", BY_SLUG[s]["name"]) for s in p["related"] if s in BY_SLUG]
     rel_articles = [(f"blog/{s}.html", articles_by_slug[s]["title"]) for s in p.get("articles", []) if s in articles_by_slug]
     body = f"""
@@ -116,7 +117,7 @@ def render_product(p, articles_by_slug):
   <div class="container prose">
     <div class="two-col"><div><h2>Ce acoperă</h2><ul class="check">{covers}</ul></div>{nots_col}</div>
     <h2>Acte necesare</h2><ul>{docs}</ul>
-    <h2>Cum cumperi în 3 pași</h2><div class="steps">{steps}</div>
+    <h2>{steps_title}</h2><div class="steps">{steps}</div>
     {T.faq_block([tuple(x) for x in p['faq']])}
     {T.related_block("Asigurări conexe", rel_products, R)}{T.related_block("Citește și", rel_articles, R)}
     {author_box(R)}
@@ -151,13 +152,14 @@ def render_zone(z):
     cards = "".join(T.product_card(BY_SLUG[s], R) for s in z["products"] if s in BY_SLUG)
     others = [(f"zone/{s}.html", n) for s, n in ZONE_LINKS if s != z["slug"]]
     wa = f"Bună Marina, sunt din {z['name']} și vreau informații despre o asigurare."
+    outro = f"<p>{html.escape(z['outro'])}</p>" if z.get("outro") else ""
     body = f"""
   <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>{html.escape(z['h1'])}</h1><p class="lead">{html.escape(z['answer'])}</p>
     <div class="cta-row"><a href="{T.wa_link(wa)}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie pe WhatsApp</span></a><a href="{R}asigurari/" class="btn btn-primary">Vezi asigurările</a></div></div></section>
   <div class="container prose"><h2>Ce contează la asigurări în {html.escape(z['name'])}</h2>{local}
     <h2>Cele mai cerute asigurări în {html.escape(z['name'])}</h2><div class="grid">{cards}</div>
     {T.faq_block([tuple(x) for x in z['faq']])}
-    <p>Din {html.escape(z['name'])} sau din altă parte, asigurarea o faci online pe platforma brokerului, iar pe WhatsApp îți răspund eu. Față în față ne vedem doar la Iași, cu programare.</p>
+    {outro}
     {T.related_block("Alte zone", others, R)}{author_box(R)}</div>"""
     service = {"@context": "https://schema.org", "@type": "Service", "name": f"Asigurări {z['name']}",
                "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
@@ -294,7 +296,7 @@ def render_llms(arts):
     P = T.P
     lines = [f"# {T.S['brand']}", "", f"> Site de prezentare: {P['name']}, {P['job_title'].lower()} (cod RAF {P['raf']}) înregistrat la ASF, în numele {T.S['broker']['name']} ({T.S['broker']['rbk']}). Asigurări online pentru toată România; întâlniri la Iași cu programare. Contact: WhatsApp {P['phone_display']}, {P['email']}.", "",
              "Site-ul nu afișează prețuri; cumpărarea se face pe platforma brokerului (metzak-marina.smartsales.ro). Serviciul e gratuit pentru client: comisionul e plătit de asigurător.", "", "## Asigurări"]
-    lines += [f"- [{p['name']}]({T.SITE}/asigurari/{p['slug']}.html): {p['short']} ({'cumpărare online' if p['type']=='online' else 'ofertă personalizată pe WhatsApp'})" for p in PRODUCTS]
+    lines += [f"- [{p['name']}]({T.SITE}/asigurari/{p['slug']}.html): {p['short']} ({'cumpărare online' if p['type']=='online' else 'ofertă pe WhatsApp'})" for p in PRODUCTS]
     lines += ["", "## Zone"] + [f"- [Asigurări {n}]({T.SITE}/zone/{s}.html)" for s, n in ZONE_LINKS]
     lines += ["", "## Articole"] + [f"- [{a['title']}]({T.SITE}/blog/{a['slug']}.html): {a['desc']}" for a in arts]
     lines += ["", "## Despre", f"- [Despre Marina]({T.SITE}/despre.html)", f"- [Contact]({T.SITE}/contact.html)", ""]

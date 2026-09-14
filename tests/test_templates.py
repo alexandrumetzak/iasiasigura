@@ -73,6 +73,7 @@ def test_cta_consultanta_primary_is_wa_secondary_smartsales_form():
     h = T.cta_block(IMM, "../")
     assert h.index("wa.me") < h.index("smartsales.ro")
     assert "Cere ofertă pe WhatsApp" in h and "#asigurariPj" in h and "utm_campaign=imm" in h
+    assert "Sau completezi datele pe platformă" in h and "Formular" not in h
 
 def test_faq_block_uses_h3_questions():
     h = T.faq_block([("Cât durează?", "5 minute.")])
@@ -81,7 +82,7 @@ def test_faq_block_uses_h3_questions():
 def test_product_card_links_and_badge():
     h = T.product_card(RCA, "")
     assert 'href="asigurari/rca.html"' in h and "Online" in h
-    assert "Ofertă personalizată" in T.product_card(IMM, "")
+    assert "Ofertă pe WhatsApp" in T.product_card(IMM, "")
 
 def test_related_block_renders_items_and_empty_returns_blank():
     h = T.related_block("Citește și", [("blog/x.html", "Articol <1>")], "../")

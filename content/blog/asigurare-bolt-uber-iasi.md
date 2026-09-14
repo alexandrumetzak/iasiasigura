@@ -85,7 +85,7 @@ Dacă ai angajați care conduc mașina, apar obligații și față de ei, iar o 
 - Polița de accidente luată în ziua în care trebuia depus dosarul (îmi scriu la 9 seara, „mâine la 8 am nevoie de ea").
 - Mașina trecută pe firmă, polițele rămase pe persoană fizică. Sau invers.
 - O zi fără RCA la reînnoire. Înseamnă amendă, risc de reținere a plăcuțelor și zero curse.
-- Uitatul de propria persoană. Pasagerii și terții sunt acoperiți, dar pentru vătămarea ta, dacă ești vinovat, îți trebuie ceva separat: accidente persoane sau o asigurare de viață.
+- Uiți de tine. Pasagerii și cei din cealaltă mașină sunt acoperiți, dar dacă ai fost tu vinovat și ai pățit ceva, pentru tine nu plătește nimeni. Îți trebuie ceva separat: accidente persoane sau o asigurare de viață.
 
 ## De unde încep
 

@@ -82,7 +82,7 @@ def cta_block(p, R):
     return f"""
     <div class="cta-row">
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
-      <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Formular de ofertă pe platformă</a>
+      <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Sau completezi datele pe platformă</a>
       <p class="cta-note">Aici nu e preț pe loc: îmi scrii, cer oferte de la mai mulți asigurători și ți le trimit pe WhatsApp sau e-mail. Nu mă plătești tu.</p>
     </div>"""
 
@@ -95,7 +95,7 @@ def faq_block(faqs, heading="Ce mă întreabă lumea"):
     return f'\n    <section class="faq" id="faq"><h2>{heading}</h2>{items}</section>'
 
 def product_card(p, R):
-    badge = "Online" if p["type"] == "online" else "Ofertă personalizată"
+    badge = "Online" if p["type"] == "online" else "Ofertă pe WhatsApp"
     cls = "badge-online" if p["type"] == "online" else "badge-consult"
     return (f'<a class="card product-card" href="{R}asigurari/{p["slug"]}.html">'
             f'<span class="card-icon" aria-hidden="true">{p["icon"]}</span><span class="badge {cls}">{badge}</span>'
@@ -153,7 +153,7 @@ def header(R, wa_text):
     <div class="container header-inner">
       <a href="{R}index.html" class="brand">
         <span class="brand-mark" aria-hidden="true">Ia</span>
-        <span class="brand-text"><strong>Iași<em>Asigură</em></strong><span class="sr-only"> — </span><small>{S['tagline']}</small></span>
+        <span class="brand-text"><strong>Iași<em>Asigură</em></strong></span>
       </a>
       <nav class="nav" aria-label="Navigare principală">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Deschide meniul"><span></span><span></span><span></span></button>
@@ -171,7 +171,7 @@ def footer(R, wa_text):
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <p class="footer-brand"><strong>Iași<em>Asigură</em></strong> · {S['tagline']}</p>
+        <p class="footer-brand"><strong>Iași<em>Asigură</em></strong></p>
         <p>Asigurări online pentru toată România. Pe WhatsApp îți răspund eu, {P['name']}, {P['job_title'].lower()}.</p>
         <p><a href="{P['facebook']}" rel="noopener" target="_blank">Facebook</a></p>
       </div>

@@ -11,7 +11,7 @@
   "local": [
    "Iașiul are peste 200.000 de mașini înmatriculate și se vede: Podu Roș la opt dimineața, rondul de la Agronomie, coada de pe Bucium spre centură. RCA-ul e obligatoriu și îl faci singur, online, în pauza de la birou. Ce mă întreabă lumea de fapt e dacă să ia și CASCO. Răspunsul meu depinde de unde parchezi. Dacă mașina stă noaptea pe stradă în Tătărași sau în parcarea înghesuită de la Iulius, și dacă ai prins grindina din vara trecută, da, o discutăm, poate cu franșiză mai mare ca să nu coste cât o rată. Dacă e luată în leasing, nici nu ai de ales, banca o cere. Pentru mașinile aduse din Germania, RCA-ul se face imediat după înmatriculare, cu dovada de la RAR, și am clienți care îmi scriu direct din parcarea de la Înmatriculări.",
    "Iașiul e cel mai mare centru medical din Moldova și asta se vede în ce vând eu cel mai mult toamna: malpraxis. Rezidenții de la UMF, asistenții de la Spiridon, de la Parhon, de la Sf. Maria sau de la Institutul de Oncologie îmi scriu toți în aceeași săptămână, cea de dinainte de avizul anual. Polița e obligatorie pentru personalul medical, se face online și vine pe e-mail în formatul pe care îl vrea colegiul. Cabinetele private din Păcurari sau din centru mai iau și răspundere civilă pentru clinică. Apoi sunt șoferii de Bolt și Uber, mii în oraș, care au nevoie de asigurarea de accidente pentru pasageri la dosarul de autorizare de la primărie. Și firmele din Palas sau din parcurile de birouri, care întreabă tot mai des de asigurări de sănătate pentru angajați. Studenții plecați cu Erasmus își fac călătoria cu o seară înainte.",
-   "La locuință, în Iași sunt două lucruri de rezolvat. Unu: PAD-ul obligatoriu, că suntem în zona cutremurelor vrâncene și legea nu te întreabă dacă vrei. Doi: facultativa, pentru ce se întâmplă de fapt în bloc, adică vecinul de deasupra care te inundă. În blocurile vechi din Tătărași, Alexandru cel Bun, Dacia, Nicolina sau Podu Roș, țevile au vârsta blocului și pagubele sunt mici, dar vin des: parchet umflat, zugrăveală, mobilă. Cu poliță, despăgubirea vine fără nervi. Cu vecin fără poliță, te cerți pe scară. În ansamblurile noi din Bucium, Copou, Valea Adâncă, Rediu sau Miroslava, apartamentul e asigurat oricum la cerința băncii, și eu te ajut să iei ce cere creditul, fără extraopțiuni pe care nu le folosești. Dacă ai un apartament închiriat la studenți, vorbim și despre răspunderea față de vecini."
+   "La locuință, în Iași sunt două lucruri de rezolvat. Unu: PAD-ul obligatoriu, că suntem în zona cutremurelor vrâncene și legea nu te întreabă dacă vrei. Doi: facultativa, pentru ce se întâmplă de fapt în bloc, adică vecinul de deasupra care te inundă. În blocurile vechi din Tătărași, Alexandru cel Bun, Dacia, Nicolina sau Podu Roș, țevile au vârsta blocului și pagubele sunt mici, dar vin des: parchet umflat, zugrăveală, mobilă. Cu poliță, despăgubirea vine fără nervi. Cu vecin fără poliță, te cerți pe scară. În ansamblurile noi din Bucium, Copou, Valea Adâncă, Rediu sau Miroslava, apartamentul e asigurat oricum la cerința băncii, și eu te ajut să iei ce cere creditul, fără opțiuni în plus pe care nu le folosești. Dacă ai un apartament închiriat la studenți, vorbim și despre răspunderea față de vecini."
   ],
   "products": [
    "rca",
@@ -38,7 +38,8 @@
     "Sunt șofer Bolt în Iași. Ce mi se cere la autorizare?",
     "Asigurarea de accidente pentru șofer și pasageri, pe mașină. O faci online și o primești pe e-mail. Ce vor la dosar verifici la primărie, se mai schimbă."
    ]
-  ]
+  ],
+  "outro": "Dacă ești din Iași și vrei să ne vedem, scrie-mi înainte, ca să nu bați drumul până în Metalurgiei degeaba. Restul, RCA, PAD, călătorie, le rezolvi de pe telefon, de pe canapea."
  },
  {
   "slug": "pascani",
@@ -78,7 +79,8 @@
     "Am un atelier mic. Cât aștept oferta?",
     "Una sau două zile lucrătoare după ce îmi trimiți pe WhatsApp datele firmei și două vorbe despre spațiu și activitate."
    ]
-  ]
+  ],
+  "outro": "Nu trebuie să vii de la Pașcani la Iași pentru o poliță. Îmi trimiți talonul pe WhatsApp seara, dimineața ai polița în e-mail, și navetă rămâne doar pentru cine chiar are treabă în oraș."
  },
  {
   "slug": "bacau",
@@ -119,7 +121,8 @@
     "Zbor des de la Bacău. Ce îmi trebuie?",
     "Asigurarea medicală de călătorie, pe zilele deplasării și pe zona geografică. Dacă vrei să-ți protejezi și biletul, adaugi storno, în același formular."
    ]
-  ]
+  ],
+  "outro": "Din Bacău lucrăm pe WhatsApp, ca de oriunde. Pentru camioane îmi trimiți lista de vehicule și rutele, iar pentru RCA sau PAD nu ai nevoie de mine, le faci singur pe platformă în pauza de prânz."
  },
  {
   "slug": "vaslui",
@@ -159,7 +162,8 @@
     "Stau la țară și nu am timp de drumuri. Cum fac?",
     "Trimiți pe WhatsApp datele și o poză cu actele, îți explic, cumperi online. Polița vine pe e-mail în aceeași zi."
    ]
-  ]
+  ],
+  "outro": "Pentru fermă, îmi trimiți pe WhatsApp suprafața, culturile și lista de utilaje și de acolo pornim. Polițele simple le faci de pe telefon, din Vaslui sau din orice sat din județ, dacă ai semnal."
  },
  {
   "slug": "botosani",
@@ -199,7 +203,8 @@
     "Casa e nelocuită iarna. Contează?",
     "Da. Perioadele lungi în care casa stă goală se declară de la început, pentru că unele riscuri se acoperă în condiții speciale."
    ]
-  ]
+  ],
+  "outro": "Dacă ești plecat la muncă și vrei să pui la punct polițele celor de acasă, scrie-mi pe WhatsApp de unde ești, diferența de fus orar nu mă deranjează. Pentru animale și culturi, un mesaj cu ce ai în gospodărie ajunge ca să încep să cer oferte."
  },
  {
   "slug": "suceava",
@@ -211,9 +216,9 @@
   "h1": "Asigurări la Suceava: camioane în Europa și pensiuni în Bucovina",
   "answer": "Suceava înseamnă camioane pe rute europene și pensiuni pline în Bucovina. Pentru primele fac ROTR și CMR, pentru celelalte pachete de firmă cu răspundere față de oaspeți. RCA, PAD și călătoria le faci online, de pe telefon. Restul le discutăm pe WhatsApp și îți trimit oferta comparată, cu ce diferă între variante.",
   "local": [
-   "Puține județe au atâtea firme de transport internațional ca Suceava, iar camioanele plecate spre Italia, Germania, Austria sau Benelux duc cu ele un risc care nu se oprește la vamă. ROTR e una dintre modalitățile acceptate de a dovedi capacitatea financiară pentru licența de transport, iar CMR acoperă răspunderea față de marfa preluată, inclusiv când e avariată sau pierdută pe traseu. Pe rute lungi contează detaliile: teritoriul acoperit, limita pe eveniment, condițiile pentru parcarea de noapte, mărfurile sensibile. Lucrez cu date, nu cu formule: câte capete tractor, ce marfă, ce rute. Pe baza lor cer oferte de la mai mulți asigurători și îți explic unde diferă. Pentru șoferii plecați săptămâni întregi discut și asigurarea de accidente a conducătorului auto, ieftină și trecută cu vederea de aproape toți patronii cu care am vorbit.",
+   "Puține județe au atâtea firme de transport internațional ca Suceava. Camioanele care pleacă spre Italia, Germania, Austria sau Benelux riscă mult mai mult decât o cursă locală. ROTR e una dintre modalitățile acceptate de a dovedi capacitatea financiară pentru licența de transport, iar CMR acoperă răspunderea față de marfa preluată, inclusiv când e avariată sau pierdută pe traseu. Pe rute lungi contează detaliile: teritoriul acoperit, limita pe eveniment, condițiile pentru parcarea de noapte, mărfurile sensibile. Lucrez cu date, nu cu formule: câte capete tractor, ce marfă, ce rute. Pe baza lor cer oferte de la mai mulți asigurători și îți explic unde diferă. Pentru șoferii plecați săptămâni întregi discut și asigurarea de accidente a conducătorului auto, ieftină și trecută cu vederea de aproape toți patronii cu care am vorbit.",
    "Bucovina trăiește din turism, iar pensiunile din Gura Humorului, Vatra Dornei, Câmpulung, Vama sau Sucevița sunt firme mici cu risc mare: case de lemn, bucătării care merg non-stop, centrale termice, oaspeți care circulă prin curte iarna, pe gheață. Pachetul bun acoperă clădirea și dotările, dar înainte de toate răspunderea față de oaspeți, pentru când cineva alunecă pe scări sau i se strică ceva. Se adaugă întreruperea activității, care contează enorm când un incendiu te închide în plin sezon. O pensiune din Vama mi-a cerut anul trecut și mărirea limitei de răspundere pe perioada unei nunți cu 200 de invitați, se poate. Tot aici, prelucrarea lemnului și atelierele mici au nevoie de acoperiri pentru utilaje, stocuri și pentru răspunderea față de clienți și vecini.",
-   "Relieful schimbă și discuția despre casă. Pe versanții din depresiunile Dornelor și Câmpulungului, alunecările de teren și ploile mari sunt riscuri reale, iar zăpada de iarnă deformează acoperișuri și rupe anexe. PAD-ul obligatoriu acoperă cutremurul, inundația și alunecarea de teren, iar facultativa vine cu incendiul, furtuna, greutatea zăpezii și bunurile din casă. La casele mari de lemn, tradiționale aici, suma asigurată se pune la costul de reconstrucție, nu la ochi, că lemnul și meșterii costă altfel decât acum zece ani. De pe aeroportul de la Salcea pleacă multe curse externe, așa că asigurarea medicală de călătorie rămâne una dintre cele mai cumpărate polițe online din județ, de multe ori din aeroport. Iar casele din satele izolate, unde pompierii ajung mai greu, au nevoie de sume calculate cu grijă și de o discuție despre măsurile de protecție declarate."
+   "La case e altă poveste, din cauza reliefului. Pe versanții din depresiunile Dornelor și Câmpulungului, alunecările de teren și ploile mari sunt riscuri reale, iar zăpada de iarnă deformează acoperișuri și rupe anexe. PAD-ul obligatoriu acoperă cutremurul, inundația și alunecarea de teren, iar facultativa vine cu incendiul, furtuna, greutatea zăpezii și bunurile din casă. La casele mari de lemn, tradiționale aici, suma asigurată se pune la costul de reconstrucție, nu la ochi, că lemnul și meșterii costă altfel decât acum zece ani. De pe aeroportul de la Salcea pleacă multe curse externe, așa că asigurarea medicală de călătorie rămâne una dintre cele mai cumpărate polițe online din județ, de multe ori din aeroport. Iar casele din satele izolate, unde pompierii ajung mai greu, au nevoie de sume calculate cu grijă și de o discuție despre măsurile de protecție declarate."
   ],
   "products": [
    "rotr",
@@ -240,7 +245,8 @@
     "Zbor des din Salcea. Cât durează o asigurare de călătorie?",
     "Câteva minute. Alegi zilele și zona, plătești online și primești polița pe e-mail, inclusiv în ziua zborului."
    ]
-  ]
+  ],
+  "outro": "De la Suceava îmi scriu cel mai des patronii de firme de transport și, în sezon, cei care pleacă de pe Salcea și își fac călătoria din parcare. Ambele se rezolvă pe WhatsApp, nu trebuie să treci prin Iași."
  },
  {
   "slug": "piatra-neamt",
@@ -280,7 +286,8 @@
     "Pensiunea are și restaurant. Se acoperă amândouă?",
     "Da, printr-un pachet de firmă făcut pe activitatea reală. Bucătăria, dotările și răspunderea față de clienți intră în aceeași ofertă."
    ]
-  ]
+  ],
+  "outro": "Pentru pensiune sau atelier îmi scrii pe WhatsApp cu ce ai și ce te îngrijorează, iar eu revin cu variante. RCA și PAD le faci online și de pe Ceahlău, dacă ai semnal."
  },
  {
   "slug": "roman",
@@ -320,7 +327,8 @@
     "Stau în luncă și mă tem de inundații. Ce fac?",
     "PAD acoperă inundația, cutremurul și alunecarea de teren. Peste el adaugi o facultativă pentru bunuri și pentru restul riscurilor."
    ]
-  ]
+  ],
+  "outro": "Din Roman îmi scriu mulți după schimb, seara. Nu e o problemă: pe platformă îți faci RCA-ul sau PAD-ul la ce oră vrei, iar mesajele de pe WhatsApp le văd dimineața și răspund în ordinea în care au venit."
  },
  {
   "slug": "galati",
@@ -360,6 +368,7 @@
     "Fac naveta la Brăila. Se schimbă ceva la asigurarea auto?",
     "Nu, RCA e valabil în toată țara. Diferă doar expunerea: la kilometraj mare are sens o acoperire suplimentară pentru accidente."
    ]
-  ]
+  ],
+  "outro": "Cu Galațiul lucrez pe WhatsApp, e departe de Iași și nici nu e nevoie de drum. Pentru marfă și port îmi trimiți ce transporți și pe unde, pentru bloc și mașină faci singur polița pe platformă."
  }
 ]
