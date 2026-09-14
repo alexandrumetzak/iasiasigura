@@ -71,15 +71,15 @@ Toate linkurile smartsales folosesc **exclusiv** subdomeniul `metzak-marina.smar
 | `calatorie` | Asigurare medicală de călătorie | online | `/travel` | PF |
 | `storno` | Asigurare storno | online | `/travel` | PF |
 | `sanatate` | Asigurare de sănătate | online | `/sanatate` | PF |
-| `viata` | Asigurare de viață | consultanta | `#sanatate` | PF |
-| `pensii-private` | Pensie privată Pilon III | consultanta | `#sanatate` | PF |
+| `viata` | Asigurare de viață | consultanta | `/home/asigurari#sanatate` | PF |
+| `pensii-private` | Pensie privată Pilon III | consultanta | `/home/asigurari#sanatate` | PF |
 | `malpraxis` | Malpraxis (răspundere profesională medicală) | online | `/malpraxis` | PF |
-| `raspundere-civila` | Răspundere civilă profesională și personală | consultanta | `#asigurariPj` | PF + PJ |
+| `raspundere-civila` | Răspundere civilă profesională și personală | consultanta | `/home/asigurari#asigurariPj` | PF + PJ |
 | `taxi-uber-bolt` | Accidente taxi / Uber / Bolt (SIGNAL) | online | `/accidente` | PF + PJ |
 | `rotr` | Asigurare ROTR | online | `/rotr` | PJ |
-| `cargo-cmr` | CARGO și CMR (transport marfă) | consultanta | `#asigurariPj` | PJ |
-| `imm` | Asigurări pentru IMM (bunuri, răspundere, angajați) | consultanta | `#asigurariPj` | PJ |
-| `agricole` | Asigurări agricole (culturi, animale, utilaje) | consultanta | `#asigurariPj` | PJ |
+| `cargo-cmr` | CARGO și CMR (transport marfă) | consultanta | `/home/asigurari#asigurariPj` | PJ |
+| `imm` | Asigurări pentru IMM (bunuri, răspundere, angajați) | consultanta | `/home/asigurari#asigurariPj` | PJ |
+| `agricole` | Asigurări agricole (culturi, animale, utilaje) | consultanta | `/home/asigurari#asigurariPj` | PJ |
 
 Asistența la domiciliu (`/asistentaladomiciliu`) și asistența rutieră (`/asistentarutiera`) apar ca linkuri secundare pe paginile `locuinta`, respectiv `rca`/`casco`, nu ca pagini proprii.
 
