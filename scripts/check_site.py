@@ -44,6 +44,17 @@ for dp, dns, fs in os.walk(ROOT):
                 target = os.path.normpath(os.path.join(dp, href))
                 if href.endswith("/"): target = os.path.join(target, "index.html")
                 if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
+        for src in re.findall(r'src="([^"#?]+)', t):
+            if src.startswith(("http", "data:")): continue
+            target = os.path.normpath(os.path.join(dp, src))
+            if not os.path.exists(target): problems.append(f"{r}: asset lipsă {src}")
+        for img in re.findall(r'<meta property="og:image" content="([^"]+)"', t):
+            local = None
+            if img.startswith(SITE + "/"): local = img[len(SITE):]
+            elif not img.startswith("http"): local = img if img.startswith("/") else "/" + img
+            if local is not None:
+                target = os.path.normpath(os.path.join(ROOT, local.lstrip("/")))
+                if not os.path.exists(target): problems.append(f"{r}: asset lipsă {img}")
         if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
 
 for u in sorted(ss_urls):

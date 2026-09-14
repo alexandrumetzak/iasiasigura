@@ -68,10 +68,12 @@ section{padding:52px 0}.section-alt{background:var(--bg-soft)}
 .footer-legal{border-top:1px solid rgba(255,255,255,.15);margin-top:28px;padding-top:18px;font-size:.85rem}
 .fab-wa{position:fixed;right:18px;bottom:18px;z-index:60;display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;box-shadow:0 10px 24px rgba(37,211,102,.4)}
 .fab-wa svg{width:30px;height:30px}
+.about-photo{width:220px;height:220px;border-radius:50%;object-fit:cover;float:right;margin:0 0 16px 20px}
 @media (max-width:860px){
   .nav-toggle{display:block}.nav{margin-left:auto}
   .nav-menu{display:none;position:absolute;left:0;right:0;top:68px;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:10px 16px 16px}
   .nav-menu.open{display:flex}.header-wa span{display:none}.header-wa{padding:10px}
   .hero{padding:40px 0 36px}section{padding:40px 0}
+  .about-photo{float:none;display:block;margin:0 auto 16px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.card{transition:none}}
