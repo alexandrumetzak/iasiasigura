@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Verifică output-ul generat. Folosire: python3 scripts/check_site.py [--online] [--no-links] [--release] [root]"""
+import json, os, re, sys, urllib.request
+
+ONLINE = "--online" in sys.argv
+CHECK_LINKS = "--no-links" not in sys.argv
+RELEASE = "--release" in sys.argv
+args = [a for a in sys.argv[1:] if a not in ("--online", "--no-links", "--release")]
+ROOT = os.path.abspath(args[0]) if args else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SITE = "https://iasiasigura.com"
+problems, titles, descs, ss_urls = [], {}, {}, set()
+
+def rel(p): return os.path.relpath(p, ROOT).replace(os.sep, "/")
+
+for dp, dns, fs in os.walk(ROOT):
+    dns[:] = [d for d in dns if not d.startswith(".") and d not in ("content", "tests", "scripts", "docs", "node_modules", "__pycache__")]
+    for f in fs:
+        if not f.endswith(".html"): continue
+        path = os.path.join(dp, f); r = rel(path)
+        t = open(path, encoding="utf-8").read()
+        if r != "404.html":
+            if t.count("<h1") != 1: problems.append(f"{r}: {t.count('<h1')} h1")
+            m = re.search(r"<title>(.*?)</title>", t, re.S); title = m.group(1) if m else ""
+            if not title: problems.append(f"{r}: fără title")
+            elif len(title) > 60: problems.append(f"{r}: title {len(title)} caractere")
+            if title in titles: problems.append(f"{r}: title duplicat cu {titles[title]}")
+            titles[title] = r
+            m = re.search(r'<meta name="description" content="(.*?)"', t); d = m.group(1) if m else ""
+            if not d: problems.append(f"{r}: fără description")
+            elif len(d) > 155: problems.append(f"{r}: description {len(d)} caractere")
+            if d in descs: problems.append(f"{r}: description duplicată cu {descs[d]}")
+            descs[d] = r
+            expect = SITE + "/" + ("" if r == "index.html" else r.replace("index.html", ""))
+            m = re.search(r'<link rel="canonical" href="(.*?)"', t)
+            if not m or m.group(1) != expect: problems.append(f"{r}: canonical {m.group(1) if m else None} != {expect}")
+            for b in re.findall(r'<script type="application/ld\+json">\n(.*?)\n</script>', t, re.S):
+                try: json.loads(b)
+                except Exception as e: problems.append(f"{r}: JSON-LD invalid: {e}")
+            if "destine.smartsales.ro" in t or "/presale/" in t: problems.append(f"{r}: link smartsales interzis")
+            ss_urls.update(re.findall(r'https://metzak-marina\.smartsales\.ro[^"\s]*', t))
+            if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
+        # gate de release: verifică TODO-MARINA pe orice .html generat, inclusiv 404.html
+        if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
+        # linkurile și asset-urile se verifică și pentru 404.html (are href=/src= absolute, ex. /js/script.js)
+        if CHECK_LINKS:
+            for href in re.findall(r'href="([^"#?]+)', t):
+                if href.startswith(("http", "//", "mailto:", "tel:", "data:")): continue
+                if href.startswith("/"): target = os.path.normpath(os.path.join(ROOT, href.lstrip("/")))
+                else: target = os.path.normpath(os.path.join(dp, href))
+                if href.endswith("/"): target = os.path.join(target, "index.html")
+                if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
+        for src in re.findall(r'src="([^"#?]+)', t):
+            if src.startswith(("http", "//", "data:")): continue
+            if src.startswith("/"): target = os.path.normpath(os.path.join(ROOT, src.lstrip("/")))
+            else: target = os.path.normpath(os.path.join(dp, src))
+            if not os.path.exists(target): problems.append(f"{r}: asset lipsă {src}")
+        for img in re.findall(r'<meta property="og:image" content="([^"]+)"', t):
+            if img.startswith("//"): continue
+            local = None
+            if img.startswith(SITE + "/"): local = img[len(SITE):]
+            elif not img.startswith("http"): local = img if img.startswith("/") else "/" + img
+            if local is not None:
+                target = os.path.normpath(os.path.join(ROOT, local.lstrip("/")))
+                if not os.path.exists(target): problems.append(f"{r}: asset lipsă {img}")
+
+for u in sorted(ss_urls):
+    if "utm_source=iasiasigura" not in u: problems.append(f"smartsales fără UTM: {u}")
+    if ONLINE:
+        try:
+            req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+            code = urllib.request.urlopen(req, timeout=20).getcode()
+            if code != 200: problems.append(f"{u}: HTTP {code}")
+        except Exception as e: problems.append(f"{u}: {e}")
+
+# GitHub Pages nu trebuie să ruleze Jekyll (content/blog/*.md au frontmatter parsabil YAML)
+if not os.path.exists(os.path.join(ROOT, ".nojekyll")): problems.append(".nojekyll lipsește din rădăcină")
+
+print(f"{len(titles)} pagini verificate, {len(ss_urls)} URL-uri smartsales")
+for p in problems: print("PROBLEMĂ:", p)
+sys.exit(1 if problems else 0)

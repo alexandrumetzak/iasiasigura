@@ -115,7 +115,7 @@ Articole în `content/blog/<slug>.md` cu frontmatter (title, description, date, 
 6. `asigurare-calatorie-grecia-turcia` — ce acoperire, EHIC vs privată
 7. `malpraxis-asistent-medical-rezident` — cine e obligat, limite, cât durează
 8. `asigurare-bolt-uber-iasi` — ce e obligatoriu pentru șoferi ridesharing
-9. `rotr-ce-este-cat-costa` — cine are nevoie, acte, valabilitate
+9. `rotr-ce-este-si-cine-are-nevoie` — cine are nevoie, acte, valabilitate
 10. `pilon-3-pensie-privata-merita` — deductibilitate, cum alegi
 11. `asigurare-sanatate-privata-vs-cas` — ce primești în plus
 12. `ce-asigurari-ii-trebuie-unui-pfa-sau-imm` — ghid pentru firme mici
