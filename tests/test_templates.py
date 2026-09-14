@@ -1,6 +1,11 @@
 import json, re
 import templates as T
 
+RCA = {"slug": "rca", "name": "Asigurare RCA", "type": "online", "path": "/rca",
+       "wa_text": "Bună Marina, vreau ofertă RCA.", "short": "Obligatorie pentru orice vehicul.", "icon": "🚗"}
+IMM = {"slug": "imm", "name": "Asigurări IMM", "type": "consultanta", "path": "/home/asigurari#asigurariPj",
+       "wa_text": "Bună Marina, vreau ofertă pentru firma mea.", "short": "Bunuri, răspundere, angajați.", "icon": "🏢"}
+
 def test_smartsales_url_adds_utm_before_fragment():
     u = T.smartsales_url("/home/asigurari#asigurariPj", "imm")
     assert u == ("https://metzak-marina.smartsales.ro/home/asigurari"
@@ -51,3 +56,23 @@ def test_page_has_single_h1_marker_and_footer_legal():
     assert "RAF 160354" in out and "Înregistrat la Autoritatea de Supraveghere Financiară" in out
     assert "generat de build.py" in out
     assert "destine.smartsales.ro" not in out
+
+def test_cta_online_primary_is_smartsales_secondary_wa():
+    h = T.cta_block(RCA, "../")
+    assert 'class="btn btn-primary"' in h and "utm_campaign=rca" in h
+    assert h.index("smartsales.ro") < h.index("wa.me")
+    assert "Cumpără online" in h
+
+def test_cta_consultanta_primary_is_wa_secondary_smartsales_form():
+    h = T.cta_block(IMM, "../")
+    assert h.index("wa.me") < h.index("smartsales.ro")
+    assert "Cere ofertă pe WhatsApp" in h and "#asigurariPj" in h and "utm_campaign=imm" in h
+
+def test_faq_block_uses_h3_questions():
+    h = T.faq_block([("Cât durează?", "5 minute.")])
+    assert "<h3>Cât durează?</h3>" in h and "5 minute." in h
+
+def test_product_card_links_and_badge():
+    h = T.product_card(RCA, "")
+    assert 'href="asigurari/rca.html"' in h and "Online" in h
+    assert "Ofertă personalizată" in T.product_card(IMM, "")

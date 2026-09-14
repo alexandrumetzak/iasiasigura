@@ -66,6 +66,38 @@ def website_node():
     return {"@context": "https://schema.org", "@type": "WebSite", "name": S["brand"], "url": SITE + "/",
             "inLanguage": "ro-RO", "publisher": {"@id": AGENCY_ID}}
 
+def cta_block(p, R):
+    ss = smartsales_url(p["path"], p["slug"])
+    wa = wa_link(p["wa_text"])
+    if p["type"] == "online":
+        return f"""
+    <div class="cta-row">
+      <a href="{ss}" class="btn btn-primary" target="_blank" rel="noopener">Cumpără online</a>
+      <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Întreabă pe WhatsApp</span></a>
+      <p class="cta-note">Cumperi direct pe platforma brokerului, în câteva minute, la orice oră. Polița vine pe e-mail.</p>
+    </div>"""
+    return f"""
+    <div class="cta-row">
+      <a href="{wa}" class="btn btn-wa btn-primary-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
+      <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Formular de ofertă pe platformă</a>
+      <p class="cta-note">Produs cu ofertă personalizată: Marina compară asigurătorii și îți trimite oferta pe WhatsApp sau e-mail. Gratuit.</p>
+    </div>"""
+
+def faq_block(faqs, heading="Întrebări frecvente"):
+    items = "".join(f'<details class="faq-item"><summary><h3>{html.escape(q)}</h3></summary><div class="faq-a"><p>{a}</p></div></details>' for q, a in faqs)
+    return f'\n    <section class="faq" id="faq"><h2>{heading}</h2>{items}</section>'
+
+def product_card(p, R):
+    badge = "Online" if p["type"] == "online" else "Ofertă personalizată"
+    cls = "badge-online" if p["type"] == "online" else "badge-consult"
+    return (f'<a class="card product-card" href="{R}asigurari/{p["slug"]}.html">'
+            f'<span class="card-icon" aria-hidden="true">{p["icon"]}</span><span class="badge {cls}">{badge}</span>'
+            f'<h3>{html.escape(p["name"])}</h3><p>{html.escape(p["short"])}</p></a>')
+
+def related_block(title, items, R):
+    lis = "".join(f'<li><a href="{R}{href}">{html.escape(label)}</a></li>' for href, label in items)
+    return f'\n    <aside class="related"><h2>{title}</h2><ul>{lis}</ul></aside>' if items else ""
+
 def head(title, desc, path, jsonld, R, og_image="/assets/og-default.png", og_type="website"):
     canonical = SITE + path
     blocks = "\n  ".join(ldjson(o) for o in jsonld)
