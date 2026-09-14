@@ -176,7 +176,9 @@
    "imm"
   ],
   "articles": [
-   "rca-sau-casco-diferente"
+   "rca-sau-casco-diferente",
+   "asigurare-bolt-uber-iasi",
+   "pret-rca-2026-cum-se-calculeaza"
   ]
  },
  {
@@ -264,7 +266,10 @@
    "imm",
    "raspundere-civila"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-locuinta-ce-acopera",
+   "pad-asigurare-obligatorie-locuinta"
+  ]
  },
  {
   "slug": "pad",
@@ -350,7 +355,10 @@
    "imm",
    "calatorie"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-locuinta-ce-acopera",
+   "pad-asigurare-obligatorie-locuinta"
+  ]
  },
  {
   "slug": "calatorie",
@@ -437,7 +445,9 @@
    "sanatate",
    "rca"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-calatorie-grecia-turcia"
+  ]
  },
  {
   "slug": "storno",
@@ -523,7 +533,9 @@
    "sanatate",
    "viata"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-calatorie-grecia-turcia"
+  ]
  },
  {
   "slug": "sanatate",
@@ -610,7 +622,9 @@
    "calatorie",
    "imm"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-sanatate-privata-vs-cas"
+  ]
  },
  {
   "slug": "viata",
@@ -696,7 +710,10 @@
    "sanatate",
    "locuinta"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-sanatate-privata-vs-cas",
+   "pilon-3-pensie-privata-merita"
+  ]
  },
  {
   "slug": "pensii-private",
@@ -782,7 +799,9 @@
    "sanatate",
    "imm"
   ],
-  "articles": []
+  "articles": [
+   "pilon-3-pensie-privata-merita"
+  ]
  },
  {
   "slug": "malpraxis",
@@ -868,7 +887,9 @@
    "sanatate",
    "viata"
   ],
-  "articles": []
+  "articles": [
+   "malpraxis-asistent-medical-rezident"
+  ]
  },
  {
   "slug": "raspundere-civila",
@@ -955,7 +976,10 @@
    "imm",
    "locuinta"
   ],
-  "articles": []
+  "articles": [
+   "ce-asigurari-ii-trebuie-unui-pfa-sau-imm",
+   "malpraxis-asistent-medical-rezident"
+  ]
  },
  {
   "slug": "taxi-uber-bolt",
@@ -1043,7 +1067,9 @@
    "casco",
    "rotr"
   ],
-  "articles": []
+  "articles": [
+   "asigurare-bolt-uber-iasi"
+  ]
  },
  {
   "slug": "rotr",
@@ -1129,7 +1155,9 @@
    "rca",
    "imm"
   ],
-  "articles": []
+  "articles": [
+   "rotr-ce-este-cat-costa"
+  ]
  },
  {
   "slug": "cargo-cmr",
@@ -1215,7 +1243,10 @@
    "imm",
    "raspundere-civila"
   ],
-  "articles": []
+  "articles": [
+   "ce-asigurari-ii-trebuie-unui-pfa-sau-imm",
+   "rotr-ce-este-cat-costa"
+  ]
  },
  {
   "slug": "imm",
@@ -1302,7 +1333,9 @@
    "cargo-cmr",
    "agricole"
   ],
-  "articles": []
+  "articles": [
+   "ce-asigurari-ii-trebuie-unui-pfa-sau-imm"
+  ]
  },
  {
   "slug": "agricole",

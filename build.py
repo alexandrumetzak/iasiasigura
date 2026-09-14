@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Generator IașiAsigură. Rulează: python3 build.py  (scrie HTML în rădăcina repo-ului)."""
-import html, json, os, sys, datetime
+import html, json, os, re, sys, datetime
+import markdown
 import templates as T
 
 ROOT = T.ROOT
@@ -135,15 +136,81 @@ def render_zone(z):
     return T.page(z["title"], z["desc"], path, [service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)], R, body, wa,
                   geo_region=z["geo_region"], geo_placename=z["name"])
 
+
+# ---------------------------------------------------------------- BLOG
+BLOG_DIR = os.path.join(CONTENT, "blog")
+
+def load_articles():
+    arts = []
+    for f in sorted(os.listdir(BLOG_DIR)):
+        if not f.endswith(".md"): continue
+        raw = open(os.path.join(BLOG_DIR, f), encoding="utf-8").read()
+        m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
+        if not m: raise SystemExit(f"{f}: frontmatter lipsă")
+        meta, body = json.loads(m.group(1)), m.group(2)
+        meta["slug"] = f[:-3]
+        meta["html"] = markdown.markdown(body, extensions=["tables"])
+        meta["words"] = len(re.sub(r"<[^>]+>", " ", meta["html"]).split())
+        meta.setdefault("updated", meta["date"])
+        arts.append(meta)
+    return sorted(arts, key=lambda a: a["date"], reverse=True)
+
+RO_MONTHS = ["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"]
+
+def ro_date(iso):
+    y, m, d = iso.split("-")
+    return f"{int(d)} {RO_MONTHS[int(m)-1]} {y}"
+
+def article_card(a, R):
+    return (f'<a class="card article-card" href="{R}blog/{a["slug"]}.html"><time datetime="{a["updated"]}">{a["category"]} · {ro_date(a["updated"])}</time>'
+            f'<h3>{html.escape(a["title"])}</h3><p>{html.escape(a["desc"])}</p></a>')
+
+def render_article(a, all_articles):
+    R = "../"; path = f"/blog/{a['slug']}.html"
+    crumbs = [("Acasă", "/"), ("Blog", "/blog/"), (a["title"], None)]
+    rel_products = [(f"asigurari/{s}.html", BY_SLUG[s]["name"]) for s in a.get("related_products", []) if s in BY_SLUG]
+    others = [x for x in all_articles if x["slug"] != a["slug"] and x["category"] == a["category"]][:3] or [x for x in all_articles if x["slug"] != a["slug"]][:3]
+    faq = [tuple(x) for x in a.get("faq", [])]
+    body = f"""
+  <section class="page-hero"><div class="container container-narrow">{crumbs_html(crumbs, R)}<h1>{html.escape(a['title'])}</h1>
+    <p class="article-meta">De <a href="{R}despre.html">{T.P['name']}</a>, {T.P['job_title'].lower()} · Publicat: {ro_date(a['date'])} · Actualizat: {ro_date(a['updated'])}</p></div></section>
+  <article class="container container-narrow prose">{a['html']}{T.faq_block(faq) if faq else ''}
+    {T.related_block("Asigurările despre care e vorba", rel_products, R)}{author_box(R)}
+    <h2>Citește și</h2><div class="grid">{"".join(article_card(x, R) for x in others)}</div></article>"""
+    node = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["desc"],
+            "datePublished": a["date"], "dateModified": a["updated"], "inLanguage": "ro-RO",
+            "author": {"@id": T.PERSON_ID}, "publisher": {"@id": T.AGENCY_ID},
+            "mainEntityOfPage": T.SITE + path, "image": T.SITE + "/assets/og-articol.png", "wordCount": a["words"]}
+    jsonld = [node, T.breadcrumb(crumbs)] + ([T.faqpage(faq)] if faq else [])
+    wa = f"Bună Marina, am citit articolul „{a['title']}” și am o întrebare."
+    return T.page(a["title"][:60] if len(a["title"]) <= 60 else a["title"][:57].rsplit(" ", 1)[0] + "…", a["desc"], path, jsonld, R, body, wa,
+                  og_image="/assets/og-articol.png", og_type="article")
+
+def render_blog_index(arts):
+    R = "../"; crumbs = [("Acasă", "/"), ("Blog", None)]
+    cards = "".join(article_card(a, R) for a in arts)
+    body = f"""<section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Ghiduri de asigurări, pe înțelesul tău</h1>
+    <p class="lead">Articole scrise de Marina Metzak: ce acoperă fiecare asigurare, ce nu, și cum alegi fără să plătești degeaba. Actualizate periodic.</p></div></section>
+  <section><div class="container"><div class="grid">{cards}</div></div></section>"""
+    return T.page("Blog: ghiduri de asigurări explicate simplu | IașiAsigură",
+                  "Ghiduri despre RCA, CASCO, locuință, PAD, călătorie, sănătate, malpraxis, pensii și asigurări pentru firme, scrise de un asistent în brokeraj.",
+                  "/blog/", [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
+
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):
     WRITTEN.clear()
+    arts = load_articles()
+    ARTICLES_BY_SLUG.clear(); ARTICLES_BY_SLUG.update({a["slug"]: a for a in arts})
+    LATEST_ARTICLES_HTML[0] = "".join(article_card(a, "") for a in arts[:3])
     write(root, "/index.html", render_home())
     write(root, "/asigurari/index.html", render_catalog())
     for p in PRODUCTS:
         write(root, f"/asigurari/{p['slug']}.html", render_product(p, ARTICLES_BY_SLUG))
     for z in ZONES:
         write(root, f"/zone/{z['slug']}.html", render_zone(z))
+    write(root, "/blog/index.html", render_blog_index(arts))
+    for a in arts:
+        write(root, f"/blog/{a['slug']}.html", render_article(a, arts))
     return list(WRITTEN)
 
 if __name__ == "__main__":

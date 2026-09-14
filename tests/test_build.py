@@ -71,3 +71,19 @@ def test_zones_rendered_and_distinct(out):
         for j in range(i + 1, len(texts)):
             shared = len(texts[i] & texts[j]) / min(len(texts[i]), len(texts[j]))
             assert shared < 0.75, f"zone {i} și {j} prea asemănătoare ({shared:.0%})"
+
+
+def test_articles_rendered_with_article_schema_and_author(out):
+    arts = build.load_articles()
+    assert len(arts) >= 12
+    for a in arts:
+        h = read(out, f"blog/{a['slug']}.html")
+        assert h.count("<h1") == 1 and '"@type": "Article"' in h and '"@id": "https://iasiasigura.com/#marina"' in h
+        assert "Actualizat:" in h and a["words"] >= 900, (a["slug"], a["words"])
+    idx = read(out, "blog/index.html")
+    assert idx.count('class="card article-card"') >= 12
+
+
+def test_homepage_shows_three_latest_articles(out):
+    h = read(out, "index.html")
+    assert h.count('class="card article-card"') == 3
