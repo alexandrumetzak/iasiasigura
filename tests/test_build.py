@@ -138,7 +138,15 @@ def test_every_article_has_three_related_cards(out):
         assert h.count('class="card article-card"') == 3, (a["slug"], h.count('class="card article-card"'))
 
 
-def test_check_site_release_fails_while_placeholders_exist(out):
+def test_check_site_release_passes_on_clean_build_and_catches_placeholders(out, tmp_path):
     r = subprocess.run([sys.executable, "scripts/check_site.py", "--release", str(out)], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr
+    # copie a build-ului cu un placeholder injectat -> gate-ul trebuie să eșueze
+    import shutil
+    dirty = tmp_path / "dirty"
+    shutil.copytree(out, dirty)
+    page = dirty / "despre.html"
+    page.write_text(page.read_text(encoding="utf-8").replace("</main>", "<p>TODO-MARINA: text lipsă</p></main>", 1), encoding="utf-8")
+    r = subprocess.run([sys.executable, "scripts/check_site.py", "--release", str(dirty)], capture_output=True, text=True)
     assert r.returncode != 0
     assert "TODO-MARINA" in (r.stdout + r.stderr)

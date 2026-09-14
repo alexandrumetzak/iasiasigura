@@ -14,7 +14,7 @@
     "email": "contact@iasiasigura.com",
     "facebook": "https://www.facebook.com/marina.metzak",
     "image": "/assets/marina.webp",
-    "bio_short": "TODO-MARINA: 2 propoziții despre experiență (de câți ani în asigurări, ce produse preferă).",
+    "bio_short": "De peste 5 ani ajut oamenii să își protejeze familia, sănătatea, veniturile și planurile de viitor. Pornesc de la om și de la nevoile lui, nu de la un produs, și explic totul simplu și clar.",
     "address": {
       "street": "Bd. Metalurgiei nr. 4",
       "city": "Iași",
@@ -23,7 +23,11 @@
       "country": "RO",
       "note": "Întâlniri doar cu programare"
     },
-    "geo": { "lat": 47.1385, "lng": 27.6135 }
+    "geo": {
+      "lat": 47.1385,
+      "lng": 27.6135
+    },
+    "email_broker": "marina-mihaela.metzak@destine-broker.ro"
   },
   "broker": {
     "name": "DESTINE BROKER DE ASIGURARE-REASIGURARE SRL",
@@ -37,10 +41,25 @@
     "sol": "https://ec.europa.eu/consumers/odr/"
   },
   "nav": [
-    ["asigurari/", "Asigurări"],
-    ["zone/iasi.html", "Zone"],
-    ["blog/", "Blog"],
-    ["despre.html", "Despre Marina"],
-    ["contact.html", "Contact"]
+    [
+      "asigurari/",
+      "Asigurări"
+    ],
+    [
+      "zone/iasi.html",
+      "Zone"
+    ],
+    [
+      "blog/",
+      "Blog"
+    ],
+    [
+      "despre.html",
+      "Despre Marina"
+    ],
+    [
+      "contact.html",
+      "Contact"
+    ]
   ]
 }
