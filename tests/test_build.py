@@ -53,6 +53,11 @@ def test_related_and_faq_answers_are_safe(out):
         assert len(p["related"]) == 3 and all(s in build.BY_SLUG for s in p["related"]), p["slug"]
         for _, a in p["faq"]:
             assert "<" not in a and "&" not in a, (p["slug"], a)
+    for z in build.ZONES:
+        assert all(s in build.BY_SLUG for s in z["products"]), z["slug"]
+        assert len(z["faq"]) == 4, z["slug"]
+        for _, a in z["faq"]:
+            assert "<" not in a and "&" not in a, (z["slug"], a)
 
 
 def test_zones_rendered_and_distinct(out):

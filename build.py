@@ -16,6 +16,7 @@ PRODUCTS = load_json("products.json")
 BY_SLUG = {p["slug"]: p for p in PRODUCTS}
 HOME = load_json("home.json")
 ZONES = load_json("zones.json")
+ZONE_LINKS = [(z["slug"], z["name"]) for z in ZONES]
 WRITTEN = []
 
 def write(root, path, content):
@@ -60,8 +61,6 @@ def render_home():
     jsonld = [T.website_node(), T.agency_node(), T.person_node(), T.faqpage([tuple(x) for x in HOME["faq"]])]
     return T.page(HOME["title"], HOME["desc"], "/", jsonld, R, body, WA_DEFAULT)
 
-ZONE_LINKS = [("iasi", "Iași"), ("pascani", "Pașcani"), ("bacau", "Bacău"), ("vaslui", "Vaslui"), ("botosani", "Botoșani"),
-              ("suceava", "Suceava"), ("piatra-neamt", "Piatra Neamț"), ("roman", "Roman"), ("galati", "Galați")]
 LATEST_ARTICLES_HTML = [""]  # setat de render_blog (Task 6); listă ca să fie mutabil
 
 # ---------------------------------------------------------------- PRODUSE
@@ -116,7 +115,7 @@ def render_catalog():
 # ---------------------------------------------------------------- ZONE
 def render_zone(z):
     R = "../"; path = f"/zone/{z['slug']}.html"
-    crumbs = [("Acasă", "/"), ("Zone", "/zone/iasi.html"), (z["name"], None)]
+    crumbs = [("Acasă", "/"), ("Zone", "/#zone"), (z["name"], None)]
     local = "".join(f"<p>{html.escape(x)}</p>" for x in z["local"])
     cards = "".join(T.product_card(BY_SLUG[s], R) for s in z["products"] if s in BY_SLUG)
     others = [(f"zone/{s}.html", n) for s, n in ZONE_LINKS if s != z["slug"]]
@@ -133,7 +132,8 @@ def render_zone(z):
                "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
                "areaServed": {"@type": "City", "name": z["name"], "containedInPlace": {"@type": "AdministrativeArea", "name": f"Județul {z['county']}"}},
                "url": T.SITE + path}
-    return T.page(z["title"], z["desc"], path, [service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)], R, body, wa)
+    return T.page(z["title"], z["desc"], path, [service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)], R, body, wa,
+                  geo_region=z["geo_region"], geo_placename=z["name"])
 
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):

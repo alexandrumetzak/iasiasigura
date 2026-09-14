@@ -98,7 +98,7 @@ def related_block(title, items, R):
     lis = "".join(f'<li><a href="{R}{href}">{html.escape(label)}</a></li>' for href, label in items)
     return f'\n    <aside class="related"><h2>{title}</h2><ul>{lis}</ul></aside>' if items else ""
 
-def head(title, desc, path, jsonld, R, og_image="/assets/og-default.png", og_type="website"):
+def head(title, desc, path, jsonld, R, og_image="/assets/og-default.png", og_type="website", geo_region="RO-IS", geo_placename="Iași"):
     canonical = SITE + path
     blocks = "\n  ".join(ldjson(o) for o in jsonld)
     t, d = html.escape(title), html.escape(desc)
@@ -113,8 +113,8 @@ def head(title, desc, path, jsonld, R, og_image="/assets/og-default.png", og_typ
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="{canonical}" />
   <meta name="theme-color" content="#0b2545" />
-  <meta name="geo.region" content="RO-IS" />
-  <meta name="geo.placename" content="Iași" />
+  <meta name="geo.region" content="{html.escape(geo_region)}" />
+  <meta name="geo.placename" content="{html.escape(geo_placename)}" />
   <meta property="og:type" content="{og_type}" />
   <meta property="og:locale" content="ro_RO" />
   <meta property="og:site_name" content="{S['brand']}" />
@@ -197,5 +197,6 @@ def footer(R, wa_text):
 </body>
 </html>"""
 
-def page(title, desc, path, jsonld, R, body, wa_text, og_image="/assets/og-default.png", og_type="website"):
-    return head(title, desc, path, jsonld, R, og_image, og_type) + header(R, wa_text) + body + footer(R, wa_text)
+def page(title, desc, path, jsonld, R, body, wa_text, og_image="/assets/og-default.png", og_type="website", geo_region="RO-IS", geo_placename="Iași"):
+    return (head(title, desc, path, jsonld, R, og_image, og_type, geo_region, geo_placename)
+            + header(R, wa_text) + body + footer(R, wa_text))
