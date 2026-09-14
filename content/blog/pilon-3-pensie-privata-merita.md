@@ -1,7 +1,7 @@
 ---
 {"title": "Pilonul III: merită pensia privată facultativă?",
  "desc": "Cum funcționează Pilonul III, ce înseamnă deductibilitatea contribuțiilor, când poți retrage banii și ce rol are angajatorul. Explicat fără jargon.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Viață",
+ "date": "2026-09-05", "updated": "2026-09-05", "category": "Viață",
  "related_products": ["pensii-private", "viata"],
  "faq": [["Ce înseamnă că este deductibilă contribuția la Pilonul III?", "Contribuția se scade din venitul impozabil, în limita legală anuală. Nu se scade din impozitul de plată, ci din baza pe care se calculează impozitul."],
          ["Când pot retrage banii din Pilonul III?", "La împlinirea vârstei de pensionare și cu îndeplinirea condițiilor privind perioada de contribuție. Există situații speciale prevăzute de lege, cum ar fi invaliditatea."],

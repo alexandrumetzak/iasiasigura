@@ -1,7 +1,7 @@
 ---
 {"title": "Bonus-malus explicat: clasele B0-B8 și M1-M8",
  "desc": "Cum urci și cum cobori în bonus-malus, ce se întâmplă când schimbi mașina, cine pierde bonusul și cum îți verifici istoricul de daune auto.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Auto",
+ "date": "2026-09-08", "updated": "2026-09-08", "category": "Auto",
  "related_products": ["rca"],
  "faq": [["Pierd bonusul dacă nu am avut mașină un an?", "Dacă rămâi fără poliță o perioadă mai lungă, clasa se poate reseta la clasa de intrare. Continuitatea asigurării este cea care îți păstrează bonusul."],
          ["Bonusul rămâne la mașină sau la mine?", "La tine, ca proprietar. Dacă vinzi mașina și cumperi alta, clasa ta de bonus-malus se aplică la noua poliță."],

@@ -1,7 +1,7 @@
 ---
 {"title": "Șofer Bolt sau Uber în Iași: ce asigurări îți trebuie",
  "desc": "Ce polițe cere autorizarea pentru transport alternativ, de ce RCA trebuie emisă cu utilizarea corectă și ce se întâmplă cu pasagerii la accident.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Auto",
+ "date": "2026-09-14", "updated": "2026-09-14", "category": "Auto",
  "related_products": ["taxi-uber-bolt", "rca", "casco"],
  "faq": [["RCA de la mașina personală este valabilă dacă fac Bolt?", "Utilizarea trebuie declarată corect la emiterea poliței. O poliță emisă pentru uz personal, folosită pentru transport de persoane contra cost, poate genera probleme la daună."],
          ["Ce asigurare se cere la autorizare?", "Pe lângă RCA, la autorizarea transportului alternativ se cere de regulă o asigurare de accidente pentru persoanele transportate. Cerințele exacte se verifică la autoritatea care emite autorizația."],

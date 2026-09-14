@@ -1,7 +1,7 @@
 ---
 {"title": "Ce asigurări îi trebuie unui PFA sau unei firme mici",
  "desc": "Obligatorii și recomandate, pe tipuri de activitate: răspundere profesională, bunuri, angajați, marfă. O listă practică pentru PFA și firme mici.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Firme",
+ "date": "2026-09-06", "updated": "2026-09-06", "category": "Firme",
  "related_products": ["imm", "raspundere-civila", "cargo-cmr"],
  "faq": [["Un PFA are obligația legală de a se asigura?", "Depinde de activitate. Unele profesii reglementate cer asigurare de răspundere profesională pentru a putea profesa. În rest, asigurările sunt facultative, dar adesea cerute de clienți sau de contracte."],
          ["Ce acoperă răspunderea civilă profesională?", "Prejudiciile produse clientului printr-o greșeală în exercitarea profesiei: o eroare de proiectare, o consultanță greșită, o lucrare executată necorespunzător."],
@@ -85,7 +85,7 @@ Firmele mici pierd acoperiri nu din zgârcenie, ci din dezorganizare. Trei obice
 - **Un memento cu treizeci de zile înainte** pentru fiecare expirare. Reînnoirea în ultima zi înseamnă decizii luate în grabă și, uneori, o zi fără acoperire.
 - **O revizuire anuală**, în aceeași lună cu bilanțul: ce s-a schimbat în firmă, ce a crescut, ce a apărut nou. Zece minute pe an previn cele mai multe surprize.
 
-## Greșeli frecvente la firmele mici
+## Care sunt greșelile frecvente la firmele mici?
 
 - **Se asigură clădirea, dar nu și activitatea.** O poliță pe spațiu nu acoperă răspunderea față de clienți.
 - **Se lucrează de acasă fără a declara activitatea.** Polița de locuință acoperă locuința, nu depozitul improvizat din garaj sau echipamentele profesionale.

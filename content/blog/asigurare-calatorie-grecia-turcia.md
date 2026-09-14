@@ -1,7 +1,7 @@
 ---
 {"title": "Asigurare de călătorie pentru Grecia, Turcia și Bulgaria",
  "desc": "Card european sau asigurare privată? Ce acoperă fiecare, ce sume alegi, ce faci cu copiii și cu sporturile. Ghid practic pentru vacanța de vară.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Călătorie",
+ "date": "2026-09-09", "updated": "2026-09-09", "category": "Călătorie",
  "related_products": ["calatorie", "storno"],
  "faq": [["Cardul european îmi ajunge în Grecia?", "Cardul european acoperă doar sistemul public de sănătate din statele UE, în aceleași condiții ca pentru localnici. Nu acoperă clinicile private, repatrierea sau coplata."],
          ["Am nevoie de asigurare pentru Turcia?", "Turcia nu este în Uniunea Europeană, deci cardul european nu se aplică acolo. O asigurare medicală privată de călătorie este singura protecție reală."],
@@ -22,7 +22,7 @@ Ce nu face cardul deloc:
 - nu acoperă repatrierea medicală și nici repatrierea în caz de deces;
 - nu acoperă tratamentul în clinici private;
 - nu acoperă bagajul pierdut, întârzierea zborului sau răspunderea față de terți;
-- nu se aplică în afara spațiului UE și SEE, deci nu în Turcia, Egipt sau Regatul Unit.
+- nu se aplică în afara spațiului UE și SEE, deci nu în Turcia sau în Egipt.
 
 Concluzia practică: cardul european se ia oricum, pentru că este gratuit, dar nu îl confunda cu o asigurare.
 
@@ -59,7 +59,7 @@ Verifică și **franșiza**, adică partea pe care o suporți tu la fiecare even
 
 **Sarcina** are, de obicei, reguli proprii, cu acoperire limitată după un anumit număr de săptămâni.
 
-## Sporturi, ATV-uri și activități de vacanță
+## Ce se întâmplă cu sporturile, ATV-urile și activitățile de vacanță?
 
 Excluderile pentru activități sportive sunt sursa multor refuzuri de plată. Scufundări, parapantă, schi, jet ski, ATV, ciclism montan, chiar și închirierea unei motociclete pe insulă: toate pot intra la categoria activități cu risc crescut și, în lipsa unei clauze specifice, accidentele rezultate nu se despăgubesc.
 

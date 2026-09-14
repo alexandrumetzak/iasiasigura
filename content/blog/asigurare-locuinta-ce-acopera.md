@@ -1,7 +1,7 @@
 ---
 {"title": "Ce acoperă asigurarea facultativă de locuință (și ce nu)",
  "desc": "Inundație de la vecini, incendiu, furt, bunuri, răspundere civilă față de vecini: ce intră în polița facultativă de locuință și ce rămâne pe dinafară.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Locuință",
+ "date": "2026-09-11", "updated": "2026-09-11", "category": "Locuință",
  "related_products": ["locuinta", "pad"],
  "faq": [["Acoperă polița inundația de la vecinul de deasupra?", "Da, avarierea locuinței tale de la o inundație provenită de la vecin este un risc standard în polițele facultative de locuință."],
          ["Dacă eu inund vecinul, cine plătește?", "Secțiunea de răspundere civilă față de terți din polița ta, dacă ai inclus-o. Ea acoperă paguba produsă altora din locuința ta."],

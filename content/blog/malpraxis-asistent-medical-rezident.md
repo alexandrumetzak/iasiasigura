@@ -1,7 +1,7 @@
 ---
 {"title": "Malpraxis pentru rezidenți și asistenți medicali",
  "desc": "Cine e obligat să aibă asigurare de malpraxis, ce acoperă, cum alegi limita de despăgubire și cum o cumperi online, în aceeași zi.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Sănătate",
+ "date": "2026-09-10", "updated": "2026-09-10", "category": "Sănătate",
  "related_products": ["malpraxis", "raspundere-civila"],
  "faq": [["Rezidenții au nevoie de asigurare de malpraxis?", "Da. Asigurarea de răspundere civilă profesională este obligatorie pentru personalul medical care acordă îngrijiri, inclusiv pentru medicii rezidenți."],
          ["Spitalul nu mă acoperă deja?", "Unitatea sanitară are propria răspundere, dar ea nu înlocuiește polița individuală cerută personalului medical la avizare și la angajare."],

@@ -1,7 +1,7 @@
 ---
 {"title": "RCA sau CASCO? Ce acoperă fiecare și când le iei pe ambele",
  "desc": "Diferența dintre RCA și CASCO, pe cazuri reale: lovit în parcare, grindină, furt, autoaccident. Când ai nevoie doar de una și când de amândouă.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Auto",
+ "date": "2026-09-12", "updated": "2026-09-12", "category": "Auto",
  "related_products": ["rca", "casco"],
  "faq": [["Dacă am CASCO, mai am nevoie de RCA?", "Da. RCA este obligatorie prin lege pentru orice vehicul înmatriculat, indiferent dacă ai sau nu CASCO. Cele două acoperă lucruri complet diferite."],
          ["Cine îmi plătește mașina dacă m-a lovit altcineva?", "Asigurătorul RCA al șoferului vinovat. Dacă vinovatul nu poate fi identificat, de exemplu în parcare, despăgubirea vine doar dintr-o poliță CASCO proprie."],

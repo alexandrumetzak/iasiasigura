@@ -87,3 +87,11 @@ def test_articles_rendered_with_article_schema_and_author(out):
 def test_homepage_shows_three_latest_articles(out):
     h = read(out, "index.html")
     assert h.count('class="card article-card"') == 3
+    first = re.search(r'<a class="card article-card" href="([^"]+)"', h).group(1)
+    assert first == "blog/pret-rca-2026-cum-se-calculeaza.html", first
+
+
+def test_every_article_has_three_related_cards(out):
+    for a in build.load_articles():
+        h = read(out, f"blog/{a['slug']}.html")
+        assert h.count('class="card article-card"') == 3, (a["slug"], h.count('class="card article-card"'))

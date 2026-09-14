@@ -147,7 +147,13 @@ def load_articles():
         raw = open(os.path.join(BLOG_DIR, f), encoding="utf-8").read()
         m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
         if not m: raise SystemExit(f"{f}: frontmatter lipsă")
-        meta, body = json.loads(m.group(1)), m.group(2)
+        try:
+            meta = json.loads(m.group(1))
+        except json.JSONDecodeError as e:
+            raise SystemExit(f"{f}: frontmatter JSON invalid: {e}")
+        if "date" not in meta:
+            raise SystemExit(f"{f}: frontmatter fără 'date'")
+        body = m.group(2)
         meta["slug"] = f[:-3]
         meta["html"] = markdown.markdown(body, extensions=["tables"])
         meta["words"] = len(re.sub(r"<[^>]+>", " ", meta["html"]).split())
@@ -169,7 +175,9 @@ def render_article(a, all_articles):
     R = "../"; path = f"/blog/{a['slug']}.html"
     crumbs = [("Acasă", "/"), ("Blog", "/blog/"), (a["title"], None)]
     rel_products = [(f"asigurari/{s}.html", BY_SLUG[s]["name"]) for s in a.get("related_products", []) if s in BY_SLUG]
-    others = [x for x in all_articles if x["slug"] != a["slug"] and x["category"] == a["category"]][:3] or [x for x in all_articles if x["slug"] != a["slug"]][:3]
+    same = [x for x in all_articles if x["slug"] != a["slug"] and x["category"] == a["category"]]
+    rest = [x for x in all_articles if x["slug"] != a["slug"] and x["category"] != a["category"]]
+    others = (same + rest)[:3]
     faq = [tuple(x) for x in a.get("faq", [])]
     body = f"""
   <section class="page-hero"><div class="container container-narrow">{crumbs_html(crumbs, R)}<h1>{html.escape(a['title'])}</h1>

@@ -1,7 +1,7 @@
 ---
 {"title": "PAD: asigurarea obligatorie a locuinței, explicată",
  "desc": "Cine e obligat să aibă PAD, ce riscuri acoperă, ce amendă riști fără ea și cum o faci online. Legea 260/2008 explicată pe înțelesul tuturor.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Locuință",
+ "date": "2026-09-13", "updated": "2026-09-13", "category": "Locuință",
  "related_products": ["pad", "locuinta"],
  "faq": [["PAD este obligatorie și pentru apartament?", "Da. Legea se aplică tuturor locuințelor, case și apartamente deopotrivă, indiferent dacă sunt locuite permanent sau ocazional."],
          ["Ce acoperă PAD?", "Trei riscuri: cutremur, inundații provocate de fenomene naturale și alunecări de teren. Alte pagube, cum ar fi incendiul sau inundația de la vecin, nu intră în PAD."],

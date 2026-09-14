@@ -1,7 +1,7 @@
 ---
 {"title": "ROTR: ce este, cine are nevoie și cum se obține",
  "desc": "Asigurarea ROTR și capacitatea financiară pentru licența de transport: cine are nevoie de ea, ce documente se cer și cum se emite online, rapid.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Firme",
+ "date": "2026-09-04", "updated": "2026-09-04", "category": "Firme",
  "related_products": ["rotr", "cargo-cmr"],
  "faq": [["Ce înseamnă ROTR?", "Este o asigurare de garanție folosită pentru dovedirea capacității financiare a operatorului de transport rutier, cerută în procedura de licențiere."],
          ["ROTR este singura modalitate de a dovedi capacitatea financiară?", "Nu. Capacitatea financiară se poate dovedi și prin capitaluri proprii sau prin alte instrumente acceptate de autoritate. ROTR este varianta cel mai des folosită pentru că se obține repede."],

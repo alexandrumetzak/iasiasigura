@@ -1,7 +1,7 @@
 ---
 {"title": "Asigurare de sănătate privată vs CAS: ce primești în plus",
  "desc": "Ce acoperă asigurarea privată de sănătate peste CAS: acces rapid la clinici, investigații, spitalizare. Cum sunt tratate afecțiunile preexistente.",
- "date": "2026-09-15", "updated": "2026-09-15", "category": "Sănătate",
+ "date": "2026-09-07", "updated": "2026-09-07", "category": "Sănătate",
  "related_products": ["sanatate", "viata"],
  "faq": [["Asigurarea privată înlocuiește contribuția la CAS?", "Nu. Contribuția la sistemul public rămâne obligatorie potrivit legii. Polița privată se adaugă peste ea, nu în locul ei."],
          ["Ce înseamnă afecțiune preexistentă?", "O problemă de sănătate diagnosticată sau prezentă înainte de începerea poliței. De regulă este exclusă sau acoperită cu limitări, în funcție de condițiile fiecărui produs."],
