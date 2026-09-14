@@ -27,7 +27,7 @@ for dp, dns, fs in os.walk(ROOT):
         titles[title] = r
         m = re.search(r'<meta name="description" content="(.*?)"', t); d = m.group(1) if m else ""
         if not d: problems.append(f"{r}: fără description")
-        elif len(d) > 160: problems.append(f"{r}: description {len(d)} caractere")
+        elif len(d) > 155: problems.append(f"{r}: description {len(d)} caractere")
         if d in descs: problems.append(f"{r}: description duplicată cu {descs[d]}")
         descs[d] = r
         expect = SITE + "/" + ("" if r == "index.html" else r.replace("index.html", ""))
