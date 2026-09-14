@@ -25,9 +25,9 @@
   ],
   "not_covers": [
    "Propriul tău vehicul (pentru asta există CASCO)",
-   "Daunele produse intenționat sau sub influența alcoolului",
-   "Daunele produse de un șofer fără permis valabil",
-   "Bunurile transportate în vehiculul tău"
+   "Bunurile tale și cele transportate în vehiculul tău",
+   "Alcool, droguri sau lipsa permisului: păgubitul este despăgubit, dar asigurătorul își recuperează banii de la tine (drept de regres)",
+   "Vătămările tale ca șofer vinovat, pentru care e nevoie de o asigurare de accidente"
   ],
   "docs": [
    "Talonul (certificatul de înmatriculare)",
@@ -713,13 +713,13 @@
   "title": "Pensie privată Pilon III, ofertă comparată | IașiAsigură",
   "desc": "Pilonul III este pensia privată facultativă: contribui lunar într-un fond și beneficiezi de deducere fiscală, în limita legală.",
   "h1": "Pensie privată Pilon III: pui deoparte acum, cu deducere fiscală",
-  "answer": "Pilonul III este pensia facultativă: contribui voluntar într-un fond privat, pe lângă pensia de stat și pe lângă Pilonul II. Contribuția se deduce din impozit în limita legală de deductibilitate, iar banii pot fi retrași la vârsta prevăzută de lege. Îmi scrii pe WhatsApp și îți pregătesc oferta.",
+  "answer": "Pilonul III este pensia facultativă: contribui voluntar într-un fond privat, pe lângă pensia de stat și pe lângă Pilonul II. Contribuția se deduce din venitul impozabil, în limita legală de deductibilitate, iar banii pot fi retrași la vârsta prevăzută de lege. Îmi scrii pe WhatsApp și îți pregătesc oferta.",
   "covers": [
    "Contribuție lunară flexibilă, pe care o poți modifica",
-   "Deducere fiscală din impozitul pe venit, în limita legală",
+   "Deducere din venitul impozabil, în limita legală",
    "Administrare de fonduri autorizate și supravegheate de ASF",
    "Posibilitatea ca angajatorul să contribuie în contul tău",
-   "Transferul contului între administratori, fără pierderea sumelor"
+   "Transferul contului la alt administrator, după perioada minimă prevăzută de lege"
   ],
   "not_covers": [
    "Garantarea unui randament viitor: rezultatele depind de piețe",
@@ -739,8 +739,8 @@
     "Îmi spui cât ai vrea să pui deoparte lunar. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
-    "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. Îți trimit variantele administratorilor disponibili."
+    "Marina compară administratorii de fonduri de pensii",
+    "Îți trimit variantele administratorilor de fonduri de pensii facultative, cu condițiile și comisioanele explicate."
    ],
    [
     "Confirmi și primești polița",
@@ -971,21 +971,22 @@
   "wa_text": "Bună Marina, sunt șofer Bolt/Uber și vreau asigurarea de accidente.",
   "service_type": "Asigurare de accidente pentru transport alternativ de persoane",
   "title": "Asigurare accidente taxi, Uber, Bolt online | IașiAsigură",
-  "desc": "Asigurarea de accidente pentru șofer și pasageri, cerută la autorizarea de taxi și ridesharing. Se cumpără online, cu polița pe e-mail.",
+  "desc": "Asigurare de accidente pentru șofer, pasageri și bagaje, cerută de regulă la autorizarea de taxi și ridesharing. Se cumpără online.",
   "h1": "Asigurare de accidente pentru taxi, Uber și Bolt",
-  "answer": "Este asigurarea de accidente pentru persoanele transportate și pentru șofer, cerută la autorizarea activității de taxi și de transport alternativ. Acoperă decesul și invaliditatea din accident, iar la unele variante și cheltuielile medicale. O cumperi online, pe platforma brokerului, și primești polița pe e-mail imediat.",
+  "answer": "Este asigurarea de accidente pentru persoanele transportate și pentru șofer, cerută de regulă la dosarul de autorizare pentru taxi și transport alternativ. Acoperă decesul și invaliditatea din accident, cheltuielile medicale și bagajele pasagerilor. O cumperi online, pe platforma brokerului, și primești polița pe e-mail imediat.",
   "covers": [
    "Decesul din accident al șoferului și al pasagerilor",
-   "Invaliditatea permanentă produsă de un accident",
-   "Cheltuieli medicale de urgență, la variantele care le includ",
-   "Acoperire pe durata transportului de persoane",
-   "Document acceptat la dosarul de autorizare"
+   "Invaliditatea permanentă, totală sau parțială, din accident",
+   "Cheltuielile medicale produse de accident",
+   "Distrugerea bagajelor și a efectelor personale",
+   "Transportul persoanei decedate",
+   "Opțional: asistență rutieră non-stop, cu tractare și costuri de recuperare"
   ],
   "not_covers": [
    "Daunele materiale la vehicul, care intră la RCA și CASCO",
    "Accidentele produse sub influența alcoolului sau a drogurilor",
    "Cursele efectuate fără autorizațiile cerute de lege",
-   "Bunurile și bagajele pasagerilor",
+   "Evenimentele petrecute în afara activității de transport de persoane",
    "Afecțiunile medicale fără legătură cu un accident"
   ],
   "docs": [
@@ -1010,23 +1011,23 @@
   "faq": [
    [
     "Este obligatorie pentru Bolt sau Uber?",
-    "Asigurarea de accidente pentru persoanele transportate face parte din documentele cerute la autorizarea transportului alternativ și la taxi. Platformele o verifică atunci când îți activează contul."
+    "Asigurarea de accidente pentru persoanele transportate este cerută de regulă la dosarul de autorizare pentru taxi și transport alternativ, iar platformele o verifică la activarea contului. Cerințele exacte le confirmi la primăria sau la autoritatea care îți emite autorizația."
    ],
    [
     "Ce acoperă pentru pasageri?",
-    "Despăgubiri în caz de deces sau de invaliditate permanentă produse de un accident în timpul cursei, în limita sumei asigurate din poliță."
+    "Despăgubiri în caz de deces sau de invaliditate permanentă produse de un accident în timpul cursei, cheltuielile medicale rezultate și distrugerea bagajelor și a efectelor personale, în limitele din poliță."
    ],
    [
     "Se face pe mașină sau pe șofer?",
     "Se încheie pentru vehiculul folosit la transportul de persoane și acoperă locurile din el, inclusiv pe cel al șoferului."
    ],
    [
-    "Sunt PFA. Se poate?",
-    "Da, polița se poate încheia pe PFA, pe SRL sau pe persoana autorizată pentru transport, în funcție de forma sub care lucrezi."
+    "Cine o poate încheia?",
+    "Firmele (SRL) și PFA-urile care dețin sau administrează vehicule de taxi ori de transport alternativ, dar și persoanele fizice proprietare sau șoferi pe platforme."
    ],
    [
     "Include și tractarea sau asistența rutieră?",
-    "Nu implicit. Asistența rutieră este un produs separat, care se poate adăuga; îmi scrii pe WhatsApp dacă vrei și varianta asta."
+    "Nu implicit, dar se poate adăuga opțional: asistență rutieră non-stop, cu tractare până la 200 km dus-întors, costuri de recuperare și transportul pasagerilor dacă evenimentul se produce în afara localității."
    ],
    [
     "Ce acte îmi trebuie?",

@@ -47,3 +47,9 @@ def test_all_products_rendered_with_correct_cta(out):
 def test_catalog_lists_pf_and_pj(out):
     h = read(out, "asigurari/index.html")
     assert "Pentru tine" in h and "Pentru firma ta" in h and h.count('class="card product-card"') >= 16
+
+def test_related_and_faq_answers_are_safe(out):
+    for p in build.PRODUCTS:
+        assert len(p["related"]) == 3 and all(s in build.BY_SLUG for s in p["related"]), p["slug"]
+        for _, a in p["faq"]:
+            assert "<" not in a and "&" not in a, (p["slug"], a)
