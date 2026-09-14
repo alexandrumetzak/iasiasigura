@@ -40,7 +40,7 @@ def render_home():
     points = "".join(f"<li>✔ {html.escape(x)}</li>" for x in HOME["points"])
     why = "".join(f'<div class="card"><h3>{html.escape(t)}</h3><p>{html.escape(d)}</p></div>' for t, d in HOME["why"])
     steps = "".join(f'<div class="step"><h3>{html.escape(t)}</h3><p>{html.escape(d)}</p></div>' for t, d in HOME["steps"])
-    testi = "".join(f'<blockquote class="testimonial"><p>{html.escape(q)}</p><cite>{html.escape(w)}</cite></blockquote>' for q, w in HOME["testimonials"])
+    testi = testimonials_html()
     zones = "".join(f'<li><a href="zone/{s}.html">Asigurări {n}</a></li>' for s, n in ZONE_LINKS)
     wa = T.wa_link(WA_DEFAULT)
     body = f"""
@@ -220,7 +220,7 @@ def fill_tokens(frag, key):
             "{{SMARTSALES_TERMS}}": T.smartsales_url("/privacy/terms", "legal")}
     for k, v in repl.items():
         frag = frag.replace(k, v)
-    rest = re.findall(r"\{\{[A-Z_]+\}\}", frag)
+    rest = re.findall(r"\{\{[^}]+\}\}", frag)
     if rest:
         raise SystemExit(f"pages/{key}.html: tokenuri necunoscute: {sorted(set(rest))}")
     return frag
@@ -238,7 +238,8 @@ def render_static(key):
 def render_404():
     body = """<section class="page-hero"><div class="container container-narrow"><h1>Pagina nu există</h1><p class="lead">Poate ai nevoie de una dintre acestea:</p>
     <ul><li><a href="/asigurari/rca.html">Asigurare RCA</a></li><li><a href="/asigurari/locuinta.html">Asigurare locuință</a></li><li><a href="/asigurari/">Toate asigurările</a></li><li><a href="/blog/">Blog</a></li></ul></div></section>"""
-    out = T.page("Pagina nu există | IașiAsigură", "Pagina căutată nu există. Vezi asigurările disponibile sau scrie pe WhatsApp.", "/404.html", [], "", body, WA_DEFAULT)
+    # R="/" — 404 e servit de pe orice cale, deci toate linkurile din head/header/footer trebuie absolute
+    out = T.page("Pagina nu există | IașiAsigură", "Pagina căutată nu există. Vezi asigurările disponibile sau scrie pe WhatsApp.", "/404.html", [], "/", body, WA_DEFAULT)
     return out.replace('content="index, follow,', 'content="noindex, follow,')
 
 # ---------------------------------------------------------------- FIȘIERE TEHNICE

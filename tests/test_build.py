@@ -39,6 +39,13 @@ def test_static_pages_and_technical_files(out):
     llms = read(out, "llms.txt"); assert llms.startswith("# IașiAsigură") and "/asigurari/rca.html" in llms
 
 
+def test_404_uses_root_absolute_links(out):
+    h = read(out, "404.html")
+    assert 'href="/css/styles.css"' in h
+    assert 'href="css/' not in h and 'href="index.html"' not in h
+    assert 'href="/index.html"' in h and 'href="/asigurari/rca.html"' in h
+
+
 def test_check_site_passes_with_links(out):
     r = subprocess.run([sys.executable, "scripts/check_site.py", str(out)], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr
