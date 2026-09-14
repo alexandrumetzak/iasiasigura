@@ -37,7 +37,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe platforma brokerului, pe pagina RCA a Marinei."
+    "Ajungi pe platforma brokerului, pe pagina mea de RCA."
    ],
    [
     "Completează numărul de înmatriculare și datele",
@@ -74,7 +74,7 @@
     "Da. La RCA încheiat la distanță ai drept de retragere în 14 zile, cu restituire integrală dacă polița nu a intrat în vigoare, sau pro-rata dacă a intrat și nu a existat daună."
    ],
    [
-    "Marina ia comision de la mine?",
+    "Iei comision de la mine?",
     "Nu. Prețul e cel al asigurătorului, iar comisionul de intermediere e plătit de asigurător."
    ]
   ],
@@ -103,8 +103,8 @@
   "wa_text": "Bună Marina, vreau ofertă CASCO.",
   "service_type": "Asigurare facultativă auto (CASCO)",
   "title": "Asigurare CASCO cu ofertă comparată | IașiAsigură",
-  "desc": "CASCO acoperă propria mașină: avarii, furt, vandalism, fenomene naturale. Marina compară asigurătorii și îți trimite oferta pe WhatsApp.",
-  "h1": "Asigurare CASCO: îți acoperi propria mașină, cu oferta comparată de Marina",
+  "desc": "CASCO acoperă propria mașină: avarii, furt, vandalism, fenomene naturale. Compar asigurătorii și îți trimit oferta pe WhatsApp.",
+  "h1": "Asigurare CASCO: îți acoperi propria mașină, cu oferta comparată de mine",
   "answer": "CASCO este asigurarea facultativă care îți acoperă propriul vehicul: avarii din accident, furt, vandalism, incendiu sau fenomene naturale. Nu înlocuiește RCA, ci îl completează. Îmi scrii pe WhatsApp datele mașinii, compar ofertele asigurătorilor și îți trimit varianta potrivită pentru bugetul și nevoile tale.",
   "covers": [
    "Avarii la propriul vehicul, indiferent cine e vinovat",
@@ -132,7 +132,7 @@
     "Trimiți talonul și îmi spui ce ți-ai dori acoperit. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. De regulă primești oferta în aceeași zi lucrătoare."
    ],
    [
@@ -220,7 +220,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de asigurare a locuinței de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina de asigurare a locuinței de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -309,7 +309,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina PAD de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina PAD de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -399,7 +399,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de asigurări de călătorie de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina de asigurări de călătorie de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -576,7 +576,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de asigurări de sănătate de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina de asigurări de sănătate de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -639,7 +639,7 @@
   "wa_text": "Bună Marina, vreau ofertă pentru asigurare de viață.",
   "service_type": "Asigurare de viață",
   "title": "Asigurare de viață cu ofertă personalizată | IașiAsigură",
-  "desc": "Asigurarea de viață protejează familia la deces sau invaliditate, cu sau fără economisire. Marina compară asigurătorii și îți trimite oferta.",
+  "desc": "Asigurarea de viață protejează familia la deces sau invaliditate, cu sau fără economisire. Compar asigurătorii și îți trimit oferta.",
   "h1": "Asigurare de viață: siguranță pentru familia ta, cu oferta potrivită",
   "answer": "Asigurarea de viață plătește o sumă persoanelor pe care le desemnezi, dacă tu decedezi sau rămâi în invaliditate. Poate fi pur de protecție sau combinată cu economisire pe termen lung. Îmi scrii pe WhatsApp ce vrei să acoperi, compar asigurătorii și îți trimit oferta explicată pe înțeles.",
   "covers": [
@@ -667,7 +667,7 @@
     "Îmi spui ce vrei să acoperi și pentru cine. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. De obicei revin cu oferta în una-două zile lucrătoare."
    ],
    [
@@ -756,7 +756,7 @@
     "Îmi spui cât ai vrea să pui deoparte lunar. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară administratorii de fonduri de pensii",
+    "Compar administratorii de fonduri de pensii",
     "Îți trimit variantele administratorilor de fonduri de pensii facultative, cu condițiile și comisioanele explicate."
    ],
    [
@@ -841,7 +841,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de malpraxis de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina de malpraxis de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -905,7 +905,7 @@
   "wa_text": "Bună Marina, vreau ofertă pentru răspundere civilă.",
   "service_type": "Asigurare de răspundere civilă",
   "title": "Răspundere civilă profesională și personală | IașiAsigură",
-  "desc": "Răspunderea civilă acoperă daunele produse terților, în activitatea profesională sau în viața de zi cu zi. Marina compară ofertele pentru tine.",
+  "desc": "Răspunderea civilă acoperă daunele produse terților, în activitatea profesională sau în viața de zi cu zi. Compar ofertele pentru tine.",
   "h1": "Asigurare de răspundere civilă: acoperi daunele pe care le provoci altora",
   "answer": "Asigurarea de răspundere civilă plătește despăgubirile datorate altor persoane atunci când le produci un prejudiciu. Varianta profesională acoperă erorile din activitatea ta, fie că ești avocat, contabil, arhitect sau firmă de IT, iar cea personală acoperă situațiile din viața privată. Îmi scrii și îți trimit oferta.",
   "covers": [
@@ -933,7 +933,7 @@
     "Îmi spui ce faci și ce limită ți se cere. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. De obicei revin cu oferta în aceeași zi sau a doua zi lucrătoare."
    ],
    [
@@ -1021,7 +1021,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de asigurări de accidente de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina de asigurări de accidente de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -1109,7 +1109,7 @@
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina ROTR de pe platforma brokerului, pe contul Marinei."
+    "Ajungi pe pagina ROTR de pe platforma brokerului, pe contul meu."
    ],
    [
     "Completezi datele",
@@ -1172,7 +1172,7 @@
   "wa_text": "Bună Marina, vreau ofertă CMR/CARGO.",
   "service_type": "Asigurare de marfă și de răspundere a transportatorului (CARGO, CMR)",
   "title": "Asigurare CMR și CARGO transport marfă | IașiAsigură",
-  "desc": "CMR acoperă răspunderea transportatorului pentru marfa preluată, iar CARGO acoperă marfa proprietarului. Marina îți trimite oferta comparată.",
+  "desc": "CMR acoperă răspunderea transportatorului pentru marfa preluată, iar CARGO acoperă marfa proprietarului. Îți trimit oferta comparată.",
   "h1": "Asigurare CMR și CARGO: marfa și răspunderea transportatorului",
   "answer": "CMR este asigurarea de răspundere a transportatorului pentru marfa preluată la transport, conform Convenției CMR. CARGO asigură marfa în sine, în beneficiul proprietarului, pe toată durata deplasării. Îmi spui ce transporți, pe ce rute și cu ce valoare, iar eu compar asigurătorii și îți trimit oferta.",
   "covers": [
@@ -1200,7 +1200,7 @@
     "Îmi spui ce transporți, pe ce rute și cu câte vehicule. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. De obicei durează una-două zile lucrătoare."
    ],
    [
@@ -1261,7 +1261,7 @@
   "wa_text": "Bună Marina, vreau ofertă de asigurare pentru firma mea.",
   "service_type": "Asigurări pentru firme (IMM, PFA)",
   "title": "Asigurări pentru IMM și PFA, ofertă comparată | IașiAsigură",
-  "desc": "Asigurări pentru firme mici: clădire, bunuri, echipamente, răspundere față de terți și accidente pentru angajați. Ofertă comparată de Marina.",
+  "desc": "Asigurări pentru firme mici: clădire, bunuri, echipamente, răspundere față de terți și accidente pentru angajați. Îți trimit oferta comparată.",
   "h1": "Asigurări pentru IMM și PFA: firma, bunurile și oamenii ei",
   "answer": "Pentru o firmă mică, asigurarea se construiește din câteva piese: clădirea și bunurile din ea, echipamentele și stocurile, răspunderea față de clienți și vecini, plus accidentele angajaților. Îmi scrii pe WhatsApp ce face firma ta, compar ofertele asigurătorilor și îți trimit varianta potrivită, explicată pe scurt.",
   "covers": [
@@ -1290,7 +1290,7 @@
     "Îmi spui ce face firma și ce vrei să acoperi. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. De regulă revin cu oferta în una-două zile lucrătoare."
    ],
    [
@@ -1350,7 +1350,7 @@
   "wa_text": "Bună Marina, vreau ofertă pentru asigurare agricolă.",
   "service_type": "Asigurări agricole (culturi, animale, utilaje)",
   "title": "Asigurări agricole: culturi, animale, utilaje | IașiAsigură",
-  "desc": "Asigurări pentru culturi, animale și utilaje agricole, cerute adesea la subvenții și la credite. Marina compară asigurătorii și trimite oferta.",
+  "desc": "Asigurări pentru culturi, animale și utilaje agricole, cerute adesea la subvenții și la credite. Compar asigurătorii și îți trimit oferta.",
   "h1": "Asigurări agricole: culturile, animalele și utilajele fermei",
   "answer": "Asigurările agricole acoperă culturile împotriva fenomenelor climatice, cum sunt grindina, înghețul sau furtuna, animalele în caz de boală ori accident și utilajele agricole. Sunt cerute des la dosarele de subvenție și de credit. Îmi scrii pe WhatsApp, compar asigurătorii și îți trimit oferta.",
   "covers": [
@@ -1378,7 +1378,7 @@
     "Îmi trimiți suprafețele, culturile sau lista de utilaje. Răspund în timpul zilei, fără drumuri și fără formulare lungi."
    ],
    [
-    "Marina compară asigurătorii",
+    "Compar asigurătorii",
     "Cer cotații la mai mulți asigurători și îți trimit oferta cu acoperiri și clauze explicate. Asigurătorii analizează zona și cultura, așa că durează câteva zile lucrătoare."
    ],
    [

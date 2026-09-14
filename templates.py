@@ -83,7 +83,7 @@ def cta_block(p, R):
     <div class="cta-row">
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
       <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Formular de ofertă pe platformă</a>
-      <p class="cta-note">Produs cu ofertă personalizată: Marina compară asigurătorii și îți trimite oferta pe WhatsApp sau e-mail. Gratuit.</p>
+      <p class="cta-note">Produs cu ofertă personalizată: compar asigurătorii și îți trimit oferta pe WhatsApp sau e-mail. Gratuit.</p>
     </div>"""
 
 def faq_block(faqs, heading="Întrebări frecvente"):
@@ -172,7 +172,7 @@ def footer(R, wa_text):
     <div class="container footer-grid">
       <div>
         <p class="footer-brand"><strong>Iași<em>Asigură</em></strong> · {S['tagline']}</p>
-        <p>Asigurări online pentru toată România, cu o persoană reală pe WhatsApp: {P['name']}, {P['job_title'].lower()}.</p>
+        <p>Asigurări online pentru toată România, cu o persoană reală pe WhatsApp: eu, {P['name']}, {P['job_title'].lower()}.</p>
         <p><a href="{P['facebook']}" rel="noopener" target="_blank">Facebook</a></p>
       </div>
       <div><h3>Asigurări</h3><ul>

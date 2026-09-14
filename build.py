@@ -78,9 +78,9 @@ def render_home():
     <ul class="hero-points">{points}</ul>
   </div></section>
   <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Alege asigurarea de care ai nevoie</h2>
-    <p>Cele marcate <strong>Online</strong> se cumpără direct pe platforma brokerului. Cele cu <strong>Ofertă personalizată</strong> se rezolvă pe WhatsApp, cu ofertă comparată de Marina.</p>
+    <p>Cele marcate <strong>Online</strong> se cumpără direct pe platforma brokerului. Cele cu <strong>Ofertă personalizată</strong> se rezolvă pe WhatsApp: compar asigurătorii și îți trimit oferta.</p>
     <div class="grid">{cards}</div></div></section>
-  <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce cu Marina</p><h2>Asigurări simple, cu cineva care răspunde</h2><div class="grid">{why}</div></div></section>
+  <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce cu mine</p><h2>Asigurări simple, cu cineva care răspunde</h2><div class="grid">{why}</div></div></section>
   <section id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Trei pași, fără drumuri</h2><div class="steps">{steps}</div></div></section>
   <section class="section-alt"><div class="container container-narrow">{T.faq_block(HOME['faq'])}</div></section>
   <section id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid">{testi}</div></div></section>
@@ -136,7 +136,7 @@ def render_catalog():
     crumbs = [("Acasă", "/"), ("Asigurări", None)]
     body = f"""
   <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Toate asigurările</h1>
-    <p class="lead">Online = cumperi direct pe platforma brokerului. Ofertă personalizată = Marina compară asigurătorii și îți trimite oferta pe WhatsApp.</p></div></section>
+    <p class="lead">Online = cumperi direct pe platforma brokerului. Ofertă personalizată = compar asigurătorii și îți trimit oferta pe WhatsApp.</p></div></section>
   <section><div class="container"><h2>Pentru tine și familia ta</h2><div class="grid">{pf}</div></div></section>
   <section class="section-alt"><div class="container"><h2>Pentru firma ta</h2><div class="grid">{pj}</div></div></section>"""
     return T.page("Toate asigurările, online sau cu ofertă | IașiAsigură",
@@ -157,7 +157,7 @@ def render_zone(z):
   <div class="container prose"><h2>Asigurări pentru {html.escape(z['name'])}: ce contează local</h2>{local}
     <h2>Cele mai cerute asigurări în {html.escape(z['name'])}</h2><div class="grid">{cards}</div>
     {T.faq_block([tuple(x) for x in z['faq']])}
-    <p>Oriunde ai fi în România, cumperi online pe platforma brokerului, iar Marina răspunde pe WhatsApp. Întâlnirile față în față se fac la Iași, cu programare.</p>
+    <p>Oriunde ai fi în România, cumperi online pe platforma brokerului, iar eu îți răspund pe WhatsApp. Întâlnirile față în față se fac la Iași, cu programare.</p>
     {T.related_block("Alte zone", others, R)}{author_box(R)}</div>"""
     service = {"@context": "https://schema.org", "@type": "Service", "name": f"Asigurări {z['name']}",
                "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
