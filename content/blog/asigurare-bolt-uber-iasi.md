@@ -1,93 +1,96 @@
 ---
 {"title": "Șofer Bolt sau Uber în Iași: ce asigurări îți trebuie",
- "desc": "Ce polițe cere autorizarea pentru transport alternativ, de ce RCA trebuie emisă cu utilizarea corectă și ce se întâmplă cu pasagerii la accident.",
+ "desc": "RCA cu utilizarea reală, polița de accidente pentru pasageri și bagaje cerută la autorizare și de ce CASCO e obligatorie când trăiești din condus.",
  "date": "2026-09-14", "updated": "2026-09-14", "category": "Auto",
  "related_products": ["taxi-uber-bolt", "rca", "casco"],
- "faq": [["RCA de la mașina personală este valabilă dacă fac Bolt?", "Utilizarea trebuie declarată corect la emiterea poliței. O poliță emisă pentru uz personal, folosită pentru transport de persoane contra cost, poate genera probleme la daună."],
-         ["Ce asigurare se cere la autorizare?", "Pe lângă RCA, la autorizarea transportului alternativ se cere de regulă o asigurare de accidente pentru persoanele transportate. Cerințele exacte se verifică la autoritatea care emite autorizația."],
-         ["Pasagerii sunt despăgubiți dacă am eu vina?", "Pasagerii sunt terți față de șofer, deci prejudiciile lor corporale se despăgubesc din RCA. Asigurarea de accidente vine suplimentar, cu sume proprii."],
-         ["Am nevoie de CASCO pentru ridesharing?", "Nu este obligatorie, dar este foarte recomandată. Mașina este unealta de lucru, iar imobilizarea ei înseamnă zile fără venit."],
-         ["Ce se schimbă dacă mașina este în leasing?", "Finanțatorul cere de regulă CASCO și trebuie informat despre utilizarea comercială a vehiculului, pentru că ea schimbă condițiile contractuale."]]}
+ "faq": [["RCA de la mașina personală e bună dacă fac Bolt?", "Nu, dacă e emisă pe uz personal. Utilizarea se declară la emitere. O poliță pe uz personal folosită la transport de persoane contra cost îți poate aduce probleme la daună, chiar dacă păgubitul e despăgubit."],
+         ["Ce asigurare mi se cere la autorizare?", "Pe lângă RCA, dosarul de autorizare pentru transport alternativ include în mod obișnuit o asigurare de accidente pentru persoanele transportate și bagajele lor. Lista exactă o confirmi la autoritatea care emite autorizația."],
+         ["Pasagerii sunt despăgubiți dacă eu sunt vinovat?", "Da. Pasagerii sunt terți față de tine, deci vătămarea lor se plătește din RCA-ul tău. Polița de accidente pentru persoanele transportate vine peste, cu sume separate."],
+         ["Am nevoie de CASCO ca să fac ridesharing?", "Legea nu o cere. Dar mașina e unealta ta de lucru și zece zile în service înseamnă zece zile fără venit, așa că aproape toți șoferii cu care lucrez ajung să o ia."],
+         ["Ce se schimbă dacă mașina e în leasing?", "Finanțatorul cere CASCO oricum și trebuie anunțat că mașina lucrează pe platformă, pentru că utilizarea comercială schimbă condițiile din contract."]]}
 ---
-**Pe scurt:** pentru transport alternativ ai nevoie de RCA emisă cu utilizarea reală declarată, de asigurarea de accidente pentru persoanele transportate, cerută de regulă la autorizare, și, practic obligatoriu din punct de vedere economic, de CASCO. Cea mai frecventă greșeală este folosirea unei polițe emise pentru uz personal la o mașină care lucrează zilnic.
+Pe Bolt sau Uber îți trebuie trei polițe: **RCA emisă cu utilizarea reală** (transport alternativ, nu uz personal), asigurarea de accidente pentru persoanele transportate și bagajele lor, cerută la autorizare, și CASCO, pe care legea n-o cere, dar mașina din care trăiești da. Greșeala pe care o văd cel mai des: RCA pe uz personal la mașina care rulează zilnic.
 
-## De ce contează utilizarea declarată pe RCA?
+## Chiar contează ce utilizare bifez pe RCA?
 
-RCA se calculează pe risc, iar o mașină care face zeci de curse pe zi în oraș are un risc complet diferit de una care merge la serviciu și înapoi. De aceea formularul de emitere cere să declari utilizarea: uz personal, taxi, transport alternativ, școală de șoferi, închiriere.
+Da. RCA se calculează pe risc, iar o mașină care face treizeci de curse pe zi prin Iași nu are același risc cu una care merge la serviciu și înapoi. De asta formularul te întreabă cum folosești mașina: uz personal, taxi, transport alternativ, școală de șoferi, închiriere.
 
-Dacă declari uz personal pentru o mașină pe care o folosești la ridesharing, obții o primă mai mică, dar cumperi o problemă. La un accident cu pagube serioase, în care se stabilește că vehiculul era folosit pentru transport de persoane contra cost, asigurătorul poate analiza situația din perspectiva declarării incorecte a riscului.
+Dacă bifezi uz personal la o mașină de platformă, plătești mai puțin acum și cumperi o problemă pentru mai târziu. La o daună serioasă, în care iese la iveală că mașina era în cursă, asigurătorul poate analiza situația ca declarare incorectă a riscului.
 
-Un detaliu care liniștește multă lume: păgubitul este despăgubit oricum. Legea protejează victima, iar RCA plătește terțului chiar și în situații grave, de exemplu când șoferul era băut sau fără permis. Ce se schimbă este ce urmează după: asigurătorul se poate întoarce împotriva șoferului cu acțiune în regres și îi poate cere banii înapoi. Deci declararea corectă nu protejează victima, ci pe tine.
+Un lucru care calmează lumea: păgubitul primește banii oricum. Legea protejează victima, iar RCA plătește terțului chiar și în situații grave, când șoferul era băut sau fără permis. Ce se schimbă e ce urmează după: asigurătorul se poate întoarce împotriva șoferului cu acțiune în regres și îi cere banii înapoi. Deci declararea corectă nu-l apără pe cel pe care l-ai lovit. Te apără pe tine.
 
-Concluzia practică: la emiterea poliței, bifează utilizarea reală. Diferența de primă este un cost de funcționare al activității, nu o taxă opțională.
+Am avut un băiat care lucra pe platformă de vreo opt luni cu RCA pe uz personal, luată așa pentru că era mai ieftină. O tamponare în Tătărași, în cursă, cu pasager pe bancheta din spate. Păgubitul a fost despăgubit fără discuție. El, în schimb, a stat aproape două luni cu întrebări de la asigurător despre ce făcea mașina la ora aia. Nu-i doresc nimănui.
 
-## Ce polițe îți cere autorizarea?
+Concluzia e simplă: bifezi utilizarea reală. Diferența de primă e un cost al meseriei, la fel ca motorina.
 
-Transportul alternativ cu autoturism și șofer este o activitate reglementată. Pentru a lucra legal pe o platformă ai nevoie, în linii mari, de:
+## Ce îmi cer la autorizare?
 
-- **autorizația pentru transport alternativ** obținută de operatorul de transport, respectiv de firma sau PFA-ul pe care lucrezi;
-- **copia conformă** pentru fiecare vehicul utilizat;
-- **atestatul profesional** al șoferului;
-- **RCA valabilă**, cu utilizarea declarată corect;
-- **asigurarea de accidente pentru persoanele transportate**, care în practică este cerută la dosarul de autorizare.
+Transportul alternativ e activitate reglementată. Ca să lucrezi legal pe o platformă ai nevoie, în linii mari, de:
 
-Formulez cu prudență ultimul punct pentru că cerințele documentare se verifică întotdeauna la autoritatea care eliberează autorizația, iar detaliile pot diferi. Ce este însă constant: o poliță de accidente pentru pasageri apare în cerințele uzuale și se emite ușor, online.
+- autorizația pentru transport alternativ, pe firma sau PFA-ul pe care lucrezi;
+- copia conformă pentru fiecare mașină;
+- atestatul profesional al șoferului;
+- RCA valabilă, cu utilizarea declarată corect;
+- asigurarea de accidente pentru persoanele transportate și bagajele lor.
 
-Pentru taxi, cadrul este similar ca logică, dar diferit ca acte: acolo intervin autorizația de transport în regim de taxi, licența și cerințele specifice ale administrației locale.
+Ultimul punct îl spun cu o rezervă: lista de acte o confirmi la autoritatea care eliberează autorizația, pentru că detaliile se mai schimbă. Ce n-am văzut să lipsească din dosare e polița de accidente pentru pasageri. Se emite online, o ai pe e-mail în aceeași zi.
 
-## Ce se întâmplă cu pasagerii într-un accident?
+La taxi logica e aceeași, actele sunt altele: autorizația de transport în regim de taxi, licența și cerințele primăriei.
 
-Aici există o confuzie utilă de lămurit. Pasagerii din mașina ta sunt terți față de tine. Dacă tu ești vinovat de accident și un pasager este rănit, prejudiciul lui corporal se despăgubește din RCA-ul tău, în limitele legale. Nu rămâne descoperit.
+## Și dacă am accident cu pasageri în mașină?
 
-Atunci la ce mai folosește asigurarea de accidente pentru persoanele transportate? La câteva lucruri:
+Aici e o confuzie pe care o lămuresc săptămânal. Pasagerii sunt terți față de tine. Dacă tu ești vinovat și un pasager e rănit, vătămarea lui se plătește din RCA-ul tău, în limitele legale. Nu rămâne pe dinafară.
 
-- oferă **sume proprii**, independente de dosarul RCA, plătite pe baza unor bareme clare pentru invaliditate, deces sau, în unele variante, spitalizare;
-- se plătește **mai rapid și mai simplu**, fără a aștepta stabilirea vinovăției;
-- funcționează și în situații în care **vinovăția aparține altcuiva** sau nu poate fi stabilită imediat;
-- este, de regulă, **cerută la autorizare**, deci oricum trebuie să o ai.
+Atunci la ce mai e bună polița de accidente pentru persoanele transportate? Uite la ce:
 
-Pentru un șofer care transportă oameni în fiecare zi, numărul de persoane expuse este mult mai mare decât la o mașină personală. Statistic, este exact tipul de activitate pentru care o acoperire suplimentară are sens.
+- plătește sume proprii, separate de dosarul RCA, pe bareme fixe pentru invaliditate, deces sau spitalizare (depinde de variantă);
+- plătește fără să aștepte stabilirea vinovăției, deci mai repede;
+- funcționează și când vina e a altcuiva sau nu se știe încă a cui e;
+- acoperă și bagajele pasagerilor;
+- oricum ți-o cer la autorizare, deci n-ai de ales.
 
-## De ce CASCO devine aproape obligatorie în practică?
+Gândește-te câți oameni urcă în mașina ta într-o lună. Sute. E fix genul de activitate pentru care o acoperire în plus are sens.
 
-Legea nu îți cere CASCO. Economia activității, da.
+## CASCO chiar îmi trebuie?
 
-Gândește-te la ce înseamnă o săptămână cu mașina în service: nu doar costul reparației, ci și venitul pierdut. Pentru un șofer care își face norma zilnic, o imobilizare de zece zile taie o treime din venitul lunar. Iar în ridesharing rulajul este mare, deci probabilitatea unui incident, de la o lovire în parcare la o tamponare în trafic, crește proporțional.
+Legea nu ți-o cere. Economia meseriei, da.
 
-La alegerea unei polițe CASCO pentru o mașină care lucrează, uită-te în mod special la:
+O săptămână cu mașina în service înseamnă reparația plus venitul pierdut. Pentru cineva care își face norma zilnic, zece zile de imobilizare taie o treime din luna aia. Și rulajul mare înseamnă probabilitate mai mare de incident, de la o zgârietură în parcarea de la Palas la o tamponare pe Sărărie.
 
-- **acceptarea utilizării comerciale**. Unele variante standard exclud transportul de persoane contra cost. Trebuie declarat de la început.
-- **franșiză**, pentru că la o frecvență mare de evenimente mici, franșiza contează mai mult decât prima.
-- **timpul de reparație și rețeaua de service**, pentru că zilele de imobilizare sunt bani.
-- **mașina la schimb**, acolo unde există, este cea mai valoroasă clauză pentru cineva care trăiește din condus.
-- **asistența rutieră și tractarea**.
+La o CASCO pentru mașină care lucrează, uită-te la:
 
-Dacă mașina este în leasing, finanțatorul cere oricum CASCO și trebuie informat despre utilizarea comercială, pentru că ea schimbă condițiile contractului.
+- dacă acceptă utilizarea comercială. Unele variante standard exclud transportul de persoane contra cost, așa că se declară de la început;
+- franșiză, pentru că la multe evenimente mici franșiza te costă mai mult decât prima;
+- timpul de reparație și rețeaua de service, pentru că zilele de stat sunt bani;
+- mașina la schimb, unde există. Sincer, e cea mai valoroasă clauză pentru cineva care trăiește din condus;
+- asistență rutieră și tractare.
 
-## Cum se schimbă calculul dacă lucrezi pe PFA sau pe SRL?
+Dacă mașina e în leasing, finanțatorul cere CASCO oricum și trebuie anunțat că lucrezi pe platformă, pentru că asta îi schimbă condițiile.
 
-Forma juridică în care lucrezi nu îți schimbă obligațiile de trafic, dar îți schimbă câteva lucruri practice legate de polițe.
+## Lucrez pe PFA sau pe SRL, se schimbă ceva?
 
-**Proprietarul din acte trebuie să fie același cu titularul poliței.** Dacă mașina este înmatriculată pe firmă, RCA se emite pe firmă. Dacă este pe persoană fizică și o folosești în activitatea firmei, situația trebuie clarificată înainte, nu după un accident.
+Obligațiile din trafic sunt aceleași. Se schimbă câteva lucruri administrative.
 
-**Istoricul bonus-malus nu se transferă între persoana fizică și firmă.** Sunt proprietari diferiți din punct de vedere juridic. Mulți șoferi care își mută mașina pe SRL descoperă că pornesc de la clasa de intrare, pierzând ani de bonus. Nu este un motiv suficient ca să nu faci mutarea, dar este un cost de care e bine să știi dinainte.
+Proprietarul din talon trebuie să fie titularul poliței. Dacă mașina e pe firmă, RCA se face pe firmă. Dacă e pe tine și o folosești în firmă, clarifică asta înainte de un accident, nu după.
 
-**Dacă ai angajați care conduc mașina**, apar obligații suplimentare față de ei, iar o poliță de accidente de muncă sau de sănătate devine un beneficiu real, nu un moft. Tot aici intră și o discuție despre răspunderea firmei față de clienți.
+Istoricul bonus-malus nu trece de la persoana fizică la firmă. Sunt proprietari diferiți în ochii legii. Mulți șoferi care își mută mașina pe SRL află abia la emitere că pornesc de la clasa de intrare. Nu e un motiv să nu faci mutarea, dar e bine să știi dinainte.
 
-**Evidența documentelor** contează mai mult decât la o mașină personală. Ține într-un singur dosar, fizic sau în telefon, polițele, autorizația, copia conformă și atestatul, cu datele de expirare. Un control pe stradă sau o cerere a platformei nu așteaptă până cauți prin e-mailuri.
+Dacă ai angajați care conduc mașina, apar obligații și față de ei, iar o poliță de accidente sau de sănătate pentru șoferi devine un beneficiu real, nu un moft.
 
-## Ce greșeli văd cel mai des la șoferii din Iași?
+Și ține toate hârtiile într-un singur loc, fizic sau în telefon: polițele, autorizația, copia conformă, atestatul, cu datele de expirare. Un control pe stradă nu așteaptă până cauți prin e-mailuri.
 
-- **Poliță RCA pe uz personal** la o mașină care rulează zilnic pe platformă, luată pentru că era mai ieftină.
-- **Asigurarea de accidente luată abia când se cere dosarul**, adică în ziua în care trebuia depus.
-- **Mașina trecută pe firmă, dar polițele rămase pe persoană fizică**, sau invers. Proprietarul din acte trebuie să corespundă.
-- **Neatenția la reînnoire.** O zi fără RCA înseamnă risc de amendă, de reținere a plăcuțelor și imposibilitatea de a lucra.
-- **Ignorarea acoperirii pentru șofer.** Pasagerii și terții sunt acoperiți, dar pentru propria vătămare a șoferului vinovat este nevoie de o soluție separată, de tip accidente persoane sau asigurare de viață.
+## Ce greșeli văd la șoferii din Iași
 
-## Ce faci mai departe
+- RCA pe uz personal la mașina care rulează zilnic pe platformă, luată pentru că era mai ieftină.
+- Polița de accidente luată în ziua în care trebuia depus dosarul (îmi scriu la 9 seara, „mâine la 8 am nevoie de ea").
+- Mașina trecută pe firmă, polițele rămase pe persoană fizică. Sau invers.
+- O zi fără RCA la reînnoire. Înseamnă amendă, risc de reținere a plăcuțelor și zero curse.
+- Uitatul de propria persoană. Pasagerii și terții sunt acoperiți, dar pentru vătămarea ta, dacă ești vinovat, îți trebuie ceva separat: accidente persoane sau o asigurare de viață.
 
-Pentru partea cerută la autorizare, uită-te pe pagina de [asigurare taxi, Uber și Bolt](../asigurari/taxi-uber-bolt.html): acolo ai pașii și platforma pe care emiți online polița de accidente pentru persoanele transportate, cu documentul primit pe e-mail.
+## De unde încep
 
-Pentru obligatoriu, emite sau reînnoiește [RCA](../asigurari/rca.html) cu utilizarea reală declarată. Iar pentru mașina din care trăiești, cere o ofertă comparată de [CASCO](../asigurari/casco.html), cu utilizarea comercială declarată de la început.
+Pentru partea cerută la autorizare, ai pașii pe pagina de [asigurare taxi, Uber și Bolt](../asigurari/taxi-uber-bolt.html): emiți online polița de accidente pentru persoanele transportate și bagajele lor, documentul vine pe e-mail.
 
-Dacă tocmai îți deschizi firma sau PFA-ul și vrei să știi exact ce documente îți trebuie la dosar, scrie-mi pe WhatsApp. Îți spun ce pot emite online în aceeași zi și ce trebuie verificat la autoritatea locală.
+Pentru obligatoriu, emite sau reînnoiește [RCA](../asigurari/rca.html) cu utilizarea reală bifată. Pentru mașina din care trăiești, cere-mi o ofertă comparată de [CASCO](../asigurari/casco.html), cu utilizarea comercială declarată de la început.
+
+Dacă tocmai îți deschizi firma sau PFA-ul și nu știi ce acte îți trebuie la dosar, scrie-mi pe WhatsApp. Îți spun ce pot emite eu în aceeași zi și ce trebuie confirmat la autoritatea locală.

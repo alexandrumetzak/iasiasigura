@@ -1,77 +1,79 @@
 ---
 {"title": "Cum se calculează prețul RCA în 2026: ce contează",
- "desc": "Ce influențează prima RCA: bonus-malus, vârsta șoferului, puterea motorului, județul, perioada poliței. Explicat simplu, fără termeni de contract.",
+ "desc": "De ce vecinul plătește altceva pentru aceeași mașină: bonus-malus, vârsta, puterea motorului, județul, perioada. Explicat fără limbaj de contract.",
  "date": "2026-09-15", "updated": "2026-09-15", "category": "Auto",
  "related_products": ["rca", "casco"],
- "faq": [["De ce au prietenii mei prețuri diferite la RCA pentru aceeași mașină?", "Pentru că prima depinde de șofer (vârstă, vechime, clasa bonus-malus), de județul de înmatriculare și de modul în care fiecare asigurător evaluează riscul, nu doar de mașină."],
-         ["Scade prețul dacă am mai multe clase de bonus?", "Da. Fiecare an fără daună plătită te urcă o clasă de bonus, iar reducerea aplicată primei crește odată cu clasa."],
-         ["Pot plăti RCA în rate?", "Pentru polițele pe 12 luni, plata în rate este posibilă la unii asigurători. Opțiunea apare în pasul de plată, dacă este disponibilă pentru oferta aleasă."],
-         ["Se schimbă prețul dacă vând mașina și cumpăr alta?", "Da, pentru că mașina nouă are alți parametri. Clasa ta de bonus-malus te urmează însă pe tine ca proprietar, nu rămâne la mașina veche."],
-         ["Contează dacă mașina stă în garaj și o folosesc rar?", "Nu direct. RCA nu se calculează pe kilometri parcurși, ci pe profilul de risc al mașinii, al proprietarului și al zonei."]]}
+ "faq": [["De ce prietenii mei plătesc altceva la RCA pentru aceeași mașină?", "Pentru că prima depinde de șofer (vârstă, vechime permis, clasa bonus-malus), de județ și de cum evaluează riscul fiecare asigurător. Mașina e doar o parte din calcul."],
+         ["Scade prețul dacă am mai multe clase de bonus?", "Da. Fiecare an fără daună plătită te urcă o clasă, iar reducerea aplicată primei crește cu clasa."],
+         ["Pot plăti RCA în rate?", "La polițele pe 12 luni, unii asigurători permit plata în rate. Opțiunea apare la pasul de plată, dacă există pentru oferta aleasă."],
+         ["Se schimbă prețul dacă vând mașina și iau alta?", "Da, mașina nouă are alți parametri. Clasa de bonus-malus rămâne la tine, ca proprietar, nu la mașina veche."],
+         ["Contează că țin mașina în garaj și o scot rar?", "Nu direct. RCA nu se calculează pe kilometri, ci pe profilul de risc al mașinii, al proprietarului și al zonei."]]}
 ---
-**Pe scurt:** prețul RCA nu este fixat de stat și nu este același pentru toată lumea. Fiecare asigurător își calculează prima după profilul de risc: mașina, tu ca proprietar și șofer, județul de înmatriculare, istoricul de daune și perioada aleasă. De aceea două mașini identice pot avea prime foarte diferite, iar compararea ofertelor înainte de cumpărare chiar contează.
+Prețul RCA nu e fixat de stat și nu e același pentru toată lumea. Fiecare asigurător își face prima după profilul de risc: **mașina, tu ca proprietar și șofer, județul, istoricul de daune** și perioada aleasă. De asta două mașini identice pot avea prime foarte diferite, și de asta are rost să compari înainte să plătești.
 
-## Ce factori influențează prima RCA?
+## Ce intră în calculul primei?
 
-RCA este o asigurare obligatorie prin lege, dar asta nu înseamnă că are un preț unic. Legea stabilește ce trebuie să acopere polița și cine este obligat să o dețină, iar asigurătorii își construiesc tarifele pe baza propriilor statistici de daună.
+RCA e obligatorie prin lege, dar asta nu înseamnă preț unic. Legea spune ce trebuie să acopere polița și cine e obligat s-o aibă. Tarifele și le face fiecare asigurător, pe statisticile lui de daună.
 
-Factorii care apar, într-o formă sau alta, în calculul aproape oricărui asigurător sunt:
+Factorii care apar, într-o formă sau alta, la aproape toți:
 
-- **Caracteristicile vehiculului**: tipul (autoturism, autoutilitară, motocicletă, tractor), capacitatea cilindrică și puterea motorului, masa maximă autorizată, numărul de locuri.
-- **Utilizarea declarată**: uz personal, transport de persoane în regim de taxi sau ridesharing, școală de șoferi, închiriere. O utilizare comercială înseamnă mai multe ore pe drum și, implicit, alt risc.
-- **Profilul proprietarului**: persoană fizică sau juridică, vârsta, vechimea permisului.
-- **Județul de înmatriculare** și mediul urban sau rural.
-- **Istoricul de daune**, tradus în clasa bonus-malus.
-- **Perioada aleasă** pentru poliță.
+- mașina: tipul (autoturism, autoutilitară, motocicletă, tractor), capacitatea cilindrică și puterea, masa maximă, numărul de locuri;
+- utilizarea declarată: uz personal, taxi sau ridesharing, școală de șoferi, închiriere. Utilizare comercială înseamnă mai multe ore pe drum, alt risc;
+- proprietarul: persoană fizică sau juridică, vârsta, vechimea permisului;
+- județul de înmatriculare și mediul, urban sau rural;
+- istoricul de daune, adică clasa bonus-malus;
+- perioada poliței.
 
-Niciunul dintre acești factori nu acționează singur. Un motor puternic într-un județ cu frecvență mică de daune poate ieși mai ieftin decât un motor modest într-o zonă aglomerată, cu multe accidente raportate.
+Niciunul nu lucrează singur. Un motor puternic într-un județ cu daune puține poate ieși mai ieftin decât un motor modest într-o zonă aglomerată, cu multe tamponări raportate.
 
-## Cum funcționează clasa bonus-malus?
+## Cum funcționează bonus-malus?
 
-Sistemul bonus-malus este mecanismul prin care istoricul tău de șofer se transformă în reducere sau majorare. Există o clasă de pornire pentru cine se asigură prima dată, opt clase de bonus deasupra ei și opt clase de malus sub ea.
+Bonus-malus e mecanismul prin care istoricul tău devine reducere sau majorare. E o clasă de intrare pentru cine se asigură prima dată, opt clase de bonus deasupra ei și opt de malus dedesubt.
 
-Logica este simplă: fiecare an de asigurare încheiat fără o daună plătită din RCA-ul tău te urcă o clasă de bonus, iar reducerea aplicată primei crește. Fiecare daună plătită te coboară mai multe clase deodată, iar în zona de malus prima nu doar că își pierde reducerea, ci se majorează.
+Fiecare an fără daună plătită din RCA-ul tău te urcă o clasă, și reducerea crește. Fiecare daună plătită te coboară mai multe clase deodată, iar în zona de malus prima se majorează.
 
-Două lucruri sunt importante de reținut. Primul: clasa aparține proprietarului, nu mașinii. Dacă îți vinzi mașina și cumperi alta, bonusul te însoțește. Al doilea: contează daunele plătite, nu accidentele în care ai fost partea nevinovată. Dacă altcineva te-a lovit și dauna a fost plătită din RCA-ul lui, clasa ta rămâne neatinsă.
+Două lucruri de reținut. Clasa e a proprietarului, nu a mașinii: vinzi și cumperi alta, bonusul vine cu tine. Și contează daunele plătite, nu accidentele în care ai fost cel lovit. Dacă te-a lovit altcineva și s-a plătit din RCA-ul lui, clasa ta nu se mișcă.
 
-Istoricul se poate verifica în baza de date națională a asigurărilor auto, iar orice asigurător îl consultă automat când îți face oferta. Nu are rost să declari o clasă mai bună decât cea reală, pentru că sistemul o corectează oricum.
+Istoricul e în baza de date națională a asigurărilor auto, și orice asigurător îl citește automat când îți face oferta. N-are rost să declari o clasă mai bună, sistemul o corectează oricum.
 
-## Contează județul și mediul în care ești înmatriculat?
+## Contează județul în care e înmatriculată?
 
-Da, și uneori mai mult decât se așteaptă oamenii. Asigurătorii urmăresc frecvența și gravitatea daunelor pe zone geografice. Un județ cu trafic intens, cu multe accidente ușoare în intersecții și parcări, are o frecvență de daună mai mare decât o zonă rurală unde mașinile circulă mai puțin și mai lent.
+Da, uneori mai mult decât se așteaptă lumea. Asigurătorii urmăresc frecvența și gravitatea daunelor pe zone. Un județ cu trafic intens, cu multe tamponări în intersecții și parcări, are frecvență de daună mai mare decât o zonă rurală unde mașinile merg mai puțin și mai încet.
 
-De aici apare o întrebare pe care o primesc des: merită să înmatriculezi mașina în alt județ ca să plătești mai puțin? Răspunsul practic este nu. Adresa din certificatul de înmatriculare trebuie să corespundă realității, iar mutarea artificială a înmatriculării creează probleme administrative mult mai mari decât diferența de primă. În plus, asigurătorii se uită și la domiciliul proprietarului, nu doar la numărul de înmatriculare.
+De aici, o întrebare pe care o primesc des: are rost să înmatriculez mașina în alt județ ca să plătesc mai puțin? Nu. Adresa din talon trebuie să fie reală, iar mutarea artificială creează probleme administrative mult mai mari decât diferența de primă. Și asigurătorii se uită și la domiciliul proprietarului, nu numai la numărul de înmatriculare.
 
-## Ce perioadă alegi: o lună, șase sau douăsprezece?
+## O lună, șase luni sau un an?
 
-RCA se poate încheia pe perioade de la o lună până la un an, în funcție de situație. Raportat la o lună de acoperire, polița anuală este de regulă cea mai avantajoasă, pentru că fracționarea pe perioade scurte include costuri administrative repetate.
+RCA se poate face pe perioade de la o lună la un an. Raportat la o lună de acoperire, polița anuală iese în general cel mai bine, pentru că fracționarea pe perioade scurte aduce costuri administrative repetate.
 
-Polița scurtă își are totuși rostul ei: mașină pe care urmează să o vinzi, vehicul adus recent în țară și care așteaptă formalități, remorcă folosită doar în sezon. În rest, dacă mașina rămâne la tine, perioada de douăsprezece luni are avantajul suplimentar că îți consolidează un an întreg de istoric, deci urci mai repede în bonus.
+Polița scurtă are rostul ei: mașină pe care o vinzi curând, vehicul adus recent din afară care așteaptă acte, remorcă folosită doar vara. Dacă mașina rămâne la tine, douăsprezece luni are și avantajul că îți închide un an întreg de istoric, deci urci mai repede în bonus.
 
-Atenție la un detaliu care scapă frecvent: perioadele scurte succesive nu se adună automat într-un an de bonus în același ritm ca o poliță anuală. Dacă ai de gând să ții mașina, alege perioada lungă.
+Un detaliu care scapă multora: perioadele scurte puse cap la cap nu se adună într-un an de bonus în același ritm ca o poliță anuală. Ții mașina, alege perioada lungă. Dacă banii sunt problema, întreabă de rate la polița anuală, unde există, în loc să iei din lună în lună.
 
 ## De ce doi șoferi cu aceeași mașină plătesc diferit?
 
-Pentru că RCA nu asigură mașina, ci răspunderea ta față de ceilalți. Un șofer de douăzeci și doi de ani cu permisul de un an și un șofer de patruzeci și cinci de ani cu douăzeci de ani de condus fără daune reprezintă două riscuri statistice complet diferite, chiar dacă conduc același model.
+Pentru că RCA nu asigură mașina, ci răspunderea ta față de ceilalți. Un șofer de 22 de ani cu permis de un an și unul de 45 cu douăzeci de ani fără daune sunt două riscuri cu totul diferite, chiar dacă conduc același model.
 
-Se adaugă și felul în care fiecare companie își construiește portofoliul. O companie poate căuta activ clienți cu mașini mici în orașe mari, alta poate evita exact acest segment. De aceea aceeași persoană poate primi, în aceeași zi, oferte foarte diferite de la asigurători diferiți, fără ca vreuna să fie greșită.
+Și fiecare companie își face portofoliul cum vrea. Una caută activ mașini mici în orașe mari, alta evită fix segmentul ăsta. De asta aceeași persoană poate primi, în aceeași zi, oferte foarte diferite, fără ca vreuna să fie greșită.
 
-## Cum obții un preț corect fără să pierzi acoperiri?
+Am avut doi frați cu același model, an, motor, amândoi cu domiciliul în Iași. Unul a plătit vizibil mai mult. Diferența: cel mic avea permis de doi ani și o daună plătită cu un an înainte, cel mare era în bonus de ani buni. Aceeași mașină, alt șofer, alt preț. Niciunul nu era „păcălit".
 
-Câteva lucruri practice, în ordinea în care contează:
+## Cum iau un preț bun fără să pierd acoperiri?
 
-1. **Compară toți asigurătorii disponibili**, nu doar pe cel de anul trecut. Diferențele dintre prima cea mai mică și cea mai mare pentru același profil sunt frecvent semnificative.
-2. **Verifică datele introduse** înainte de plată: capacitatea cilindrică, puterea, masa, anul de fabricație. O greșeală acolo schimbă prima și poate crea probleme la daună.
-3. **Nu lăsa polița să expire.** Întreruperea acoperirii înseamnă atât risc de amendă și de reținere a plăcuțelor, cât și pierderea continuității care te ajută la bonus.
-4. **Declară corect utilizarea.** Dacă folosești mașina pentru ridesharing sau taxi, spune asta. O poliță emisă pe uz personal pentru o mașină folosită comercial este o problemă care apare exact în momentul cel mai prost, la daună.
-5. **Uită-te și la servicii, nu doar la primă**: decontarea directă, modul de constatare a daunei, rețeaua de unități reparatoare.
+În ordinea în care contează:
 
-Un ultim lucru despre siguranță: RCA îl despăgubește pe păgubit chiar dacă șoferul vinovat era băut sau fără permis. Diferența este că, în astfel de situații, asigurătorul plătește terțului și apoi se întoarce împotriva șoferului cu acțiune în regres, ca să recupereze banii de la el. Deci nu, RCA nu te scapă de consecințe, doar protejează victima.
+1. Compară toți asigurătorii disponibili, nu numai pe cel de anul trecut. Între cea mai mică și cea mai mare primă pentru același profil, diferența e des mare.
+2. Verifică datele înainte de plată: capacitate cilindrică, putere, masă, an de fabricație. O greșeală acolo schimbă prima și poate încurca dosarul la daună.
+3. Nu lăsa polița să expire. Înseamnă risc de amendă, de reținere a plăcuțelor și rupi continuitatea care te ajută la bonus.
+4. Declară corect utilizarea. Faci ridesharing sau taxi, spune. O poliță pe uz personal la o mașină folosită comercial e o problemă care apare fix la daună.
+5. Uită-te și la servicii: decontare directă, cum se face constatarea, rețeaua de service.
 
-## Ce faci mai departe
+Un ultim lucru: RCA îl despăgubește pe păgubit chiar dacă șoferul vinovat era băut sau fără permis. Doar că apoi asigurătorul se întoarce împotriva șoferului cu acțiune în regres și îi cere banii înapoi. Deci RCA nu te scapă de consecințe. Protejează victima.
 
-Dacă vrei să vezi cât te costă efectiv, cea mai rapidă cale este să compari ofertele pentru datele tale reale și să alegi în cunoștință de cauză. Pe pagina de [asigurare RCA](../asigurari/rca.html) găsești pașii și platforma pe care emiți polița online, în câteva minute, cu documentul primit pe e-mail.
+## De unde încep
 
-Dacă mașina este nouă, în leasing sau pur și simplu vrei să fii acoperit și pentru propriile pagube, nu doar pentru cele produse altora, merită să te uiți și la [asigurarea CASCO](../asigurari/casco.html). RCA și CASCO nu se suprapun: una acoperă paguba produsă terților, cealaltă paguba mașinii tale.
+Dacă vrei să vezi cât te costă efectiv, compară ofertele pe datele tale reale. Pe pagina de [asigurare RCA](../asigurari/rca.html) emiți polița online, documentul vine pe e-mail.
 
-Dacă rămân întrebări despre ce înseamnă un câmp din formular sau de ce îți iese o primă mai mare decât anul trecut, scrie-mi pe WhatsApp. Răspund cu ce știu și, dacă e nevoie, ne uităm împreună peste ofertă.
+Dacă mașina e nouă, în leasing sau vrei acoperire și pentru propriile pagube, nu doar pentru ale altora, uită-te și la [asigurarea CASCO](../asigurari/casco.html). Nu se suprapun: una acoperă paguba făcută terților, cealaltă mașina ta.
+
+Dacă rămân întrebări despre un câmp din formular sau de ce îți iese mai mult decât anul trecut, scrie-mi pe WhatsApp. Îți răspund cu ce știu și, dacă e nevoie, ne uităm împreună peste ofertă.

@@ -1,90 +1,92 @@
 ---
 {"title": "RCA sau CASCO? Ce acoperă fiecare și când le iei pe ambele",
- "desc": "Diferența dintre RCA și CASCO, pe cazuri reale: lovit în parcare, grindină, furt, autoaccident. Când ai nevoie doar de una și când de amândouă.",
+ "desc": "Diferența dintre RCA și CASCO pe cazuri din parcare: lovit și fugit, grindină, furt, stâlp. Când ajunge doar RCA și când ai nevoie de amândouă.",
  "date": "2026-09-12", "updated": "2026-09-12", "category": "Auto",
  "related_products": ["rca", "casco"],
- "faq": [["Dacă am CASCO, mai am nevoie de RCA?", "Da. RCA este obligatorie prin lege pentru orice vehicul înmatriculat, indiferent dacă ai sau nu CASCO. Cele două acoperă lucruri complet diferite."],
-         ["Cine îmi plătește mașina dacă m-a lovit altcineva?", "Asigurătorul RCA al șoferului vinovat. Dacă vinovatul nu poate fi identificat, de exemplu în parcare, despăgubirea vine doar dintr-o poliță CASCO proprie."],
-         ["CASCO acoperă grindina și copacul căzut peste mașină?", "De regulă da, dacă riscurile naturale sunt incluse în varianta aleasă. Se verifică lista de riscuri acoperite înainte de cumpărare."],
-         ["Pot avea CASCO fără RCA valabilă?", "Nu este o idee bună și, în practică, nu este acceptat. CASCO se încheie pentru un vehicul care circulă legal, deci cu RCA în vigoare."],
-         ["Îmi crește prima RCA dacă folosesc CASCO?", "Nu. Bonus-malus la RCA ia în calcul doar daunele plătite din polița RCA. Daunele CASCO sunt urmărite separat, de asigurătorul care a emis polița."]]}
+ "faq": [["Dacă am CASCO, mai îmi trebuie RCA?", "Da. RCA e obligatorie prin lege pentru orice vehicul înmatriculat, cu sau fără CASCO. Acoperă lucruri diferite: RCA pe ceilalți, CASCO mașina ta."],
+         ["Cine îmi plătește mașina dacă m-a lovit altcineva?", "Asigurătorul RCA al vinovatului. Dacă vinovatul nu se știe, de exemplu în parcare, despăgubirea vine doar din CASCO-ul tău."],
+         ["CASCO acoperă grindina și copacul căzut pe mașină?", "Da, dacă riscurile naturale sunt în varianta aleasă. Verifici lista de riscuri înainte să plătești, nu după grindină."],
+         ["Pot avea CASCO fără RCA valabilă?", "În practică nu. CASCO se face pentru un vehicul care circulă legal, deci cu RCA în vigoare."],
+         ["Îmi crește prima RCA dacă folosesc CASCO?", "Nu. Bonus-malus la RCA ia în calcul doar daunele plătite din RCA. Daunele CASCO le ține separat asigurătorul care a emis polița."]]}
 ---
-**Pe scurt:** RCA acoperă paguba pe care o produci altora și este obligatorie prin lege. CASCO acoperă paguba propriei tale mașini și este facultativă. Nu se suprapun și nu se înlocuiesc una pe alta: dacă tu ești vinovatul, RCA plătește victimei, iar mașina ta rămâne pe CASCO sau pe banii tăi.
+RCA acoperă paguba pe care o faci altora și e obligatorie prin lege. CASCO acoperă paguba propriei tale mașini și e facultativă. **Nu se suprapun și nu se înlocuiesc**: dacă tu ești vinovatul, RCA plătește victimei, iar mașina ta rămâne pe CASCO sau pe banii tăi. Restul articolului e despre când are rost a doua.
 
-## Care este, de fapt, diferența dintre cele două?
+## Care e diferența, pe bune?
 
-Confuzia pornește de la faptul că ambele sunt „asigurări auto”, dar ele protejează persoane diferite.
+Confuzia vine de la faptul că amândouă sunt „asigurări auto", dar apără persoane diferite.
 
-RCA este o asigurare de răspundere civilă. Obiectul ei nu este mașina ta, ci obligația ta de a repara paguba produsă altcuiva cu acea mașină: alt vehicul avariat, un gard lovit, o persoană rănită. Este obligatorie pentru orice vehicul înmatriculat sau înregistrat care circulă pe drumurile publice, iar lipsa ei aduce amendă și reținerea plăcuțelor.
+RCA e asigurare de răspundere civilă. Obiectul ei nu e mașina ta, ci obligația ta de a repara paguba făcută altcuiva cu mașina: alt vehicul, un gard, o persoană rănită. E obligatorie pentru orice vehicul înmatriculat care circulă pe drum public, iar lipsa ei aduce amendă și reținerea plăcuțelor.
 
-CASCO este o asigurare de bunuri. Obiectul ei este chiar mașina ta, indiferent cine a produs paguba, inclusiv atunci când tu ești de vină sau când vinovatul nu poate fi găsit. Este facultativă din punctul de vedere al legii, dar poate fi cerută contractual de bancă sau de firma de leasing, dacă mașina este finanțată.
+CASCO e asigurare de bunuri. Obiectul ei e chiar mașina ta, indiferent cine a produs paguba, inclusiv când tu ești de vină sau când vinovatul nu se găsește. Facultativă din punctul de vedere al legii, dar cerută prin contract de bancă sau de leasing, dacă mașina e finanțată.
 
-O formulare care ajută: RCA îi despăgubește pe ceilalți pentru ce le-ai făcut tu. CASCO te despăgubește pe tine pentru ce a pățit mașina ta.
+Cum o spun eu clienților: RCA îi despăgubește pe ceilalți pentru ce le-ai făcut tu. CASCO te despăgubește pe tine pentru ce a pățit mașina ta.
 
-## Ce se întâmplă în situații concrete?
+## Ce se întâmplă în situații reale?
 
-**Intri în spatele altei mașini într-o intersecție.** Mașina lovită se repară din RCA-ul tău. Mașina ta se repară din CASCO, dacă ai, sau din buzunarul tău, dacă nu ai.
+Intri în spatele cuiva la semafor. Mașina lovită se repară din RCA-ul tău. A ta, din CASCO dacă ai, din buzunar dacă n-ai.
 
-**Te lovește cineva și fuge, iar tu afli dimineața în parcare.** Fără un vinovat identificat, nu există o poliță RCA din care să se plătească. Aici doar CASCO-ul tău rezolvă situația. Este, de departe, cel mai frecvent scenariu în care oamenii descoperă că ar fi avut nevoie de CASCO.
+Te lovește cineva în parcare și pleacă, tu afli dimineața. Fără vinovat identificat, nu există RCA din care să se plătească. Doar CASCO-ul tău rezolvă. E, de departe, scenariul în care oamenii află că ar fi avut nevoie de CASCO.
 
-**Grindină, furtună, copac căzut.** Nu există niciun vinovat cu RCA. Riscurile naturale se acoperă din CASCO, în limita riscurilor incluse în varianta aleasă.
+Grindină, furtună, copac căzut. Nimeni nu e vinovat, deci nu există RCA. Riscurile naturale sunt pe CASCO, dacă sunt în varianta aleasă.
 
-**Furtul mașinii sau al unor componente.** Tot zona CASCO, din nou în funcție de riscurile incluse și de condițiile de securitate convenite.
+Furtul mașinii sau al unor piese. Tot CASCO, în funcție de riscurile incluse și de condițiile de securitate convenite.
 
-**Intri singur într-un stâlp sau într-o bordură.** RCA nu face nimic pentru tine, pentru că nu ai produs pagubă altcuiva. CASCO da, dacă ai.
+Intri singur într-un stâlp sau într-o bordură. RCA nu face nimic pentru tine, n-ai făcut pagubă altcuiva. CASCO, da.
 
-**Ești lovit de un șofer vinovat, identificat.** Mașina ta se repară din RCA-ul lui. Poți alege și decontarea directă la propriul asigurător RCA, dacă ai contractat acest serviciu și sunt îndeplinite condițiile.
+Te lovește un șofer vinovat, identificat. Mașina ta se repară din RCA-ul lui. Poți alege și decontarea directă la propriul asigurător RCA, dacă ai serviciul ăsta și sunt îndeplinite condițiile.
 
-## Când chiar ai nevoie de ambele?
+Am avut o clientă cu mașina de un an, parcată pe stradă în Tudor Vladimirescu. Dimineața, bara din spate spartă, nicio hârtie sub ștergător, nicio cameră în zonă. N-avea CASCO, „că nu se merită, o țin în fața blocului". A plătit reparația singură. La reînnoire a luat CASCO fără să mai discutăm.
 
-RCA o ai oricum, nu este opțional. Întrebarea reală este când merită adăugat CASCO. În practică, răspunsul este da în următoarele situații:
+## Când chiar am nevoie de amândouă?
 
-- **Mașina este în leasing sau cumpărată prin credit.** De regulă finanțatorul o cere contractual, pentru că bunul garantează finanțarea.
-- **Mașina este nouă sau relativ nouă.** O reparație la un vehicul recent, cu elemente de siguranță și senzori, ajunge repede la sume care dor.
-- **Parchezi pe stradă, în zone aglomerate.** Riscul de lovire fără vinovat identificat este mult mai mare decât în curte.
-- **Mașina este principalul tău mijloc de lucru.** Dacă fără ea nu poți munci, timpul de imobilizare costă în plus.
-- **Nu ai o rezervă financiară** din care să acoperi o reparație majoră fără să dea peste cap bugetul familiei.
+RCA o ai oricum. Întrebarea reală e când are sens să adaugi CASCO. Răspunsul e da dacă:
 
-Invers, pentru o mașină veche, cu valoare de piață mică, ținută în curte și folosită ocazional, CASCO poate să nu își merite costul. Nu există un răspuns universal, ci un calcul între cât valorează mașina, cât te-ar durea pierderea ei și cât ești dispus să plătești pentru liniște.
+- mașina e în leasing sau pe credit. Finanțatorul o cere prin contract, pentru că mașina garantează banii;
+- mașina e nouă sau aproape nouă. O reparație la un vehicul recent, cu senzori și sisteme de siguranță, ajunge repede la sume care dor;
+- parchezi pe stradă, în zone aglomerate. Riscul de lovire fără vinovat e mult mai mare decât în curte;
+- mașina e unealta ta de lucru. Fără ea nu muncești, deci imobilizarea costă separat;
+- n-ai o rezervă din care să acoperi o reparație mare fără să dai peste cap bugetul.
 
-## Ce nu acoperă niciuna dintre ele?
+Invers, la o mașină veche, cu valoare mică, ținută în curte și scoasă rar, CASCO poate să nu-și acopere costul. Nu există răspuns universal, ci un calcul: cât valorează mașina, cât te-ar durea s-o pierzi, cât ești dispus să plătești ca să dormi bine.
 
-Merită spus clar, pentru că aici apar cele mai multe dezamăgiri la daună.
+## Ce nu acoperă niciuna?
 
-Nici RCA, nici CASCO nu acoperă uzura normală și defecțiunile mecanice apărute de la sine. O asigurare acoperă evenimente bruște și neprevăzute, nu faptul că ambreiajul s-a terminat.
+Aici apar cele mai multe dezamăgiri, așa că o spun clar.
 
-CASCO exclude, în general, conducerea sub influența alcoolului sau a substanțelor interzise, conducerea fără permis valabil, participarea la competiții, folosirea mașinii în alt scop decât cel declarat și avariile produse intenționat. Lista exactă se citește în condițiile poliței, pentru că diferă de la o variantă la alta.
+Nici RCA, nici CASCO nu acoperă uzura și defecțiunile mecanice apărute de la sine. Asigurarea acoperă evenimente bruște și neprevăzute, nu faptul că ambreiajul s-a terminat.
 
-La RCA lucrurile funcționează diferit și e bine de știut de ce: dacă șoferul vinovat era băut, fără permis sau fugise de la locul accidentului, asigurătorul tot îl despăgubește pe păgubit, pentru că scopul legii este protejarea victimei. După plată însă, asigurătorul se întoarce împotriva șoferului cu o acțiune în regres și îi cere banii înapoi. Deci RCA protejează victima, nu pe vinovat.
+CASCO exclude în general condusul sub influența alcoolului sau a substanțelor interzise, condusul fără permis valabil, competițiile, folosirea mașinii în alt scop decât cel declarat și avariile făcute intenționat. Lista exactă e în condiții, diferă de la o variantă la alta.
 
-## Cum alegi varianta de CASCO potrivită?
+La RCA e altfel, și e bine de știut de ce: dacă vinovatul era băut, fără permis sau a fugit de la locul accidentului, asigurătorul tot îl despăgubește pe păgubit, pentru că legea protejează victima. După plată însă, asigurătorul se întoarce împotriva șoferului cu acțiune în regres și îi cere banii înapoi. RCA protejează victima, nu pe vinovat.
 
-Dacă ai decis că vrei CASCO, diferențele dintre oferte nu stau doar în primă. Uită-te la:
+## Cum aleg varianta de CASCO?
 
-- **Franșiză**: partea din pagubă pe care o suporți tu la fiecare daună. O franșiză mai mare înseamnă primă mai mică, dar și mai mulți bani din buzunar la fiecare eveniment.
-- **Riscurile incluse**: furt total și parțial, riscuri naturale, vandalism, evenimente în afara țării.
-- **Modul de despăgubire**: reparație în service autorizat sau partener, cu piese noi sau cu aplicarea uzurii.
-- **Condiții suplimentare**: sisteme antifurt cerute, locul de parcare declarat, cine are voie să conducă.
-- **Servicii conexe**: tractare, mașină la schimb, asistență rutieră.
+Dacă ai decis că vrei CASCO, diferențele dintre oferte nu sunt doar în primă. Uită-te la:
 
-Pentru că aceste condiții variază mult, CASCO este tipul de produs pentru care are sens o ofertă comparată, nu o alegere pe primul rezultat.
+- franșiză: partea din pagubă pe care o suporți tu la fiecare daună. Mai mare înseamnă primă mai mică, dar și mai mulți bani din buzunar la fiecare eveniment;
+- riscurile incluse: furt total și parțial, riscuri naturale, vandalism, evenimente în afara țării;
+- cum se despăgubește: reparație în service autorizat sau partener, piese noi sau cu uzură;
+- condiții: sisteme antifurt cerute, locul de parcare declarat, cine are voie să conducă;
+- servicii: tractare, mașină la schimb, asistență rutieră.
 
-## Ce faci în primele minute după un accident?
+Condițiile variază mult, așa că CASCO e produsul pentru care are sens o ofertă comparată, nu primul rezultat.
 
-Indiferent din ce poliță se va plăti, primii pași sunt aceiași și îți ușurează enorm dosarul:
+## Ce fac în primele minute după accident?
 
-1. **Asigură zona.** Triunghiuri, avarii, oameni scoși din trafic dacă este cazul.
-2. **Stabilește dacă e nevoie de poliție.** Pentru avarii ușoare, fără victime și cu acord între șoferi, se poate folosi constatarea amiabilă. Dacă există răniți, dacă vehiculul are numere străine sau dacă șoferii nu se înțeleg asupra vinovăției, se cheamă poliția.
-3. **Fotografiază tot.** Poziția mașinilor înainte de a le muta, avariile din mai multe unghiuri, numerele de înmatriculare, marcajele, semnele de circulație.
-4. **Notează datele celuilalt șofer**: nume, telefon, asigurătorul RCA și seria poliței.
-5. **Anunță asigurătorul în termenul prevăzut** în condițiile poliței și du vehiculul la constatare.
+Indiferent din ce poliță se plătește, primii pași sunt aceiași și îți ușurează mult dosarul:
 
-Un dosar cu fotografii clare și cu o constatare amiabilă completată corect se rezolvă mult mai repede decât unul reconstituit din amintiri după două săptămâni.
+1. Asiguri zona. Triunghi, avarii, oamenii scoși din trafic dacă e cazul.
+2. Vezi dacă trebuie poliția. La avarii ușoare, fără răniți și cu acord între șoferi, merge constatarea amiabilă. Dacă sunt răniți, numere străine sau nu vă înțelegeți pe vină, chemi poliția.
+3. Fotografiezi tot. Poziția mașinilor înainte să le muți, avariile din mai multe unghiuri, numerele, marcajele, semnele.
+4. Notezi datele celuilalt: nume, telefon, asigurătorul RCA, seria poliței.
+5. Anunți asigurătorul în termenul din condiții și duci mașina la constatare.
 
-## Ce faci mai departe
+Un dosar cu poze clare și o amiabilă bine făcută se rezolvă mult mai repede decât unul reconstituit din amintiri după două săptămâni.
 
-Începe cu obligatoriul: dacă polița expiră curând, vezi pașii și platforma pe pagina de [asigurare RCA](../asigurari/rca.html) și emite-o online, în câteva minute.
+## De unde încep
 
-Pentru mașina ta, adică pentru situațiile în care nu există un vinovat de la care să recuperezi, uită-te la [asigurarea CASCO](../asigurari/casco.html). Este produs cu ofertă personalizată: îmi trimiți datele mașinii și cum o folosești, iar eu compar asigurătorii și îți trimit variantele, cu franșizele și riscurile puse cap la cap, ca să vezi exact ce cumperi.
+Începe cu obligatoriul: dacă polița expiră curând, pe pagina de [asigurare RCA](../asigurari/rca.html) o emiți online, vine pe e-mail.
 
-Dacă nu ești sigur dacă merită CASCO pentru mașina ta, scrie-mi pe WhatsApp. Îți spun sincer și când nu merită.
+Pentru mașina ta, adică pentru situațiile în care n-ai de la cine recupera, uită-te la [asigurarea CASCO](../asigurari/casco.html). Îmi trimiți datele mașinii și cum o folosești, compar asigurătorii și îți trimit variantele, cu franșizele și riscurile puse una lângă alta.
+
+Dacă nu ești sigur că are rost CASCO pentru mașina ta, scrie-mi pe WhatsApp. Îți spun sincer și când nu are.

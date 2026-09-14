@@ -1,96 +1,98 @@
 ---
 {"title": "Pilonul III: merită pensia privată facultativă?",
- "desc": "Cum funcționează Pilonul III, ce înseamnă deductibilitatea contribuțiilor, când poți retrage banii și ce rol are angajatorul. Explicat fără jargon.",
+ "desc": "Cum funcționează Pilonul III, ce înseamnă că se deduce din venitul impozabil (nu din impozit), când poți lua banii și ce rol are angajatorul. Fără jargon.",
  "date": "2026-09-05", "updated": "2026-09-05", "category": "Viață",
  "related_products": ["pensii-private", "viata"],
- "faq": [["Ce înseamnă că este deductibilă contribuția la Pilonul III?", "Contribuția se scade din venitul impozabil, în limita legală anuală. Nu se scade din impozitul de plată, ci din baza pe care se calculează impozitul."],
-         ["Când pot retrage banii din Pilonul III?", "La împlinirea vârstei de pensionare și cu îndeplinirea condițiilor privind perioada de contribuție. Există situații speciale prevăzute de lege, cum ar fi invaliditatea."],
-         ["Ce se întâmplă cu banii dacă decedez?", "Sumele acumulate revin moștenitorilor, potrivit legii. Pilonul III este proprietatea participantului, nu a fondului."],
-         ["Pot contribui și eu, și angajatorul?", "Da. Contribuțiile pot veni din ambele surse, iar fiecare dintre ele are propria limită de deductibilitate prevăzută de lege."],
-         ["Ce se întâmplă dacă îmi schimb locul de muncă?", "Contul rămâne al tău. Poți continua să contribui din surse proprii sau poți suspenda contribuția fără a pierde ce ai acumulat."]]}
+ "faq": [["Ce înseamnă că e deductibilă contribuția la Pilonul III?", "Se scade din venitul impozabil, în limita anuală din lege. Nu din impozitul de plată, ci din baza pe care se calculează impozitul. Avantajul e impozitul aferent sumei deduse."],
+         ["Când pot lua banii din Pilonul III?", "La vârsta de pensionare, cu condițiile de perioadă de contribuție îndeplinite. Legea prevede și situații speciale, de exemplu invaliditatea."],
+         ["Ce se întâmplă cu banii dacă mor?", "Revin moștenitorilor, potrivit legii. Contul e proprietatea ta, nu a fondului."],
+         ["Pot contribui și eu, și angajatorul?", "Da. Contribuțiile pot veni din ambele părți și fiecare are limita ei de deductibilitate, deci avantajul fiscal se cumulează."],
+         ["Îmi schimb jobul. Ce se întâmplă cu contul?", "Rămâne al tău. Continui să contribui din banii tăi sau suspenzi contribuția, fără să pierzi ce ai strâns."]]}
 ---
-**Pe scurt:** Pilonul III este pensia privată facultativă: un cont de investiții pe termen lung, pe numele tău, la care contribui tu, angajatorul sau amândoi. Contribuțiile se deduc din venitul impozabil în limita legală anuală, banii sunt moștenibili, iar retragerea se face la vârsta de pensionare. Merită dacă ai orizont lung și disciplină.
+Pilonul III e pensia privată facultativă: un cont de investiții pe termen lung, pe numele tău, în care pui tu, angajatorul sau amândoi. Contribuțiile **se deduc din venitul impozabil**, în limita anuală din lege, banii sunt moștenibili, iar retragerea e la pensionare. Are rost dacă ai orizont lung și disciplină. Dacă n-ai fond de urgență, încă nu.
 
-## Cum funcționează, concret, Pilonul III?
+## Cum funcționează Pilonul III, până la urmă?
 
-Sistemul de pensii din România are trei componente. Pilonul I este pensia publică, bazată pe contribuțiile celor care muncesc acum. Pilonul II este pensia privată obligatorie, către care se direcționează o parte din contribuția ta la sistemul public. Pilonul III este pensia privată facultativă: acolo ajung doar banii pe care alegi tu, sau angajatorul tău, să îi pună în plus.
+Sistemul de pensii are trei componente. Pilonul I e pensia de la stat, din contribuțiile celor care muncesc acum. Pilonul II e pensia privată obligatorie, unde merge automat o parte din contribuția ta. Pilonul III e cea facultativă: acolo ajung doar banii pe care alegi tu, sau angajatorul tău, să-i pui peste.
 
-Mecanismul este simplu. Semnezi un act de aderare la un fond, stabilești o contribuție lunară și banii intră într-un cont individual pe numele tău. Fondul îi investește într-un portofoliu diversificat, potrivit strategiei declarate, iar rezultatul se reflectă în valoarea unității tale de fond. Contul este al tău: dacă îți schimbi jobul, îl iei cu tine; dacă nu mai poți contribui, îl suspenzi fără penalizări asupra sumelor deja acumulate.
+Mecanismul: semnezi un act de aderare la un fond, stabilești o contribuție lunară, banii intră într-un cont pe numele tău. Fondul îi investește după strategia declarată, iar rezultatul se vede în valoarea unității tale de fond. Contul e al tău. Schimbi jobul, îl iei cu tine. Nu mai poți contribui, îl suspenzi, fără penalizări pe ce ai strâns.
 
-Trei lucruri merită reținute din start. **Primul**: banii sunt separați de patrimoniul administratorului, deci nu dispar dacă administratorul are probleme. **Al doilea**: activitatea fondurilor este supravegheată de autoritatea de supraveghere financiară. **Al treilea**: este o investiție, deci valoarea fluctuează pe termen scurt.
+Trei lucruri de știut din start. Banii sunt separați de patrimoniul administratorului, deci nu dispar dacă administratorul are probleme. Fondurile sunt supravegheate de autoritatea de supraveghere financiară. Și e o investiție, deci valoarea fluctuează pe termen scurt.
 
-## Ce înseamnă, exact, deductibilitatea?
+## Ce înseamnă „deductibil"?
 
-Aici se face cea mai frecventă confuzie, așa că merită spus clar: contribuția la Pilonul III **se deduce din venitul impozabil, nu din impozitul de plată**.
+Aici e confuzia numărul unu, așa că o spun direct: contribuția la Pilonul III se deduce din venitul impozabil, nu din impozitul de plată.
 
-Diferența este mare. Dacă ar fi o deducere din impozit, fiecare leu contribuit ți-ar reduce impozitul cu un leu. În realitate, contribuția micșorează baza pe care se calculează impozitul, deci beneficiul efectiv este egal cu impozitul aferent sumei deduse. Este un avantaj real, dar mai mic decât pare la prima vedere.
+Diferența e mare. Dacă ar fi deducere din impozit, fiecare leu contribuit ți-ar scădea impozitul cu un leu. În realitate, contribuția micșorează baza pe care se calculează impozitul, deci avantajul e impozitul aferent sumei deduse. Real, dar mai mic decât pare la prima vedere.
 
-Deductibilitatea funcționează **în limita legală anuală**, exprimată ca un plafon pe an fiscal. Există o limită pentru contribuția proprie a angajatului și o limită separată pentru contribuția suportată de angajator, ceea ce înseamnă că, atunci când amândoi contribuie, avantajul fiscal se poate cumula.
+Deductibilitatea merge în limita anuală din lege, un plafon pe an fiscal. E o limită pentru contribuția ta și o limită separată pentru contribuția angajatorului, deci când contribuiți amândoi avantajul se cumulează.
 
-Pentru că plafoanele și regulile fiscale se modifică periodic, cifra exactă se verifică la momentul contribuției. Ce rămâne constant este principiul: statul îți acordă un avantaj fiscal ca să te încurajeze să economisești pe termen lung, dar numai până la un anumit nivel.
+Plafoanele se schimbă periodic, cifra exactă o verifici la momentul contribuției. Principiul rămâne: statul îți dă un avantaj fiscal ca să economisești pe termen lung, dar doar până la un anumit nivel.
 
-## Când poți lua banii înapoi?
+Am avut un client care venise convins că „îmi scade impozitul cu toată suma". A făcut calculul cu mine pe WhatsApp, i-a ieșit avantajul real, mult mai mic. A rămas în program, dar cu contribuție mai mică, pentru că prima cifră era un fond de urgență deghizat. Mi se pare decizia corectă.
 
-Aceasta este marea diferență față de un depozit bancar sau față de un cont de investiții obișnuit. Banii din Pilonul III nu sunt lichizi.
+## Când pot lua banii înapoi?
 
-Regula generală: retragerea se face la împlinirea vârstei standard de pensionare, cu îndeplinirea condițiilor privind perioada de contribuție și suma minimă acumulată. Legea prevede și situații speciale în care banii pot fi accesați mai devreme, de exemplu în caz de invaliditate.
+Asta e marea diferență față de un depozit sau un cont de investiții obișnuit. Banii din Pilonul III nu sunt lichizi.
 
-În caz de deces, sumele acumulate revin moștenitorilor. Este un aspect important și des ignorat: spre deosebire de pensia publică, Pilonul III este un activ personal, transmisibil.
+Regula: retragerea se face la vârsta standard de pensionare, cu condițiile de perioadă de contribuție și sumă minimă acumulată. Legea prevede și situații speciale în care banii pot fi accesați mai devreme, de exemplu invaliditatea.
 
-Concluzia practică: Pilonul III nu este un fond de urgență. Dacă nu ai deja trei-șase luni de cheltuieli puse deoparte, într-un instrument din care poți retrage rapid, acela este primul pas, nu pensia facultativă.
+La deces, sumele revin moștenitorilor. Spre deosebire de pensia de la stat, Pilonul III e un activ personal, transmisibil. Lumea nu prea știe asta.
+
+Deci Pilonul III nu e fond de urgență. Dacă nu ai deja trei-șase luni de cheltuieli puse deoparte undeva de unde le poți scoate repede, acela e primul pas. Nu pensia facultativă.
 
 ## Cui i se potrivește și cui nu?
 
-**Are sens dacă:**
+Are sens dacă:
 
-- ai un venit stabil și un orizont de cel puțin zece-cincisprezece ani până la pensionare;
-- plătești impozit pe venit, deci beneficiezi efectiv de deductibilitate;
-- angajatorul tău oferă contribuție la Pilonul III ca beneficiu, caz în care refuzul este, practic, refuzul unei părți din pachetul salarial;
-- vrei o economisire automată, din care să nu fii tentat să retragi la fiecare dorință de moment.
+- ai venit stabil și cel puțin zece-cincisprezece ani până la pensie;
+- plătești impozit pe venit, deci deductibilitatea chiar te ajută;
+- angajatorul oferă contribuție la Pilonul III ca beneficiu (refuzul înseamnă să refuzi o parte din salariu);
+- vrei o economisire automată, din care să nu poți scoate la fiecare poftă.
 
-**Are mai puțin sens dacă:**
+Are mai puțin sens dacă:
 
-- nu ai încă un fond de urgență;
-- ai datorii cu costuri mari, pe care este mai eficient să le închizi întâi;
-- ești aproape de vârsta de pensionare și orizontul nu mai permite recuperarea fluctuațiilor;
-- ai nevoie de flexibilitate totală asupra banilor în următorii ani.
+- n-ai fond de urgență;
+- ai datorii scumpe, pe care e mai eficient să le închizi întâi;
+- ești aproape de pensie și orizontul nu mai lasă loc de recuperat fluctuațiile;
+- ai nevoie de toți banii la îndemână în următorii ani.
 
-Nu îți pot spune, ca asistent în brokeraj, ce randament să aștepți sau ce fond să alegi ca investiție. Ce pot face este să îți explic mecanismul, condițiile contractuale și diferențele dintre produse, ca să iei tu decizia în cunoștință de cauză.
+Nu pot să-ți spun, ca asistent în brokeraj, ce randament să aștepți sau ce fond să alegi ca investiție. Pot să-ți explic mecanismul, condițiile din contract și diferențele dintre produse, ca să decizi tu.
 
-## Ce rol are angajatorul și de ce contează?
+## Ce rol are angajatorul?
 
-Pilonul III este unul dintre puținele beneficii extrasalariale care îi avantajează simultan pe angajat și pe firmă. Contribuția suportată de angajator are propria limită de deductibilitate, separată de cea a angajatului, iar pentru firmă este o cheltuială cu tratament fiscal favorabil, în limita prevăzută de lege.
+Pilonul III e unul dintre puținele beneficii care avantajează și angajatul, și firma. Contribuția angajatorului are limita ei de deductibilitate, separată de a angajatului, iar pentru firmă e cheltuială cu tratament fiscal favorabil, în limita legii.
 
-Pentru angajat, avantajul este evident: este bani în plus, într-un cont care îi aparține. Pentru firmă, este un instrument de retenție mai eficient decât o creștere echivalentă de salariu, pentru că se leagă de perspectiva pe termen lung, nu de luna curentă.
+Pentru angajat e simplu: bani în plus, într-un cont care e al lui. Pentru firmă, e un instrument de retenție mai bun decât o mărire echivalentă de salariu, pentru că se leagă de termenul lung, nu de luna curentă.
 
-Dacă ești angajator și te gândești să introduci beneficiul, trei detalii practice: stabilește o regulă clară de eligibilitate, comunic-o explicit în pachetul de beneficii, pentru că altfel jumătate din oameni nu află de ea, și verifică anual plafoanele fiscale, pentru că se actualizează.
+Dacă ești angajator și te gândești să-l introduci, trei lucruri: stabilește o regulă clară de eligibilitate, spune-o explicit în pachetul de beneficii (altfel jumătate din oameni nu află), și verifică anual plafoanele.
 
-Dacă ești angajat și firma oferă deja acest beneficiu, întreabă dacă trebuie să aderi tu, din proprie inițiativă. În multe organizații banii stau nefolosiți pur și simplu pentru că nimeni nu a semnat actul de aderare.
+Dacă ești angajat și firma oferă deja beneficiul, întreabă dacă trebuie să aderi tu. În multe firme banii stau nefolosiți pentru că nimeni n-a semnat actul de aderare.
 
-## La ce te uiți când alegi între fonduri?
+## La ce mă uit când aleg fondul?
 
-Fără să intru în recomandări de investiție, elementele care se compară concret sunt:
+Fără recomandări de investiție, lucrurile care se compară sunt:
 
-- **Strategia de investiții declarată**, de la conservatoare la dinamică, și cât de potrivită este cu orizontul tău de timp.
-- **Comisioanele**: cel de administrare aplicat activului și cel reținut din contribuție. Pe douăzeci de ani, diferențele mici de comision contează.
-- **Istoricul fondului**, citit corect: rezultatele trecute descriu ce s-a întâmplat, nu ce va urma.
-- **Flexibilitatea contribuției**: dacă poți mări, micșora sau suspenda fără costuri.
-- **Claritatea informării**: cât de ușor îți vezi contul, unitățile de fond și extrasul anual.
+- strategia declarată, de la conservatoare la dinamică, și cât se potrivește cu orizontul tău;
+- comisioanele: cel de administrare pe activ și cel reținut din contribuție. Pe douăzeci de ani, diferențele mici contează;
+- istoricul fondului, citit corect: ce a fost descrie trecutul, nu viitorul;
+- flexibilitatea: poți mări, micșora sau suspenda fără costuri?
+- cât de ușor îți vezi contul, unitățile și extrasul anual.
 
-## Pilon III sau asigurare de viață cu componentă de economisire?
+## Pilon III sau asigurare de viață cu economisire?
 
-Sunt produse diferite, cu scopuri diferite, iar comparația directă între ele duce adesea la alegeri proaste.
+Produse diferite, scopuri diferite. Comparate direct, duc la alegeri proaste.
 
-**Pilonul III** este, în esență, acumulare pentru pensie, cu avantaj fiscal și cu acces restricționat până la pensionare. Nu conține protecție în caz de deces dincolo de transmiterea sumelor acumulate.
+Pilonul III e acumulare pentru pensie, cu avantaj fiscal și acces restricționat până la pensionare. Nu are protecție la deces dincolo de transmiterea sumei strânse.
 
-**Asigurarea de viață** are ca funcție principală protecția: dacă ți se întâmplă ceva, familia primește o sumă care nu depinde de cât ai apucat să economisești. Variantele cu componentă de economisire adaugă și acumulare, dar costul protecției se scade din contribuție.
+Asigurarea de viață are ca funcție principală protecția: dacă ți se întâmplă ceva, familia primește o sumă care nu depinde de cât ai apucat să strângi. Variantele cu economisire adaugă și acumulare, dar costul protecției se ia din contribuție.
 
-Întrebarea corectă nu este care dintre ele este mai bun, ci care problemă o rezolvi întâi. Dacă ai copii mici și un credit ipotecar, problema urgentă este protecția. Dacă ești acoperit pe partea de risc și te gândești la venitul de peste douăzeci de ani, atunci discuția este despre acumulare.
+Întrebarea corectă nu e care e mai bun, ci ce problemă rezolvi întâi. Copii mici și credit ipotecar: protecția e urgentă. Ești acoperit pe risc și te gândești la venitul de peste douăzeci de ani: atunci vorbim de acumulare.
 
-## Ce faci mai departe
+## De unde încep
 
-Dacă vrei să înțelegi ce presupune aderarea, ce contribuție lunară are sens pentru bugetul tău și cum se corelează cu ce oferă angajatorul, pornește de la pagina de [pensie privată Pilon III](../asigurari/pensii-private.html). Este produs cu ofertă personalizată: îmi spui situația, iar eu îți pun pe masă variantele și condițiile lor, comparate.
+Dacă vrei să înțelegi ce presupune aderarea, ce contribuție lunară are sens pentru bugetul tău și cum se leagă de ce oferă angajatorul, pornește de la pagina de [pensie privată Pilon III](../asigurari/pensii-private.html). Îmi spui situația, îți pun pe masă variantele și condițiile lor, comparate.
 
-Dacă ai familie și credite, verifică întâi partea de protecție: pagina de [asigurare de viață](../asigurari/viata.html) explică ce acoperă și în ce situații ajută cel mai mult.
+Dacă ai familie și credite, verifică întâi partea de protecție: pagina de [asigurare de viață](../asigurari/viata.html) explică ce acoperă și când ajută cel mai mult.
 
-Dacă vrei să discutăm în ordinea corectă, fond de urgență, protecție, apoi acumulare, scrie-mi pe WhatsApp. Îți spun sincer și când cea mai bună variantă este să nu cumperi nimic încă.
+Dacă vrei să le luăm în ordinea corectă, fond de urgență, protecție, apoi acumulare, scrie-mi pe WhatsApp. Îți spun sincer și când varianta bună e să nu cumperi nimic încă.
