@@ -53,3 +53,16 @@ def test_related_and_faq_answers_are_safe(out):
         assert len(p["related"]) == 3 and all(s in build.BY_SLUG for s in p["related"]), p["slug"]
         for _, a in p["faq"]:
             assert "<" not in a and "&" not in a, (p["slug"], a)
+
+
+def test_zones_rendered_and_distinct(out):
+    texts = []
+    for s, _ in build.ZONE_LINKS:
+        h = read(out, f"zone/{s}.html")
+        assert h.count("<h1") == 1 and '"areaServed"' in h and '"@type": "FAQPage"' in h
+        body = re.sub(r"<[^>]+>", " ", h.split('<main id="main">')[1].split("</main>")[0])
+        texts.append(set(body.split()))
+    for i in range(len(texts)):
+        for j in range(i + 1, len(texts)):
+            shared = len(texts[i] & texts[j]) / min(len(texts[i]), len(texts[j]))
+            assert shared < 0.75, f"zone {i} și {j} prea asemănătoare ({shared:.0%})"

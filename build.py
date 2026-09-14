@@ -15,6 +15,7 @@ def load_json(name):
 PRODUCTS = load_json("products.json")
 BY_SLUG = {p["slug"]: p for p in PRODUCTS}
 HOME = load_json("home.json")
+ZONES = load_json("zones.json")
 WRITTEN = []
 
 def write(root, path, content):
@@ -112,6 +113,28 @@ def render_catalog():
                   "Lista completă: RCA, CASCO, locuință, PAD, călătorie, sănătate, viață, pensii, malpraxis, răspundere civilă, taxi/Uber, ROTR, CMR, IMM, agricole.",
                   path, [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
 
+# ---------------------------------------------------------------- ZONE
+def render_zone(z):
+    R = "../"; path = f"/zone/{z['slug']}.html"
+    crumbs = [("Acasă", "/"), ("Zone", "/zone/iasi.html"), (z["name"], None)]
+    local = "".join(f"<p>{html.escape(x)}</p>" for x in z["local"])
+    cards = "".join(T.product_card(BY_SLUG[s], R) for s in z["products"] if s in BY_SLUG)
+    others = [(f"zone/{s}.html", n) for s, n in ZONE_LINKS if s != z["slug"]]
+    wa = f"Bună Marina, sunt din {z['name']} și vreau informații despre o asigurare."
+    body = f"""
+  <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>{html.escape(z['h1'])}</h1><p class="lead">{html.escape(z['answer'])}</p>
+    <div class="cta-row"><a href="{T.wa_link(wa)}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie pe WhatsApp</span></a><a href="{R}asigurari/" class="btn btn-primary">Vezi asigurările</a></div></div></section>
+  <div class="container prose"><h2>Asigurări pentru {html.escape(z['name'])}: ce contează local</h2>{local}
+    <h2>Cele mai cerute asigurări în {html.escape(z['name'])}</h2><div class="grid">{cards}</div>
+    {T.faq_block([tuple(x) for x in z['faq']])}
+    <p>Oriunde ai fi în România, cumperi online pe platforma brokerului, iar Marina răspunde pe WhatsApp. Întâlnirile față în față se fac la Iași, cu programare.</p>
+    {T.related_block("Alte zone", others, R)}{author_box(R)}</div>"""
+    service = {"@context": "https://schema.org", "@type": "Service", "name": f"Asigurări {z['name']}",
+               "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
+               "areaServed": {"@type": "City", "name": z["name"], "containedInPlace": {"@type": "AdministrativeArea", "name": f"Județul {z['county']}"}},
+               "url": T.SITE + path}
+    return T.page(z["title"], z["desc"], path, [service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)], R, body, wa)
+
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):
     WRITTEN.clear()
@@ -119,6 +142,8 @@ def build(root=ROOT):
     write(root, "/asigurari/index.html", render_catalog())
     for p in PRODUCTS:
         write(root, f"/asigurari/{p['slug']}.html", render_product(p, ARTICLES_BY_SLUG))
+    for z in ZONES:
+        write(root, f"/zone/{z['slug']}.html", render_zone(z))
     return list(WRITTEN)
 
 if __name__ == "__main__":
