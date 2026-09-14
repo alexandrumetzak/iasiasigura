@@ -146,7 +146,7 @@ def header(R, wa_text):
     <div class="container header-inner">
       <a href="{R}index.html" class="brand">
         <span class="brand-mark" aria-hidden="true">Ia</span>
-        <span class="brand-text"><strong>Iași<em>Asigură</em></strong><small>{S['tagline']}</small></span>
+        <span class="brand-text"><strong>Iași<em>Asigură</em></strong><span class="sr-only"> — </span><small>{S['tagline']}</small></span>
       </a>
       <nav class="nav" aria-label="Navigare principală">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Deschide meniul"><span></span><span></span><span></span></button>

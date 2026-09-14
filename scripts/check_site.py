@@ -46,7 +46,8 @@ for dp, dns, fs in os.walk(ROOT):
                     if href.endswith("/"): target = os.path.join(target, "index.html")
                     if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
             if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
-            if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
+        # gate de release: verifică TODO-MARINA pe orice .html generat, inclusiv 404.html
+        if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
         # verificarea de assets rulează și pentru 404.html (are src=/href= absolute, ex. /js/script.js)
         for src in re.findall(r'src="([^"#?]+)', t):
             if src.startswith(("http", "//", "data:")): continue
