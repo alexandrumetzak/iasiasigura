@@ -113,3 +113,9 @@ def test_every_article_has_three_related_cards(out):
     for a in build.load_articles():
         h = read(out, f"blog/{a['slug']}.html")
         assert h.count('class="card article-card"') == 3, (a["slug"], h.count('class="card article-card"'))
+
+
+def test_check_site_release_fails_while_placeholders_exist(out):
+    r = subprocess.run([sys.executable, "scripts/check_site.py", "--release", str(out)], capture_output=True, text=True)
+    assert r.returncode != 0
+    assert "TODO-MARINA" in (r.stdout + r.stderr)

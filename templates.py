@@ -144,7 +144,7 @@ def header(R, wa_text):
   <a class="skip-link" href="#main">Sari la conținut</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="{R}index.html" class="brand" aria-label="{S['brand']} — acasă">
+      <a href="{R}index.html" class="brand">
         <span class="brand-mark" aria-hidden="true">Ia</span>
         <span class="brand-text"><strong>Iași<em>Asigură</em></strong><small>{S['tagline']}</small></span>
       </a>

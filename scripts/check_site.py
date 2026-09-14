@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Verifică output-ul generat. Folosire: python3 scripts/check_site.py [--online] [--no-links] [root]"""
+"""Verifică output-ul generat. Folosire: python3 scripts/check_site.py [--online] [--no-links] [--release] [root]"""
 import json, os, re, sys, urllib.request
 
 ONLINE = "--online" in sys.argv
 CHECK_LINKS = "--no-links" not in sys.argv
-args = [a for a in sys.argv[1:] if a not in ("--online", "--no-links")]
+RELEASE = "--release" in sys.argv
+args = [a for a in sys.argv[1:] if a not in ("--online", "--no-links", "--release")]
 ROOT = os.path.abspath(args[0]) if args else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://iasiasigura.com"
 problems, titles, descs, ss_urls = [], {}, {}, set()
@@ -45,6 +46,7 @@ for dp, dns, fs in os.walk(ROOT):
                     if href.endswith("/"): target = os.path.join(target, "index.html")
                     if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
             if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
+            if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
         # verificarea de assets rulează și pentru 404.html (are src=/href= absolute, ex. /js/script.js)
         for src in re.findall(r'src="([^"#?]+)', t):
             if src.startswith(("http", "//", "data:")): continue
