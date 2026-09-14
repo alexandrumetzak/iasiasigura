@@ -39,16 +39,17 @@ for dp, dns, fs in os.walk(ROOT):
                 except Exception as e: problems.append(f"{r}: JSON-LD invalid: {e}")
             if "destine.smartsales.ro" in t or "/presale/" in t: problems.append(f"{r}: link smartsales interzis")
             ss_urls.update(re.findall(r'https://metzak-marina\.smartsales\.ro[^"\s]*', t))
-            if CHECK_LINKS:
-                for href in re.findall(r'href="([^"#?]+)', t):
-                    if href.startswith(("http", "mailto:", "tel:")): continue
-                    target = os.path.normpath(os.path.join(dp, href))
-                    if href.endswith("/"): target = os.path.join(target, "index.html")
-                    if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
             if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
         # gate de release: verifică TODO-MARINA pe orice .html generat, inclusiv 404.html
         if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
-        # verificarea de assets rulează și pentru 404.html (are src=/href= absolute, ex. /js/script.js)
+        # linkurile și asset-urile se verifică și pentru 404.html (are href=/src= absolute, ex. /js/script.js)
+        if CHECK_LINKS:
+            for href in re.findall(r'href="([^"#?]+)', t):
+                if href.startswith(("http", "//", "mailto:", "tel:", "data:")): continue
+                if href.startswith("/"): target = os.path.normpath(os.path.join(ROOT, href.lstrip("/")))
+                else: target = os.path.normpath(os.path.join(dp, href))
+                if href.endswith("/"): target = os.path.join(target, "index.html")
+                if not os.path.exists(target): problems.append(f"{r}: link rupt {href}")
         for src in re.findall(r'src="([^"#?]+)', t):
             if src.startswith(("http", "//", "data:")): continue
             if src.startswith("/"): target = os.path.normpath(os.path.join(ROOT, src.lstrip("/")))
@@ -71,6 +72,9 @@ for u in sorted(ss_urls):
             code = urllib.request.urlopen(req, timeout=20).getcode()
             if code != 200: problems.append(f"{u}: HTTP {code}")
         except Exception as e: problems.append(f"{u}: {e}")
+
+# GitHub Pages nu trebuie să ruleze Jekyll (content/blog/*.md au frontmatter parsabil YAML)
+if not os.path.exists(os.path.join(ROOT, ".nojekyll")): problems.append(".nojekyll lipsește din rădăcină")
 
 print(f"{len(titles)} pagini verificate, {len(ss_urls)} URL-uri smartsales")
 for p in problems: print("PROBLEMĂ:", p)

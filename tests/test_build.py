@@ -34,9 +34,25 @@ def test_static_pages_and_technical_files(out):
         assert read(out, f"{p}.html").count("<h1") == 1
     assert "RAF 160354" in read(out, "despre.html") and "programare" in read(out, "contact.html")
     assert read(out, "404.html").count("<h1") == 1
-    robots = read(out, "robots.txt"); assert "GPTBot" in robots and "ClaudeBot" in robots and "Sitemap: https://iasiasigura.com/sitemap.xml" in robots
+    robots = read(out, "robots.txt")
+    assert "GPTBot" in robots and "ClaudeBot" in robots and "Sitemap: https://iasiasigura.com/sitemap.xml" in robots
+    assert "Disallow: /content/" in robots and robots.count("Disallow: /content/") == robots.count("Allow: /")
     sm = read(out, "sitemap.xml"); assert sm.count("<url>") >= 40 and "<lastmod>" in sm and "404" not in sm
     llms = read(out, "llms.txt"); assert llms.startswith("# IașiAsigură") and "/asigurari/rca.html" in llms
+
+
+def test_nojekyll_written_to_output_root(out):
+    assert (out / ".nojekyll").exists()
+
+
+def test_sitemap_is_deterministic_and_uses_source_dates(tmp_path_factory):
+    a, b = tmp_path_factory.mktemp("sm_a"), tmp_path_factory.mktemp("sm_b")
+    build.build(str(a)); build.build(str(b))
+    sa = read(a, "sitemap.xml"); sb = read(b, "sitemap.xml")
+    assert sa == sb, "sitemap.xml nu e identic între două build-uri consecutive"
+    assert ".nojekyll" not in sa
+    art = build.load_articles()[0]
+    assert f'<loc>https://iasiasigura.com/blog/{art["slug"]}.html</loc><lastmod>{art["updated"]}</lastmod>' in sa
 
 
 def test_404_uses_root_absolute_links(out):
@@ -67,6 +83,13 @@ def test_catalog_lists_pf_and_pj(out):
     assert "Pentru tine" in h and "Pentru firma ta" in h and h.count('class="card product-card"') >= 16
 
 def test_related_and_faq_answers_are_safe(out):
+    # faq_block inserează răspunsurile brut (intenționat, pentru markup inline);
+    # testul e garda: niciun răspuns din content/ nu are voie să conțină < sau &
+    for _, a in build.HOME["faq"]:
+        assert "<" not in a and "&" not in a, ("home", a)
+    for art in build.load_articles():
+        for _, a in art.get("faq", []):
+            assert "<" not in a and "&" not in a, (art["slug"], a)
     for p in build.PRODUCTS:
         assert len(p["related"]) == 3 and all(s in build.BY_SLUG for s in p["related"]), p["slug"]
         for _, a in p["faq"]:

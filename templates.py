@@ -29,7 +29,10 @@ def wa_link(text):
     return f"https://wa.me/{P['wa_number']}?text=" + urllib.parse.quote(text)
 
 def ldjson(obj):
-    return ('<script type="application/ld+json">\n' + json.dumps(obj, ensure_ascii=False, indent=2) + '\n</script>')
+    # „<" escapat ca \u003c: JSON-ul rămâne valid, dar un „</script>" dintr-o valoare
+    # nu poate închide blocul și nu poate ieși din <script>.
+    body = json.dumps(obj, ensure_ascii=False, indent=2).replace("<", "\\u003c")
+    return ('<script type="application/ld+json">\n' + body + '\n</script>')
 
 def breadcrumb(items):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -60,7 +63,7 @@ def agency_node():
                         "addressRegion": a["region"], "postalCode": a["postal"], "addressCountry": a["country"]},
             "geo": {"@type": "GeoCoordinates", "latitude": P["geo"]["lat"], "longitude": P["geo"]["lng"]},
             "areaServed": {"@type": "Country", "name": "România"},
-            "sameAs": [P["facebook"]], "priceRange": "Gratuit pentru client"}
+            "sameAs": [P["facebook"]]}
 
 def website_node():
     return {"@context": "https://schema.org", "@type": "WebSite", "name": S["brand"], "url": SITE + "/",
@@ -78,12 +81,16 @@ def cta_block(p, R):
     </div>"""
     return f"""
     <div class="cta-row">
-      <a href="{wa}" class="btn btn-wa btn-primary-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
+      <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
       <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Formular de ofertă pe platformă</a>
       <p class="cta-note">Produs cu ofertă personalizată: Marina compară asigurătorii și îți trimite oferta pe WhatsApp sau e-mail. Gratuit.</p>
     </div>"""
 
 def faq_block(faqs, heading="Întrebări frecvente"):
+    # Întrebarea e escapată; RĂSPUNSUL e inserat brut, intenționat, ca să permită
+    # markup inline (<strong>, <a>) scris în content/. Siguranța e asigurată de
+    # teste: test_related_and_faq_answers_are_safe verifică toate răspunsurile
+    # din products.json, zones.json, home.json și din frontmatter-ul articolelor.
     items = "".join(f'<details class="faq-item"><summary><h3>{html.escape(q)}</h3></summary><div class="faq-a"><p>{a}</p></div></details>' for q, a in faqs)
     return f'\n    <section class="faq" id="faq"><h2>{heading}</h2>{items}</section>'
 
@@ -165,7 +172,7 @@ def footer(R, wa_text):
     <div class="container footer-grid">
       <div>
         <p class="footer-brand"><strong>Iași<em>Asigură</em></strong> · {S['tagline']}</p>
-        <p class="footer-desc">Asigurări online pentru toată România, cu o persoană reală pe WhatsApp: {P['name']}, {P['job_title'].lower()}.</p>
+        <p>Asigurări online pentru toată România, cu o persoană reală pe WhatsApp: {P['name']}, {P['job_title'].lower()}.</p>
         <p><a href="{P['facebook']}" rel="noopener" target="_blank">Facebook</a></p>
       </div>
       <div><h3>Asigurări</h3><ul>

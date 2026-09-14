@@ -1,31 +1,71 @@
 User-agent: *
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: Claude-User
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: CCBot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /content/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /tests/
 
 Sitemap: https://iasiasigura.com/sitemap.xml

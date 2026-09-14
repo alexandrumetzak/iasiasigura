@@ -1,4 +1,4 @@
-import json, re
+import json
 import templates as T
 
 RCA = {"slug": "rca", "name": "Asigurare RCA", "type": "online", "path": "/rca",
@@ -24,6 +24,12 @@ def test_ldjson_wraps_valid_json():
     assert s.startswith('<script type="application/ld+json">')
     inner = s.split(">", 1)[1].rsplit("<", 1)[0]
     assert json.loads(inner)["name"] == "Ăț"
+
+def test_ldjson_escapes_angle_bracket_so_script_cannot_break_out():
+    s = T.ldjson({"a": "</script>"})
+    inner = s.split(">", 1)[1].rsplit("<", 1)[0]
+    assert "</script>" not in inner and "\\u003c" in inner
+    assert json.loads(inner)["a"] == "</script>"
 
 def test_breadcrumb_positions_and_absolute_urls():
     b = T.breadcrumb([("Acasă", "/"), ("Asigurări", "/asigurari/"), ("RCA", None)])

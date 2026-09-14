@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Generator IașiAsigură. Rulează: python3 build.py  (scrie HTML în rădăcina repo-ului)."""
-import html, json, os, re, shutil, sys, datetime
+import html, json, os, re, shutil, subprocess, sys, datetime
 import markdown
 import templates as T
 
@@ -21,13 +21,39 @@ ZONE_LINKS = [(z["slug"], z["name"]) for z in ZONES]
 PAGES_META = load_json("pages/meta.json")
 STATIC = ["css", "js", "assets", "site.webmanifest"]
 WRITTEN = []
+LASTMOD = {}   # path generat -> data ISO a SURSEI (pentru sitemap; nu mtime-ul fișierului generat)
+TODAY = datetime.date.today().isoformat()
+_GIT_DATE_CACHE = {}
 
-def write(root, path, content):
+def source_date(path):
+    """Data ultimului commit pentru o sursă din repo (YYYY-MM-DD).
+
+    Folosită pentru <lastmod> în sitemap: derivă din sursă, nu din mtime-ul
+    fișierului generat, ca două build-uri consecutive să dea același sitemap.
+    Dacă git lipsește sau fișierul nu e urmărit, cade pe data de azi.
+    """
+    if path in _GIT_DATE_CACHE:
+        return _GIT_DATE_CACHE[path]
+    d = ""
+    try:
+        r = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path],
+                           cwd=ROOT, capture_output=True, text=True, timeout=15)
+        if r.returncode == 0:
+            d = r.stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        d = ""
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
+        d = TODAY
+    _GIT_DATE_CACHE[path] = d
+    return d
+
+def write(root, path, content, lastmod=None):
     full = os.path.join(root, path.lstrip("/"))
     os.makedirs(os.path.dirname(full) or root, exist_ok=True)
     with open(full, "w", encoding="utf-8") as f:
         f.write(content)
     WRITTEN.append(path)
+    LASTMOD[path] = lastmod or TODAY
 
 def crumbs_html(items, R):
     lis = "".join(f'<li><a href="{R}{u.lstrip("/") if u != "/" else "index.html"}">{html.escape(n)}</a></li>' if u else f"<li>{html.escape(n)}</li>" for n, u in items)
@@ -78,7 +104,8 @@ def render_product(p, articles_by_slug):
     R = "../"; path = f"/asigurari/{p['slug']}.html"
     crumbs = [("Acasă", "/"), ("Asigurări", "/asigurari/"), (p["name"], None)]
     covers = "".join(f"<li>{html.escape(x)}</li>" for x in p["covers"])
-    nots = "".join(f"<li>{html.escape(x)}</li>" for x in p["not_covers"])
+    nots = "".join(f"<li>{html.escape(x)}</li>" for x in p.get("not_covers", []))
+    nots_col = f'<div><h2>Ce nu acoperă</h2><ul class="cross">{nots}</ul></div>' if nots else ""
     docs = "".join(f"<li>{html.escape(x)}</li>" for x in p["docs"])
     steps = "".join(f'<div class="step"><h3>{html.escape(t)}</h3><p>{html.escape(d)}</p></div>' for t, d in p["steps"])
     rel_products = [(f"asigurari/{s}.html", BY_SLUG[s]["name"]) for s in p["related"] if s in BY_SLUG]
@@ -87,7 +114,7 @@ def render_product(p, articles_by_slug):
   <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}
     <h1>{html.escape(p['h1'])}</h1><p class="lead">{html.escape(p['answer'])}</p>{T.cta_block(p, R)}</div></section>
   <div class="container prose">
-    <div class="two-col"><div><h2>Ce acoperă</h2><ul class="check">{covers}</ul></div><div><h2>Ce nu acoperă</h2><ul class="cross">{nots}</ul></div></div>
+    <div class="two-col"><div><h2>Ce acoperă</h2><ul class="check">{covers}</ul></div>{nots_col}</div>
     <h2>Acte necesare</h2><ul>{docs}</ul>
     <h2>Cum cumperi în 3 pași</h2><div class="steps">{steps}</div>
     {T.faq_block([tuple(x) for x in p['faq']])}
@@ -98,7 +125,8 @@ def render_product(p, articles_by_slug):
     service = {"@context": "https://schema.org", "@type": "Service", "name": p["name"], "serviceType": p["service_type"],
                "provider": {"@id": T.AGENCY_ID}, "areaServed": {"@type": "Country", "name": "România"},
                "url": T.SITE + path, "description": p["answer"]}
-    jsonld = [service, T.faqpage([tuple(x) for x in p["faq"]]), T.breadcrumb(crumbs)]
+    # agency_node primul, ca provider @id din Service să se rezolve pe pagină
+    jsonld = [T.agency_node(), service, T.faqpage([tuple(x) for x in p["faq"]]), T.breadcrumb(crumbs)]
     return T.page(p["title"], p["desc"], path, jsonld, R, body, p["wa_text"], og_image="/assets/og-produs.png")
 
 def render_catalog():
@@ -135,7 +163,9 @@ def render_zone(z):
                "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
                "areaServed": {"@type": "City", "name": z["name"], "containedInPlace": {"@type": "AdministrativeArea", "name": f"Județul {z['county']}"}},
                "url": T.SITE + path}
-    return T.page(z["title"], z["desc"], path, [service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)], R, body, wa,
+    # agency_node primul, ca provider @id din Service să se rezolve pe pagină
+    jsonld = [T.agency_node(), service, T.faqpage([tuple(x) for x in z["faq"]]), T.breadcrumb(crumbs)]
+    return T.page(z["title"], z["desc"], path, jsonld, R, body, wa,
                   geo_region=z["geo_region"], geo_placename=z["name"])
 
 
@@ -243,22 +273,21 @@ def render_404():
     return out.replace('content="index, follow,', 'content="noindex, follow,')
 
 # ---------------------------------------------------------------- FIȘIERE TEHNICE
-def render_sitemap(paths, root):
-    today = datetime.date.today().isoformat()
+def render_sitemap(paths):
+    """<lastmod> vine din LASTMOD (data sursei), nu din mtime-ul fișierului generat."""
     urls = []
     for p in paths:
         if p.endswith("404.html"): continue
         loc = T.SITE + (p[:-len("index.html")] if p.endswith("index.html") else p)
-        try:
-            lastmod = datetime.date.fromtimestamp(os.path.getmtime(os.path.join(root, p.lstrip("/")))).isoformat()
-        except OSError:
-            lastmod = today
+        lastmod = LASTMOD.get(p, TODAY)
         urls.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod></url>")
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n"
 
 def render_robots():
     bots = ["*", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "PerplexityBot", "Google-Extended", "CCBot", "Bingbot"]
-    return "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {T.SITE}/sitemap.xml\n"
+    # sursele repo-ului ajung pe GitHub Pages odată cu output-ul generat; nu au ce căuta în index
+    rules = "Allow: /\nDisallow: /content/\nDisallow: /docs/\nDisallow: /scripts/\nDisallow: /tests/\n"
+    return "".join(f"User-agent: {b}\n{rules}\n" for b in bots) + f"Sitemap: {T.SITE}/sitemap.xml\n"
 
 def render_llms(arts):
     P = T.P
@@ -282,26 +311,29 @@ def copy_static(root):
 
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):
-    WRITTEN.clear()
+    WRITTEN.clear(); LASTMOD.clear()
     arts = load_articles()
     ARTICLES_BY_SLUG.clear(); ARTICLES_BY_SLUG.update({a["slug"]: a for a in arts})
     LATEST_ARTICLES_HTML[0] = "".join(article_card(a, "") for a in arts[:3])
-    write(root, "/index.html", render_home())
-    write(root, "/asigurari/index.html", render_catalog())
+    d_products = source_date("content/products.json")
+    d_zones = source_date("content/zones.json")
+    write(root, "/index.html", render_home(), lastmod=source_date("content/home.json"))
+    write(root, "/asigurari/index.html", render_catalog(), lastmod=d_products)
     for p in PRODUCTS:
-        write(root, f"/asigurari/{p['slug']}.html", render_product(p, ARTICLES_BY_SLUG))
+        write(root, f"/asigurari/{p['slug']}.html", render_product(p, ARTICLES_BY_SLUG), lastmod=d_products)
     for z in ZONES:
-        write(root, f"/zone/{z['slug']}.html", render_zone(z))
-    write(root, "/blog/index.html", render_blog_index(arts))
+        write(root, f"/zone/{z['slug']}.html", render_zone(z), lastmod=d_zones)
+    write(root, "/blog/index.html", render_blog_index(arts), lastmod=max(a["updated"] for a in arts))
     for a in arts:
-        write(root, f"/blog/{a['slug']}.html", render_article(a, arts))
+        write(root, f"/blog/{a['slug']}.html", render_article(a, arts), lastmod=a["updated"])
     for k in PAGES_META:
-        write(root, f"/{k}.html", render_static(k))
+        write(root, f"/{k}.html", render_static(k), lastmod=source_date(f"content/pages/{k}.html"))
     write(root, "/404.html", render_404())
     copy_static(root)
+    write(root, "/.nojekyll", "")   # GitHub Pages: fără Jekyll (altfel content/blog/*.md ar fi randate)
     write(root, "/robots.txt", render_robots())
     write(root, "/llms.txt", render_llms(arts))
-    write(root, "/sitemap.xml", render_sitemap([p for p in WRITTEN if p.endswith(".html")], root))
+    write(root, "/sitemap.xml", render_sitemap([p for p in WRITTEN if p.endswith(".html")]))
     return list(WRITTEN)
 
 if __name__ == "__main__":

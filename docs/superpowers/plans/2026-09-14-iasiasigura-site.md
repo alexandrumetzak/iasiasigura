@@ -1197,7 +1197,7 @@ Lista celor 12 articole (slug · titlu · categorie · related_products · unghi
 6. `asigurare-calatorie-grecia-turcia` · Asigurare de călătorie pentru Grecia, Turcia, Bulgaria: ce trebuie să știi · Călătorie · calatorie, storno · EHIC vs privată, sume, sporturi, copii
 7. `malpraxis-asistent-medical-rezident` · Asigurarea de malpraxis pentru rezidenți și asistenți medicali · Sănătate · malpraxis, raspundere-civila · cine e obligat, limite, ce acoperă, cum se cumpără online
 8. `asigurare-bolt-uber-iasi` · Șofer Bolt sau Uber în Iași: ce asigurări îți trebuie · Auto · taxi-uber-bolt, rca, casco · autorizare, accidente pasageri, RCA cu utilizare comercială
-9. `rotr-ce-este-cat-costa` · ROTR: ce este, cine are nevoie și cum se obține · Firme · rotr, cargo-cmr · licența ARR, sume, acte
+9. `rotr-ce-este-si-cine-are-nevoie` · ROTR: ce este, cine are nevoie și cum se obține · Firme · rotr, cargo-cmr · licența ARR, sume, acte
 10. `pilon-3-pensie-privata-merita` · Pilonul III: merită pensia privată facultativă? · Viață · pensii-private, viata · deductibilitate, randament, retragere, angajator
 11. `asigurare-sanatate-privata-vs-cas` · Asigurare de sănătate privată vs CAS: ce primești în plus · Sănătate · sanatate, viata · acces clinici, spitalizare, preexistente, firmă
 12. `ce-asigurari-ii-trebuie-unui-pfa-sau-imm` · Ce asigurări îi trebuie unui PFA sau unei firme mici · Firme · imm, raspundere-civila, cargo-cmr · obligatorii vs recomandate, pe tip de activitate

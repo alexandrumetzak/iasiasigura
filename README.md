@@ -63,7 +63,7 @@ python3 build.py                       # generează tot output-ul static din con
 python3 scripts/check_site.py          # verifică output-ul (fără acces la internet)
 python3 scripts/check_site.py --online # + verifică că URL-urile smartsales răspund HTTP 200
 python3 scripts/check_site.py --release # + FAIL dacă vreo pagină generată conține "TODO-MARINA"
-python3 -m pytest -q                    # 28 teste (build, template, check_site)
+python3 -m pytest -q                    # teste (build, template, check_site); `pytest -q` merge la fel, via pyproject.toml
 ```
 
 `check_site.py` verifică: exact un `<h1>` pe pagină, `<title>` unic ≤ 60 caractere, `description` unică ≤ 155 caractere, `canonical` corect, JSON-LD valid, niciun link către `destine.smartsales.ro` sau `/presale/`, toate URL-urile `metzak-marina.smartsales.ro` au `utm_source=iasiasigura`, linkurile interne rezolvă la fișiere existente, și că nicio pagină nu „pare să conțină un preț" (regex pe „de la/doar/numai N lei/eur").
@@ -117,7 +117,7 @@ Fiecare produs e un obiect în `content/products.json`, cu (printre altele) câm
 
 - `slug`, `name`, `type` (`"online"` = buton „Cumpără online” către smartsales; `"consultanta"` = buton „Cere ofertă pe WhatsApp”), `path` (path-ul produsului pe `metzak-marina.smartsales.ro`), `group` (`["pf"]`, `["pj"]` sau ambele), `icon`, `short`, `wa_text`, `service_type`.
 - SEO: `title` (≤ 60 caractere), `desc` (≤ 155 caractere), `h1`, `answer`.
-- Conținut: `covers`, `not_covers` (doar la produsele auto/relevante), `docs`, `steps`, `faq` (perechi întrebare/răspuns), `articles` (slug-uri de articole din blog care menționează produsul).
+- Conținut: `covers`, `not_covers` (opțional — dacă lipsește sau e gol, coloana „Ce nu acoperă” nu se randează), `docs`, `steps`, `faq` (perechi întrebare/răspuns), `articles` (slug-uri de articole din blog care menționează produsul).
 
 **`articles` se mapează manual, invers**: când scrii un articol nou cu `related_products`, adaugă și tu manual slug-ul articolului în `articles` al produsului corespunzător din `products.json` — nu se generează automat.
 
@@ -163,7 +163,7 @@ DNS pe **Cloudflare** (gratuit):
 - `www` — CNAME → `alexandrumetzak.github.io`.
 - **Email Routing**: `contact@iasiasigura.com` → Gmail-ul Marinei.
 - HTTPS forțat din setările GitHub Pages (apex + `www`); `www` redirecționează automat la apex, pentru că apexul e domeniul din `CNAME`.
-- **Analytics**: Cloudflare Web Analytics (fără cookie-uri, fără banner de consimțământ) — snippet-ul de tracking se adaugă din dashboard-ul Cloudflare, nu în cod. Fără Google Analytics la lansare.
+- **Analytics**: Cloudflare Web Analytics (fără cookie-uri, fără identificatori persistenți, deci fără banner de consimțământ). Snippet-ul se adaugă **manual în `templates.footer()`**, imediat înainte de `<script src="{R}js/script.js" defer></script>`, sub forma `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "…"}'></script>` — **nu** prin proxy-ul Cloudflare (site-ul e servit de GitHub Pages, nu prin orange-cloud). Fără Google Analytics la lansare. **Când adaugi snippet-ul, ține textul legal sincronizat**: `content/pages/cookies.html` și `content/pages/confidentialitate.html` spun că singura resursă terță încărcată de site este beacon-ul de pe `static.cloudflareinsights.com`, fără cookie-uri și fără identificatori persistenți; dacă apare orice altă resursă externă, actualizează ambele pagini.
 
 ## Ce NU facem
 
