@@ -245,7 +245,7 @@ def fill_tokens(frag, key):
     """Înlocuiește tokenurile {{...}} din fragmentele content/pages (fără motor de template)."""
     P = T.P
     repl = {"{{TESTIMONIALS}}": testimonials_html(), "{{WA_LINK}}": T.wa_link(WA_DEFAULT),
-            "{{PHONE}}": P["phone_display"], "{{PHONE_E164}}": P["phone_e164"], "{{EMAIL_BROKER}}": T.P.get("email_broker", T.P["email"]),
+            "{{PHONE}}": P["phone_display"], "{{PHONE_E164}}": P["phone_e164"],
         "{{EMAIL}}": P["email"],
             "{{RAF}}": P["raf"], "{{BROKER}}": T.S["broker"]["name"], "{{ASF_REGISTRY}}": T.S["links"]["asf_registry"],
             "{{SMARTSALES_TERMS}}": T.smartsales_url("/privacy/terms", "legal")}

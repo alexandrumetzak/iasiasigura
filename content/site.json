@@ -11,7 +11,7 @@
     "phone_e164": "+40752205206",
     "phone_display": "+40 752 205 206",
     "wa_number": "40752205206",
-    "email": "contact@iasiasigura.com",
+    "email": "marina-mihaela.metzak@destine-broker.ro",
     "facebook": "https://www.facebook.com/marina.metzak",
     "image": "/assets/marina.webp",
     "bio_short": "De peste 5 ani ajut oamenii să își protejeze familia, sănătatea, veniturile și planurile de viitor. Pornesc de la om și de la nevoile lui, nu de la un produs, și explic totul simplu și clar.",
@@ -26,8 +26,7 @@
     "geo": {
       "lat": 47.1385,
       "lng": 27.6135
-    },
-    "email_broker": "marina-mihaela.metzak@destine-broker.ro"
+    }
   },
   "broker": {
     "name": "DESTINE BROKER DE ASIGURARE-REASIGURARE SRL",

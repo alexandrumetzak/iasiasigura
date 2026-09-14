@@ -14,7 +14,7 @@ Generat static de `build.py` (Python 3) din fișierele JSON/Markdown din `conten
 | Cod RAF | 160354 |
 | Broker principal | DESTINE BROKER DE ASIGURARE-REASIGURARE SRL, Ploiești, Str. Torcători nr. 4, CUI 21678074, RBK-425/20.08.2007 |
 | Telefon / WhatsApp | +40 752 205 206 (`wa.me/40752205206`) |
-| E-mail | `contact@iasiasigura.com` (redirecționat spre Gmail-ul Marinei prin Cloudflare Email Routing) |
+| E-mail | `marina-mihaela.metzak@destine-broker.ro` (adresa de la broker; domeniul nu are e-mail) |
 | Adresă | Bd. Metalurgiei nr. 4, Iași — întâlniri **doar cu programare** |
 | Facebook | https://www.facebook.com/marina.metzak |
 | Acoperire | Online în toată România; prezență fizică Iași și regiunea Moldova |
@@ -161,7 +161,7 @@ DNS pe **Cloudflare** (gratuit):
 - `A` → IP-urile GitHub Pages: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 - `AAAA` → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 - `www` — CNAME → `alexandrumetzak.github.io`.
-- **Email Routing**: `contact@iasiasigura.com` → Gmail-ul Marinei.
+- **E-mail**: nu există e-mail pe domeniu; site-ul folosește adresa de la Destine Broker. DNS-ul e la GoDaddy, direct pe IP-urile GitHub (fără Cloudflare).
 - HTTPS forțat din setările GitHub Pages (apex + `www`); `www` redirecționează automat la apex, pentru că apexul e domeniul din `CNAME`.
 - **Analytics**: Cloudflare Web Analytics (fără cookie-uri, fără identificatori persistenți, deci fără banner de consimțământ). Snippet-ul se adaugă **manual în `templates.footer()`**, imediat înainte de `<script src="{R}js/script.js" defer></script>`, sub forma `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "…"}'></script>` — **nu** prin proxy-ul Cloudflare (site-ul e servit de GitHub Pages, nu prin orange-cloud). Fără Google Analytics la lansare. **Când adaugi snippet-ul, ține textul legal sincronizat**: `content/pages/cookies.html` și `content/pages/confidentialitate.html` spun că singura resursă terță încărcată de site este beacon-ul de pe `static.cloudflareinsights.com`, fără cookie-uri și fără identificatori persistenți; dacă apare orice altă resursă externă, actualizează ambele pagini.
 

@@ -1,7 +1,27 @@
 {
- "despre": {"title": "Despre Marina Metzak, asistent în brokeraj | IașiAsigură", "desc": "Cine este Marina Metzak: asistent în brokeraj înregistrat la ASF (RAF 160354), în numele Destine Broker. Cum lucrează, ce asigurări face, cum o contactezi.", "h1": "Marina Metzak: asistent în brokeraj, înregistrat la ASF"},
- "contact": {"title": "Contact: WhatsApp, telefon, e-mail | IașiAsigură", "desc": "Scrie-i Marinei pe WhatsApp la +40 752 205 206 sau pe e-mail la contact@iasiasigura.com. Întâlniri la Iași, Bd. Metalurgiei 4, doar cu programare.", "h1": "Contact"},
- "termeni": {"title": "Termeni și condiții | IașiAsigură", "desc": "Termenii de utilizare ai site-ului iasiasigura.com: rol informativ, redirecționare către platforma brokerului, răspundere, drepturi de autor.", "h1": "Termeni și condiții"},
- "confidentialitate": {"title": "Politica de confidențialitate | IașiAsigură", "desc": "Cum sunt tratate datele personale: site-ul nu colectează date; WhatsApp și platforma brokerului au propriile politici. Drepturile tale GDPR.", "h1": "Politica de confidențialitate"},
- "cookies": {"title": "Politica de cookies | IașiAsigură", "desc": "Site-ul iasiasigura.com nu setează cookie-uri proprii și folosește analiză de trafic fără cookie-uri.", "h1": "Politica de cookies"}
+ "despre": {
+  "title": "Despre Marina Metzak, asistent în brokeraj | IașiAsigură",
+  "desc": "Cine este Marina Metzak: asistent în brokeraj înregistrat la ASF (RAF 160354), în numele Destine Broker. Cum lucrează, ce asigurări face, cum o contactezi.",
+  "h1": "Marina Metzak: asistent în brokeraj, înregistrat la ASF"
+ },
+ "contact": {
+  "title": "Contact: WhatsApp, telefon, e-mail | IașiAsigură",
+  "desc": "Scrie-i Marinei pe WhatsApp la +40 752 205 206 sau pe e-mail (marina-mihaela.metzak@destine-broker.ro). Întâlniri la Iași, doar cu programare.",
+  "h1": "Contact"
+ },
+ "termeni": {
+  "title": "Termeni și condiții | IașiAsigură",
+  "desc": "Termenii de utilizare ai site-ului iasiasigura.com: rol informativ, redirecționare către platforma brokerului, răspundere, drepturi de autor.",
+  "h1": "Termeni și condiții"
+ },
+ "confidentialitate": {
+  "title": "Politica de confidențialitate | IașiAsigură",
+  "desc": "Cum sunt tratate datele personale: site-ul nu colectează date; WhatsApp și platforma brokerului au propriile politici. Drepturile tale GDPR.",
+  "h1": "Politica de confidențialitate"
+ },
+ "cookies": {
+  "title": "Politica de cookies | IașiAsigură",
+  "desc": "Site-ul iasiasigura.com nu setează cookie-uri proprii și folosește analiză de trafic fără cookie-uri.",
+  "h1": "Politica de cookies"
+ }
 }
