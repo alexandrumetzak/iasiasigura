@@ -77,16 +77,16 @@ def render_home():
     <div class="cta-row"><a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie pe WhatsApp</span></a><a href="#asigurari" class="btn btn-primary">Vezi asigurările</a></div>
     <ul class="hero-points">{points}</ul>
   </div></section>
-  <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Alege asigurarea de care ai nevoie</h2>
-    <p>Cele marcate <strong>Online</strong> se cumpără direct pe platforma brokerului. Cele cu <strong>Ofertă personalizată</strong> se rezolvă pe WhatsApp: compar asigurătorii și îți trimit oferta.</p>
+  <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Ce asigurare îți trebuie?</h2>
+    <p>Cele marcate <strong>Online</strong> le cumperi direct pe platforma brokerului. Cele cu <strong>Ofertă personalizată</strong> le rezolvăm pe WhatsApp: cer ofertele, le compar și ți le trimit.</p>
     <div class="grid">{cards}</div></div></section>
-  <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce cu mine</p><h2>Asigurări simple, cu cineva care răspunde</h2><div class="grid">{why}</div></div></section>
-  <section id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Trei pași, fără drumuri</h2><div class="steps">{steps}</div></div></section>
+  <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce prin mine</p><h2>Ce e altfel când le faci prin mine</h2><div class="grid">{why}</div></div></section>
+  <section id="cum"><div class="container"><p class="eyebrow">Cum merge</p><h2>Ce ai de făcut</h2><div class="steps">{steps}</div></div></section>
   <section class="section-alt"><div class="container container-narrow">{T.faq_block(HOME['faq'])}</div></section>
   <section id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid">{testi}</div></div></section>
-  <section class="section-alt" id="zone"><div class="container"><p class="eyebrow">Zone</p><h2>Iași, Moldova și online în toată România</h2>
-    <p>Întâlniri la Iași, cu programare. Restul se rezolvă pe WhatsApp și pe platformă, oriunde ai fi.</p><ul class="grid" style="list-style:none;padding:0">{zones}</ul></div></section>
-  <section id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Ghiduri scrise pe înțelesul tău</h2><div class="grid" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
+  <section class="section-alt" id="zone"><div class="container"><p class="eyebrow">Zone</p><h2>Unde lucrez</h2>
+    <p>Ne vedem la Iași, cu programare. Cu restul țării lucrez pe WhatsApp și pe platformă, și merge la fel de bine.</p><ul class="grid" style="list-style:none;padding:0">{zones}</ul></div></section>
+  <section id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Ce am scris despre ce mă întreabă lumea</h2><div class="grid" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
     jsonld = [T.website_node(), T.agency_node(), T.person_node(), T.faqpage([tuple(x) for x in HOME["faq"]])]
     return T.page(HOME["title"], HOME["desc"], "/", jsonld, R, body, WA_DEFAULT)
 
@@ -136,11 +136,11 @@ def render_catalog():
     crumbs = [("Acasă", "/"), ("Asigurări", None)]
     body = f"""
   <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Toate asigurările</h1>
-    <p class="lead">Online = cumperi direct pe platforma brokerului. Ofertă personalizată = compar asigurătorii și îți trimit oferta pe WhatsApp.</p></div></section>
+    <p class="lead">Cele marcate Online le cumperi direct pe platforma brokerului. La celelalte îmi scrii pe WhatsApp, cer ofertele, le compar și ți le trimit.</p></div></section>
   <section><div class="container"><h2>Pentru tine și familia ta</h2><div class="grid">{pf}</div></div></section>
   <section class="section-alt"><div class="container"><h2>Pentru firma ta</h2><div class="grid">{pj}</div></div></section>"""
     return T.page("Toate asigurările, online sau cu ofertă | IașiAsigură",
-                  "Lista completă: RCA, CASCO, locuință, PAD, călătorie, sănătate, viață, pensii, malpraxis, răspundere civilă, taxi/Uber, ROTR, CMR, IMM, agricole.",
+                  "Tot ce fac: RCA, CASCO, locuință, PAD, călătorie, sănătate, viață, pensii, malpraxis, răspundere civilă, taxi/Uber, ROTR, CMR, IMM, agricole.",
                   path, [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
 
 # ---------------------------------------------------------------- ZONE
@@ -154,10 +154,10 @@ def render_zone(z):
     body = f"""
   <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>{html.escape(z['h1'])}</h1><p class="lead">{html.escape(z['answer'])}</p>
     <div class="cta-row"><a href="{T.wa_link(wa)}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie pe WhatsApp</span></a><a href="{R}asigurari/" class="btn btn-primary">Vezi asigurările</a></div></div></section>
-  <div class="container prose"><h2>Asigurări pentru {html.escape(z['name'])}: ce contează local</h2>{local}
+  <div class="container prose"><h2>Ce contează la asigurări în {html.escape(z['name'])}</h2>{local}
     <h2>Cele mai cerute asigurări în {html.escape(z['name'])}</h2><div class="grid">{cards}</div>
     {T.faq_block([tuple(x) for x in z['faq']])}
-    <p>Oriunde ai fi în România, cumperi online pe platforma brokerului, iar eu îți răspund pe WhatsApp. Întâlnirile față în față se fac la Iași, cu programare.</p>
+    <p>Din {html.escape(z['name'])} sau din altă parte, asigurarea o faci online pe platforma brokerului, iar pe WhatsApp îți răspund eu. Față în față ne vedem doar la Iași, cu programare.</p>
     {T.related_block("Alte zone", others, R)}{author_box(R)}</div>"""
     service = {"@context": "https://schema.org", "@type": "Service", "name": f"Asigurări {z['name']}",
                "serviceType": "Intermediere asigurări", "provider": {"@id": T.AGENCY_ID},
@@ -229,11 +229,11 @@ def render_article(a, all_articles):
 def render_blog_index(arts):
     R = "../"; crumbs = [("Acasă", "/"), ("Blog", None)]
     cards = "".join(article_card(a, R) for a in arts)
-    body = f"""<section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Ghiduri de asigurări, pe înțelesul tău</h1>
-    <p class="lead">Articole scrise de Marina Metzak: ce acoperă fiecare asigurare, ce nu, și cum alegi fără să plătești degeaba. Actualizate periodic.</p></div></section>
+    body = f"""<section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Blog: ce mă întreabă lumea despre asigurări</h1>
+    <p class="lead">Scriu aici răspunsurile pe care le dau des pe WhatsApp: ce acoperă o asigurare, ce nu, și când nu are rost să plătești. Le actualizez când se schimbă ceva.</p></div></section>
   <section><div class="container"><div class="grid">{cards}</div></div></section>"""
     return T.page("Blog: ghiduri de asigurări explicate simplu | IașiAsigură",
-                  "Ghiduri despre RCA, CASCO, locuință, PAD, călătorie, sănătate, malpraxis, pensii și asigurări pentru firme, scrise de un asistent în brokeraj.",
+                  "Ce am scris despre RCA, CASCO, locuință, PAD, călătorie, sănătate, malpraxis, pensii și asigurări pentru firme. Marina Metzak, asistent în brokeraj.",
                   "/blog/", [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
 
 # ---------------------------------------------------------------- PAGINI STATICE
@@ -267,10 +267,10 @@ def render_static(key):
     return T.page(m["title"], m["desc"], path, extra + [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
 
 def render_404():
-    body = """<section class="page-hero"><div class="container container-narrow"><h1>Pagina nu există</h1><p class="lead">Poate ai nevoie de una dintre acestea:</p>
+    body = """<section class="page-hero"><div class="container container-narrow"><h1>Pagina asta nu există</h1><p class="lead">Ori am mutat-o, ori linkul era greșit. Uite unde ajunge lumea de obicei:</p>
     <ul><li><a href="/asigurari/rca.html">Asigurare RCA</a></li><li><a href="/asigurari/locuinta.html">Asigurare locuință</a></li><li><a href="/asigurari/">Toate asigurările</a></li><li><a href="/blog/">Blog</a></li></ul></div></section>"""
     # R="/" — 404 e servit de pe orice cale, deci toate linkurile din head/header/footer trebuie absolute
-    out = T.page("Pagina nu există | IașiAsigură", "Pagina căutată nu există. Vezi asigurările disponibile sau scrie pe WhatsApp.", "/404.html", [], "/", body, WA_DEFAULT)
+    out = T.page("Pagina nu există | IașiAsigură", "Pagina nu există sau a fost mutată. Vezi asigurările sau scrie-mi pe WhatsApp.", "/404.html", [], "/", body, WA_DEFAULT)
     return out.replace('content="index, follow,', 'content="noindex, follow,')
 
 # ---------------------------------------------------------------- FIȘIERE TEHNICE

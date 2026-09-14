@@ -77,16 +77,16 @@ def cta_block(p, R):
     <div class="cta-row">
       <a href="{ss}" class="btn btn-primary" target="_blank" rel="noopener">Cumpără online</a>
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Întreabă pe WhatsApp</span></a>
-      <p class="cta-note">Cumperi direct pe platforma brokerului, în câteva minute, la orice oră. Polița vine pe e-mail.</p>
+      <p class="cta-note">Cumperi direct pe platforma brokerului, când ai timp, și seara. Polița vine pe e-mail după plată.</p>
     </div>"""
     return f"""
     <div class="cta-row">
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
       <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Formular de ofertă pe platformă</a>
-      <p class="cta-note">Produs cu ofertă personalizată: compar asigurătorii și îți trimit oferta pe WhatsApp sau e-mail. Gratuit.</p>
+      <p class="cta-note">Aici nu e preț pe loc: îmi scrii, cer oferte de la mai mulți asigurători și ți le trimit pe WhatsApp sau e-mail. Nu mă plătești tu.</p>
     </div>"""
 
-def faq_block(faqs, heading="Întrebări frecvente"):
+def faq_block(faqs, heading="Ce mă întreabă lumea"):
     # Întrebarea e escapată; RĂSPUNSUL e inserat brut, intenționat, ca să permită
     # markup inline (<strong>, <a>) scris în content/. Siguranța e asigurată de
     # teste: test_related_and_faq_answers_are_safe verifică toate răspunsurile
@@ -172,7 +172,7 @@ def footer(R, wa_text):
     <div class="container footer-grid">
       <div>
         <p class="footer-brand"><strong>Iași<em>Asigură</em></strong> · {S['tagline']}</p>
-        <p>Asigurări online pentru toată România, cu o persoană reală pe WhatsApp: eu, {P['name']}, {P['job_title'].lower()}.</p>
+        <p>Asigurări online pentru toată România. Pe WhatsApp îți răspund eu, {P['name']}, {P['job_title'].lower()}.</p>
         <p><a href="{P['facebook']}" rel="noopener" target="_blank">Facebook</a></p>
       </div>
       <div><h3>Asigurări</h3><ul>
