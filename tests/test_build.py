@@ -32,3 +32,18 @@ def test_no_forbidden_smartsales_links(out):
 def test_check_site_passes(out):
     r = subprocess.run([sys.executable, "scripts/check_site.py", "--no-links", str(out)], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr
+
+def test_all_products_rendered_with_correct_cta(out):
+    for p in build.PRODUCTS:
+        h = read(out, f"asigurari/{p['slug']}.html")
+        assert h.count("<h1") == 1
+        assert f"utm_campaign={p['slug']}" in h
+        if p["type"] == "online":
+            assert "Cumpără online" in h and f"metzak-marina.smartsales.ro{p['path'].split('#')[0]}?" in h
+        else:
+            assert "Cere ofertă pe WhatsApp" in h
+        assert '"@type": "Service"' in h and '"@type": "FAQPage"' in h and '"@type": "BreadcrumbList"' in h
+
+def test_catalog_lists_pf_and_pj(out):
+    h = read(out, "asigurari/index.html")
+    assert "Pentru tine" in h and "Pentru firma ta" in h and h.count('class="card product-card"') >= 16

@@ -63,10 +63,62 @@ ZONE_LINKS = [("iasi", "Iași"), ("pascani", "Pașcani"), ("bacau", "Bacău"), (
               ("suceava", "Suceava"), ("piatra-neamt", "Piatra Neamț"), ("roman", "Roman"), ("galati", "Galați")]
 LATEST_ARTICLES_HTML = [""]  # setat de render_blog (Task 6); listă ca să fie mutabil
 
+# ---------------------------------------------------------------- PRODUSE
+ARTICLES_BY_SLUG = {}  # populat în Task 6 (blog)
+
+def author_box(R):
+    P = T.P
+    return f"""<div class="author-box"><img src="{R}assets/marina.webp" alt="{html.escape(P['name'])}" width="76" height="76" loading="lazy" />
+      <div><strong>{P['name']}</strong>, {P['job_title'].lower()} (RAF {P['raf']})<br /><span class="article-meta">{html.escape(P['bio_short'])}</span><br /><a href="{R}despre.html">Despre Marina →</a></div></div>"""
+
+def render_product(p, articles_by_slug):
+    R = "../"; path = f"/asigurari/{p['slug']}.html"
+    crumbs = [("Acasă", "/"), ("Asigurări", "/asigurari/"), (p["name"], None)]
+    covers = "".join(f"<li>{html.escape(x)}</li>" for x in p["covers"])
+    nots = "".join(f"<li>{html.escape(x)}</li>" for x in p["not_covers"])
+    docs = "".join(f"<li>{html.escape(x)}</li>" for x in p["docs"])
+    steps = "".join(f'<div class="step"><h3>{html.escape(t)}</h3><p>{html.escape(d)}</p></div>' for t, d in p["steps"])
+    rel_products = [(f"asigurari/{s}.html", BY_SLUG[s]["name"]) for s in p["related"] if s in BY_SLUG]
+    rel_articles = [(f"blog/{s}.html", articles_by_slug[s]["title"]) for s in p.get("articles", []) if s in articles_by_slug]
+    body = f"""
+  <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}
+    <h1>{html.escape(p['h1'])}</h1><p class="lead">{html.escape(p['answer'])}</p>{T.cta_block(p, R)}</div></section>
+  <div class="container prose">
+    <div class="two-col"><div><h2>Ce acoperă</h2><ul class="check">{covers}</ul></div><div><h2>Ce nu acoperă</h2><ul class="cross">{nots}</ul></div></div>
+    <h2>Acte necesare</h2><ul>{docs}</ul>
+    <h2>Cum cumperi în 3 pași</h2><div class="steps">{steps}</div>
+    {T.faq_block([tuple(x) for x in p['faq']])}
+    {T.related_block("Asigurări conexe", rel_products, R)}{T.related_block("Citește și", rel_articles, R)}
+    {author_box(R)}
+    {T.cta_block(p, R)}
+  </div>"""
+    service = {"@context": "https://schema.org", "@type": "Service", "name": p["name"], "serviceType": p["service_type"],
+               "provider": {"@id": T.AGENCY_ID}, "areaServed": {"@type": "Country", "name": "România"},
+               "url": T.SITE + path, "description": p["answer"]}
+    jsonld = [service, T.faqpage([tuple(x) for x in p["faq"]]), T.breadcrumb(crumbs)]
+    return T.page(p["title"], p["desc"], path, jsonld, R, body, p["wa_text"], og_image="/assets/og-produs.png")
+
+def render_catalog():
+    R = "../"; path = "/asigurari/"
+    pf = "".join(T.product_card(p, R) for p in PRODUCTS if "pf" in p["group"])
+    pj = "".join(T.product_card(p, R) for p in PRODUCTS if "pj" in p["group"])
+    crumbs = [("Acasă", "/"), ("Asigurări", None)]
+    body = f"""
+  <section class="page-hero"><div class="container">{crumbs_html(crumbs, R)}<h1>Toate asigurările</h1>
+    <p class="lead">Online = cumperi direct pe platforma brokerului. Ofertă personalizată = Marina compară asigurătorii și îți trimite oferta pe WhatsApp.</p></div></section>
+  <section><div class="container"><h2>Pentru tine și familia ta</h2><div class="grid">{pf}</div></div></section>
+  <section class="section-alt"><div class="container"><h2>Pentru firma ta</h2><div class="grid">{pj}</div></div></section>"""
+    return T.page("Toate asigurările, online sau cu ofertă | IașiAsigură",
+                  "Lista completă: RCA, CASCO, locuință, PAD, călătorie, sănătate, viață, pensii, malpraxis, răspundere civilă, taxi/Uber, ROTR, CMR, IMM, agricole.",
+                  path, [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
+
 # ---------------------------------------------------------------- BUILD
 def build(root=ROOT):
     WRITTEN.clear()
     write(root, "/index.html", render_home())
+    write(root, "/asigurari/index.html", render_catalog())
+    for p in PRODUCTS:
+        write(root, f"/asigurari/{p['slug']}.html", render_product(p, ARTICLES_BY_SLUG))
     return list(WRITTEN)
 
 if __name__ == "__main__":
