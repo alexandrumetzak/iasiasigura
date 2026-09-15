@@ -9,73 +9,73 @@
    "pj"
   ],
   "icon": "🚗",
-  "short": "Obligatorie pentru orice mașină. O faci singur, online.",
+  "short": "Obligatorie pentru orice vehicul înmatriculat. O poți încheia online.",
   "wa_text": "Bună Marina, am nevoie de RCA pentru mașina mea.",
   "service_type": "Asigurare de răspundere civilă auto (RCA)",
-  "title": "RCA online: vezi ofertele, plătești cu cardul | IașiAsigură",
-  "desc": "RCA-ul îl faci singur, online: pui numărul mașinii, vezi ofertele, plătești cu cardul. Polița vine pe e-mail. Dacă te blochezi, îmi scrii pe WhatsApp.",
-  "h1": "RCA: îl faci singur online, iar dacă te blochezi îmi scrii",
-  "answer": "RCA-ul e obligatoriu pentru orice mașină înmatriculată în România și plătește pagubele pe care le faci altora. Pe a ta nu o acoperă. Îl faci singur, pe platforma brokerului meu: pui numărul de înmatriculare, vezi ofertele asigurătorilor autorizați, plătești cu cardul. Polița vine pe e-mail imediat după plată. Cei mai mulți mă sună cu o zi înainte să expire.",
+  "title": "RCA online: compari oferte, plătești cu cardul | IașiAsigură",
+  "desc": "Asigurarea RCA se încheie online: introduci numărul de înmatriculare, compari ofertele, plătești cu cardul. Polița ajunge pe e-mail. Întrebări pe WhatsApp.",
+  "h1": "RCA: o închei online, iar pentru întrebări îmi scrii pe WhatsApp",
+  "answer": "Asigurarea RCA este obligatorie pentru orice vehicul înmatriculat în România și acoperă pagubele produse altor persoane; propriul tău vehicul rămâne neacoperit. O poți încheia online, pe platforma brokerului: introduci numărul de înmatriculare, compari ofertele asigurătorilor autorizați și plătești cu cardul. Polița ajunge pe e-mail imediat după plată.",
   "covers": [
-   "Pagubele la mașina celuilalt și la orice alt bun lovit",
-   "Vătămările și decesul altor persoane",
-   "Cheltuielile de judecată, dacă se ajunge acolo",
-   "Accidentele din UE și din țările din Cartea Verde",
-   "Decontare directă, dacă o bifezi: nevinovat fiind, îți repari mașina la propriul asigurător"
+   "Pagubele produse vehiculului celuilalt și oricărui alt bun lovit",
+   "Vătămările corporale și decesul altor persoane",
+   "Cheltuielile de judecată, dacă se ajunge în instanță",
+   "Accidentele produse în UE și în țările din sistemul Carte Verde",
+   "Decontare directă, dacă alegi clauza: nevinovat fiind, îți repari vehiculul la propriul asigurător"
   ],
   "not_covers": [
-   "Mașina ta. Pentru ea există CASCO.",
-   "Lucrurile tale din mașină",
-   "Alcool, droguri, fără permis: păgubitul tot își ia banii, dar asigurătorul vine apoi la tine să și-i recupereze (drept de regres).",
-   "Rănile tale, dacă tu ai fost vinovat. Pentru asta e o asigurare de accidente."
+   "Vehiculul tău. Pentru el există CASCO.",
+   "Bunurile tale aflate în vehicul",
+   "Conducerea sub influența alcoolului sau a drogurilor ori fără permis: păgubitul este despăgubit, dar asigurătorul recuperează apoi suma de la tine (drept de regres).",
+   "Vătămările tale, dacă tu ai fost vinovat. Pentru acestea există asigurarea de accidente."
   ],
   "docs": [
-   "Talonul mașinii",
-   "Buletinul sau CUI-ul proprietarului",
-   "Cine mai conduce mașina (contează la cotație)"
+   "Certificatul de înmatriculare (talonul)",
+   "Actul de identitate sau CUI-ul proprietarului",
+   "Persoanele care mai conduc vehiculul (influențează cotația)"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Te duce pe platforma brokerului, pe pagina mea de RCA. Nu îți faci cont, nu instalezi nimic."
+    "Ajungi pe platforma brokerului, pe pagina mea de RCA. Nu îți creezi cont și nu instalezi nimic."
    ],
    [
-    "Pui numărul de înmatriculare",
-    "Platforma trage datele mașinii și îți arată ofertele. Alegi pe câte luni (de la 1 la 12) și dacă vrei decontare directă."
+    "Introduci numărul de înmatriculare",
+    "Platforma preia datele vehiculului și îți afișează ofertele. Alegi perioada (de la 1 la 12 luni) și dacă dorești decontare directă."
    ],
    [
     "Plătești cu cardul",
-    "Polița se emite pe loc și vine pe e-mail. O ții pe telefon, poliția o vede în bază."
+    "Polița se emite imediat și ajunge pe e-mail. O poți păstra pe telefon; Poliția o verifică în baza de date."
    ]
   ],
   "faq": [
    [
-    "Cât durează, de fapt?",
-    "Sub zece minute dacă ai talonul la tine. Se poate și în ultima zi de valabilitate, am clienți care o fac în parcare, dar mai bine nu."
+    "Cât durează încheierea poliței?",
+    "Sub zece minute, dacă ai talonul la îndemână. Se poate încheia și în ultima zi de valabilitate, dar recomand cu câteva zile înainte, ca să nu rămâi neacoperit."
    ],
    [
-    "Pot face RCA pe o lună?",
-    "Da, de la o lună în sus. E util când vinzi mașina, la înmatriculare temporară sau când o ții în garaj peste iarnă."
+    "Pot încheia RCA pe o lună?",
+    "Da, pe perioade de la o lună în sus. Este util când vinzi vehiculul, la înmatricularea temporară sau când nu îl folosești peste iarnă."
    ],
    [
-    "Ce e cu clasa bonus-malus?",
-    "E istoricul tău de daune, tradus în primă. Fără daune urci în bonus (B1 până la B8) și plătești mai puțin. Cu daune cobori în malus (M1 până la M8)."
+    "Ce este clasa bonus-malus?",
+    "Este istoricul tău de daune, reflectat în primă. Fără daune urci în clasele de bonus (B1 până la B8) și plătești mai puțin. Cu daune cobori în clasele de malus (M1 până la M8)."
    ],
    [
-    "Decontare directă, îmi trebuie?",
-    "E o clauză opțională. Dacă te lovește cineva și tu nu ești vinovat, mergi la asigurătorul tău, nu al lui, iar el își recuperează banii apoi. O recomand celor care nu au chef să alerge după asigurătorul altuia."
+    "Am nevoie de decontare directă?",
+    "Este o clauză opțională: dacă nu ești vinovat, te adresezi propriului asigurător, care recuperează ulterior suma de la asigurătorul celui vinovat. O recomand celor care preferă să nu depindă de o companie cu care nu au nicio relație contractuală."
    ],
    [
-    "Trebuie printată?",
-    "Nu. Polița din e-mail e valabilă așa cum e, poliția o verifică în baza de date. Eu o țin pe telefon și una în torpedou, din obișnuință."
+    "Trebuie tipărită?",
+    "Nu. Polița primită pe e-mail este valabilă în format electronic; Poliția o verifică în baza de date. Poți păstra o copie pe telefon și, dacă preferi, una tipărită în vehicul."
    ],
    [
     "M-am răzgândit după plată. Pot renunța?",
-    "Da, ai 14 zile de retragere la polițele încheiate la distanță. Dacă polița nu a intrat încă în vigoare, primești toți banii înapoi. Dacă a intrat și nu ai avut daună, primești pro-rata."
+    "Da, ai la dispoziție 14 zile de retragere pentru polițele încheiate la distanță. Dacă polița nu a intrat încă în vigoare, primești întreaga sumă înapoi. Dacă a intrat în vigoare și nu ai avut daune, primești prima pro-rata."
    ],
    [
-    "Tu ce câștigi din asta?",
-    "Comision de la asigurător. Tu plătești același preț ca la asigurător direct."
+    "Cum ești plătită pentru acest serviciu?",
+    "Prin comision de la asigurător. Tu plătești același preț ca la asigurător direct."
    ]
   ],
   "related": [
@@ -99,71 +99,71 @@
    "pj"
   ],
   "icon": "🛡️",
-  "short": "Pentru mașina ta: lovituri, furt, grindină. Îți compar ofertele.",
+  "short": "Pentru vehiculul tău: avarii, furt, grindină. Îți compar ofertele.",
   "wa_text": "Bună Marina, vreau ofertă CASCO. Îți trimit talonul.",
   "service_type": "Asigurare facultativă auto (CASCO)",
   "title": "CASCO: ofertele comparate, franșiza explicată | IașiAsigură",
-  "desc": "CASCO acoperă mașina ta, nu pe a celuilalt: lovituri, furt, grindină, vandalism. Îmi trimiți talonul pe WhatsApp, cer cotații și îți spun ce diferă.",
-  "h1": "CASCO: asigurarea pentru mașina ta, cu ofertele puse una lângă alta",
-  "answer": "RCA-ul plătește mașina celuilalt. CASCO o plătește pe a ta: lovită în parcare, furată, ciuruită de grindină, zgâriată de cineva noaptea. E facultativă, dar dacă ai mașina în leasing sau în rate, banca ți-o cere. Îmi trimiți talonul pe WhatsApp, cer cotații la mai mulți asigurători și îți spun unde diferă, dincolo de primă.",
+  "desc": "CASCO acoperă vehiculul tău: avarii, furt, grindină, vandalism. Îmi trimiți talonul pe WhatsApp, solicit cotații de la mai mulți asigurători și le compar.",
+  "h1": "CASCO: asigurarea pentru vehiculul tău, cu ofertele comparate",
+  "answer": "RCA acoperă vehiculul celuilalt. CASCO îl acoperă pe al tău: lovit în timp ce era parcat, furat, avariat de grindină sau zgâriat de un necunoscut. Este facultativă, dar dacă vehiculul este în leasing sau în rate, finanțatorul o solicită. Îmi trimiți talonul pe WhatsApp, cer cotații de la mai mulți asigurători și îți explic unde diferă ofertele, dincolo de primă.",
   "covers": [
-   "Avarii la mașina ta, chiar dacă tu ai fost vinovat",
-   "Furtul mașinii sau al pieselor din ea",
+   "Avarii la vehiculul tău, inclusiv când tu ai fost vinovat",
+   "Furtul vehiculului sau al componentelor",
    "Vandalism: zgârieturi, oglinzi rupte, geamuri sparte",
    "Grindină, furtună, inundație, incendiu",
-   "Asistență rutieră și mașină la schimb, dacă le bifezi",
-   "Străinătatea, la cerere. Verific țările înainte."
+   "Asistență rutieră și vehicul la schimb, dacă alegi aceste clauze",
+   "Acoperire în străinătate, la cerere. Verific lista țărilor înainte."
   ],
   "not_covers": [
-   "Pagubele făcute altora (asta e treaba RCA-ului)",
-   "Dacă erai băut sau drogat la volan",
-   "Lovituri făcute intenționat",
-   "Uzura și defecțiunile mecanice. CASCO nu e garanție de service.",
-   "Telefonul sau laptopul lăsat pe scaun, fără clauză separată"
+   "Pagubele produse altora (acestea intră la RCA)",
+   "Conducerea sub influența alcoolului sau a drogurilor",
+   "Avarii produse intenționat",
+   "Uzura și defecțiunile mecanice. CASCO nu este o garanție de service.",
+   "Telefonul sau laptopul lăsat în vehicul, fără clauză separată"
   ],
   "docs": [
-   "Talonul și cartea mașinii",
-   "Buletinul, CUI-ul sau contractul de leasing",
-   "Câteva poze cu mașina din toate părțile, pentru inspecția de risc"
+   "Certificatul de înmatriculare și cartea de identitate a vehiculului",
+   "Actul de identitate, CUI-ul sau contractul de leasing",
+   "Câteva fotografii cu vehiculul din toate unghiurile, pentru inspecția de risc"
   ],
   "steps": [
    [
     "Îmi trimiți talonul pe WhatsApp",
-    "Plus cine conduce mașina și dacă e în leasing. Îmi spui și cât ai fi dispus să plătești tu la o daună, ca să știu ce franșiză să cer."
+    "Împreună cu persoanele care conduc vehiculul și cu informația dacă este în leasing. Îmi spui și ce sumă ai fi dispus să suporți la o daună, ca să știu ce franșiză să solicit."
    ],
    [
-    "Cer cotații și le pun una lângă alta",
-    "Îți trimit două-trei variante, cu ce include fiecare: franșiză, mașină la schimb, asistență, străinătate. În general în aceeași zi lucrătoare, la mașini scumpe poate a doua zi."
+    "Cer cotații și le compar",
+    "Îți trimit două sau trei variante, cu ce include fiecare: franșiză, vehicul la schimb, asistență, străinătate. În general în aceeași zi lucrătoare; la vehiculele scumpe poate dura până a doua zi."
    ],
    [
-    "Alegi, plătești, faci pozele",
-    "Asigurătorul vrea poze cu mașina înainte de emitere. Le faci tu, mi le trimiți, polița vine pe e-mail."
+    "Alegi, plătești, faci fotografiile",
+    "Asigurătorul solicită fotografii cu vehiculul înainte de emitere. Le faci tu, mi le trimiți, iar polița ajunge pe e-mail."
    ]
   ],
   "faq": [
    [
-    "Care e diferența față de RCA?",
-    "RCA e obligatoriu și plătește pagubele făcute altora. CASCO e facultativ și plătește mașina ta, inclusiv când tu ai greșit sau când nu se știe cine a lovit-o în parcare."
+    "Care este diferența față de RCA?",
+    "RCA este obligatorie și acoperă pagubele produse altora. CASCO este facultativă și acoperă vehiculul tău, inclusiv când tu ai greșit sau când nu se știe cine l-a lovit în timp ce era parcat."
    ],
    [
     "Ce franșiză aleg?",
-    "Franșiza e partea pe care o plătești tu la fiecare daună. Franșiză mai mare, primă mai mică. Am clienți care iau franșiză mare fiindcă vor CASCO doar pentru furt sau daună totală, și e o alegere bună dacă zgârieturile mici le repari singur."
+    "Franșiza este partea pe care o suporți tu la fiecare daună. Cu o franșiză mai mare, prima este mai mică. Unii clienți aleg o franșiză ridicată pentru că doresc CASCO doar pentru furt sau daună totală; este o alegere potrivită dacă zgârieturile mici le repari pe cont propriu."
    ],
    [
-    "Am mașina în leasing. Se poate?",
-    "Da, și societatea de leasing chiar ți-o cere. Polița se face cu clauza de despăgubire în favoarea finanțatorului. Formularele le rezolv eu."
+    "Am vehiculul în leasing. Se poate?",
+    "Da, iar societatea de leasing chiar o solicită. Polița se încheie cu clauza de despăgubire în favoarea finanțatorului. De formulare mă ocup eu."
    ],
    [
     "Cât aștept oferta?",
-    "În aceeași zi lucrătoare, dacă îmi trimiți talonul și datele șoferilor. La mașini scumpe sau la flote durează ceva mai mult și îți spun de la început cât."
+    "În aceeași zi lucrătoare, dacă îmi trimiți talonul și datele conducătorilor auto. La vehiculele scumpe sau la flote durează ceva mai mult și îți spun de la început cât."
    ],
    [
-    "Mă acoperă și în Grecia, în Italia?",
-    "Cele mai multe polițe acoperă Europa, unele cu excepții pe anumite țări. Îți verific lista înainte să alegi, ca să nu afli la Salonic că nu ești acoperit."
+    "Sunt acoperit și în Grecia sau în Italia?",
+    "Cele mai multe polițe acoperă Europa, unele cu excepții pentru anumite țări. Îți verific lista înainte să alegi, ca să nu descoperi la destinație că nu ești acoperit."
    ],
    [
-    "Am lovit mașina. Ce fac acum?",
-    "Suni la asigurător în termenul din condiții (de obicei câteva zile) și îmi scrii și mie. Te ajut cu dosarul, cu actele și cu service-ul. Nu repara nimic înainte de constatare."
+    "Am avariat vehiculul. Ce fac acum?",
+    "Anunți asigurătorul în termenul prevăzut în condiții (de obicei câteva zile) și îmi scrii și mie. Te ajut cu dosarul, cu documentele și cu service-ul. Nu repara nimic înainte de constatare."
    ]
   ],
   "related": [
@@ -186,71 +186,71 @@
    "pf"
   ],
   "icon": "🏠",
-  "short": "Facultativa: incendiu, vecinul de sus, furt, răspundere.",
+  "short": "Facultativa: incendiu, inundație de la etajul superior, furt, răspundere.",
   "wa_text": "Bună Marina, vreau să îmi asigur apartamentul (sau casa).",
   "service_type": "Asigurare facultativă de locuință",
   "title": "Asigurare locuință facultativă, online | IașiAsigură",
-  "desc": "Facultativa acoperă ce nu acoperă PAD-ul: incendiu, inundație de la vecini, furt, pagubele făcute vecinilor. O faci online, pe platforma brokerului.",
-  "h1": "Asigurarea facultativă a locuinței: vecinul de sus, incendiul, furtul",
-  "answer": "PAD-ul obligatoriu acoperă cutremur, inundație din natură și alunecare de teren. Atât. Cea mai des întâlnită pagubă din blocurile din Iași, apa de la vecinul de deasupra, nu intră acolo. Pentru ea, pentru incendiu, furt și pentru pagubele pe care le faci tu vecinilor, e polița facultativă. O faci online, singur, și vine pe e-mail după plată.",
+  "desc": "Facultativa acoperă ce nu acoperă PAD: incendiu, inundație de la etajul superior, furt, pagube produse vecinilor. O închei online, pe platforma brokerului.",
+  "h1": "Asigurarea facultativă a locuinței: inundația de la etajul superior, incendiul, furtul",
+  "answer": "PAD, polița obligatorie, acoperă cutremurul, inundația produsă de natură și alunecarea de teren. Cea mai frecventă pagubă din blocurile din Iași, inundația de la apartamentul de deasupra, nu intră în această acoperire. Pentru ea, pentru incendiu, furt și pentru pagubele produse de tine vecinilor există polița facultativă. O închei online, iar polița ajunge pe e-mail după plată.",
   "covers": [
    "Incendiu, explozie, trăsnet",
-   "Apa de la vecini sau de la țeava ta spartă",
+   "Inundație de la apartamentele vecine sau de la o conductă spartă în locuința ta",
    "Furt prin efracție și vandalism",
-   "Furtună, grindină, zăpadă grea pe acoperiș",
-   "Pagubele pe care le faci tu vecinilor (i-ai inundat, le plătești zugrăveala)",
-   "Mobila, electrocasnicele, electronicele, dacă alegi și sumă pentru bunuri"
+   "Furtună, grindină, greutatea zăpezii pe acoperiș",
+   "Pagubele produse de tine vecinilor (o inundație, de exemplu, pentru care le datorezi zugrăveala)",
+   "Mobilierul, electrocasnicele și electronicele, dacă alegi și o sumă pentru bunuri"
   ],
   "not_covers": [
    "Igrasia, uzura, lipsa de întreținere",
-   "Pagubele făcute intenționat de tine sau de cineva din casă",
+   "Pagubele produse intenționat de tine sau de o persoană din locuință",
    "Bijuterii și obiecte de valoare nedeclarate",
-   "Locuința în care ții un magazin sau un atelier, fără clauză pentru asta",
-   "Casa nelocuită luni de zile, dacă nu ai spus asigurătorului"
+   "Locuința în care funcționează un magazin sau un atelier, fără clauză specifică",
+   "Locuința nelocuită luni de zile, dacă nu ai informat asigurătorul"
   ],
   "docs": [
-   "Adresa și tipul: casă sau apartament",
+   "Adresa și tipul locuinței: casă sau apartament",
    "Suprafața utilă și anul construcției",
-   "Buletinul sau CUI-ul proprietarului"
+   "Actul de identitate sau CUI-ul proprietarului"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe platforma brokerului, la locuință, pe contul meu."
+    "Ajungi pe platforma brokerului, la secțiunea de locuință, pe contul meu."
    ],
    [
-    "Alegi sumele",
-    "Una pentru clădire, una pentru ce e în ea. Bifezi răspunderea față de vecini: e ieftină și e clauza pe care o folosesc cel mai des clienții mei din bloc."
+    "Alegi sumele asigurate",
+    "Una pentru clădire, una pentru bunurile din ea. Bifezi răspunderea față de vecini: costă puțin și este clauza folosită cel mai des de clienții mei care locuiesc la bloc."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail. Dacă ai nevoie de cesiune pentru bancă, îmi scrii și o adăugăm."
+    "Polița ajunge pe e-mail. Dacă ai nevoie de cesiune pentru bancă, îmi scrii și o adăugăm."
    ]
   ],
   "faq": [
    [
     "PAD sau facultativă? Am nevoie de amândouă?",
-    "Da, e enervant, dar da. PAD e obligatorie prin lege și acoperă doar cutremur, inundație și alunecare de teren, cu sume fixe. Facultativa acoperă restul, cu sume alese de tine. Fără PAD nu poți face nici facultativa."
+    "Da. PAD este obligatorie prin lege și acoperă doar cutremurul, inundația și alunecarea de teren, cu sume fixe. Facultativa acoperă restul riscurilor, cu sume alese de tine. Fără PAD nu poți încheia nici polița facultativă."
    ],
    [
-    "Ce sumă pun la clădire?",
-    "Cât ar costa să o reconstruiești, nu cât ai vinde-o. Valoarea de reconstrucție a unui apartament din Tătărași nu are legătură cu prețul din anunțuri. Dacă nu știi, îmi scrii și facem calculul împreună."
+    "Ce sumă aleg pentru clădire?",
+    "Costul de reconstrucție, nu prețul de vânzare. Valoarea de reconstrucție a unui apartament din Tătărași nu are legătură cu prețul din anunțurile imobiliare. Dacă nu ești sigur, îmi scrii și facem calculul împreună."
    ],
    [
-    "Dau apartamentul în chirie. Cine asigură?",
-    "Tu, ca proprietar, asiguri clădirea și mobila ta. Chiriașul își poate face o poliță pentru lucrurile lui și pentru răspunderea față de vecini. Le recomand amândurora, am văzut destule certuri după o inundație."
+    "Am dat apartamentul în chirie. Cine asigură?",
+    "Tu, ca proprietar, asiguri clădirea și mobilierul tău. Chiriașul își poate încheia o poliță pentru bunurile lui și pentru răspunderea față de vecini. Le recomand amândurora; după o inundație, lipsa unei polițe aduce discuții neplăcute."
    ],
    [
-    "Intră și lucrurile din casă?",
-    "Da, dacă alegi o sumă pentru bunuri. Mobilă, electrocasnice, electronice. Obiectele scumpe (bijuterii, tablouri) se declară separat, altfel nu sunt acoperite la valoarea lor."
+    "Sunt acoperite și bunurile din locuință?",
+    "Da, dacă alegi o sumă pentru bunuri: mobilier, electrocasnice, electronice. Obiectele de valoare (bijuterii, tablouri) se declară separat, altfel nu sunt acoperite la valoarea lor."
    ],
    [
-    "Banca îmi cere poliță pentru credit. E asta?",
-    "Da. Băncile cer PAD plus o facultativă cesionată în favoarea lor. O faci online, iar cesiunea se adaugă după: îmi trimiți datele creditului și mă ocup."
+    "Banca îmi cere o poliță pentru credit. Este aceasta?",
+    "Da. Băncile solicită PAD plus o poliță facultativă cesionată în favoarea lor. O închei online, iar cesiunea se adaugă ulterior: îmi trimiți datele creditului și mă ocup eu."
    ],
    [
-    "M-a inundat vecinul. Ce fac?",
-    "Poze, anunți asigurătorul în termenul din condiții, nu zugrăvești până nu vine constatarea. Îmi scrii și mie, te ghidez prin dosar."
+    "Am fost inundat de la etajul superior. Ce fac?",
+    "Faci fotografii, anunți asigurătorul în termenul din condiții și nu zugrăvești până la constatare. Îmi scrii și mie și te îndrum pe parcursul dosarului."
    ]
   ],
   "related": [
@@ -276,9 +276,9 @@
   "wa_text": "Bună Marina, vreau să fac PAD pentru locuință.",
   "service_type": "Poliță de asigurare obligatorie a locuinței (PAD)",
   "title": "PAD: polița obligatorie a locuinței, online | IașiAsigură",
-  "desc": "PAD e obligatorie pentru orice locuință și se emite prin PAID, la aceleași condiții pentru toți. Acoperă cutremur, inundație, alunecare de teren. Online.",
-  "h1": "PAD: polița obligatorie a locuinței. O faci online, o ai pe e-mail.",
-  "answer": "PAD e polița obligatorie pentru orice construcție cu destinație de locuință din România. Se emite prin PAID, cu aceleași sume și aceleași condiții indiferent de unde o iei, și acoperă trei riscuri: cutremur, inundație din natură și alunecare de teren. Nimic altceva. O faci online, pe platforma brokerului, și vine pe e-mail după plată.",
+  "desc": "PAD este obligatorie pentru orice locuință și se emite prin PAID, în condiții identice pentru toți. Acoperă cutremur, inundație, alunecare de teren.",
+  "h1": "PAD: polița obligatorie a locuinței. O închei online și o primești pe e-mail.",
+  "answer": "PAD este polița obligatorie pentru orice construcție cu destinație de locuință din România. Se emite prin PAID, cu aceleași sume și aceleași condiții indiferent de unde o închei, și acoperă trei riscuri: cutremur, inundație produsă de natură și alunecare de teren. Nimic altceva. O închei online, pe platforma brokerului, iar polița ajunge pe e-mail după plată.",
   "covers": [
    "Cutremur",
    "Inundație produsă de natură: viitură, ploi, râu ieșit din matcă",
@@ -287,51 +287,51 @@
    "12 luni, orice construcție cu destinație de locuit"
   ],
   "not_covers": [
-   "Incendiu, explozie, furt. Astea intră la facultativă.",
-   "Apa de la vecinul de sus sau de la țeava ta",
-   "Mobila, electrocasnicele, hainele",
-   "Ce depășește suma fixată prin lege",
+   "Incendiu, explozie, furt. Acestea intră la polița facultativă.",
+   "Inundația de la apartamentul de deasupra sau de la o conductă spartă în locuința ta",
+   "Mobilierul, electrocasnicele, îmbrăcămintea",
+   "Ce depășește suma stabilită prin lege",
    "Garajul, magazia, anexele fără destinație de locuință"
   ],
   "docs": [
    "Adresa și tipul construcției: tip A (beton, cărămidă) sau tip B (chirpici, lemn, alte materiale)",
    "Suprafața utilă și anul construcției",
-   "Buletinul proprietarului"
+   "Actul de identitate al proprietarului"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina PAD de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina PAD de pe platforma brokerului, pe contul meu."
    ],
    [
-    "Pui adresa și tipul construcției",
-    "Suma asigurată și prima sunt fixate prin lege, nu ai ce alege. Verifici doar că datele proprietarului sunt corecte, că el e asiguratul."
+    "Introduci adresa și tipul construcției",
+    "Suma asigurată și prima sunt stabilite prin lege, nu există opțiuni de ales. Verifici doar că datele proprietarului sunt corecte, pentru că el este asiguratul."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail. Dacă vrei și facultativa, o faci imediat după, în același loc."
+    "Polița ajunge pe e-mail. Dacă dorești și polița facultativă, o închei imediat după, în același loc."
    ]
   ],
   "faq": [
    [
     "Cine trebuie să aibă PAD?",
-    "Toți proprietarii de locuințe, persoane fizice sau firme. Nu contează dacă stai acolo, o închiriezi sau e goală."
+    "Toți proprietarii de locuințe, persoane fizice sau juridice. Nu contează dacă locuiești acolo, o închiriezi sau este nelocuită."
    ],
    [
-    "Și dacă nu o fac?",
-    "Amendă de la primărie, în primul rând. Și, la un cutremur sau la o viitură, nu primești nimic de la PAID și nici ajutoarele de stat condiționate de poliță. Am clienți din lunca Prutului care au învățat asta după inundații."
+    "Ce se întâmplă dacă nu o închei?",
+    "În primul rând, amendă de la primărie. Apoi, la un cutremur sau la o viitură, nu primești nimic de la PAID și nici ajutoarele de stat condiționate de existența poliței. Am clienți din lunca Prutului care au învățat acest lucru după inundații."
    ],
    [
     "De ce costă la fel peste tot?",
-    "Pentru că sumele și primele sunt stabilite prin lege, pe tip A și tip B. Nu e nimic de negociat, nu e nimic de comparat. Diferența o face doar cât de repede o ai în mână."
+    "Pentru că sumele și primele sunt stabilite prin lege, pe tip A și tip B. Nu este nimic de negociat sau de comparat. Diferența o face doar cât de repede o ai în posesie."
    ],
    [
-    "Pot face PAD pentru casa părinților?",
-    "Da, plătești tu. Dar la date treci proprietarul, nu pe tine, că el e asiguratul."
+    "Pot încheia PAD pentru casa părinților?",
+    "Da, poți plăti tu. La date treci însă proprietarul, nu pe tine, pentru că el este asiguratul."
    ],
    [
-    "Am două case. O singură poliță?",
-    "Nu, PAD se face pe locuință. Două case, două polițe."
+    "Am două case. Ajunge o singură poliță?",
+    "Nu, PAD se încheie pe fiecare locuință. Două case, două polițe."
    ]
   ],
   "related": [
@@ -357,67 +357,67 @@
   "wa_text": "Bună Marina, plec în străinătate și vreau asigurare de călătorie.",
   "service_type": "Asigurare medicală de călătorie în străinătate",
   "title": "Asigurare medicală de călătorie, online | IașiAsigură",
-  "desc": "Consultații, spitalizare, repatriere în străinătate. O faci online, pentru o plecare sau pe tot anul, inclusiv în ziua în care pleci. Vine pe e-mail.",
-  "h1": "Asigurarea de călătorie: ca să nu plătești spitalul din Grecia din buzunar",
-  "answer": "Cardul european te bagă în spitalul de stat din țara respectivă, în condițiile localnicilor, cu coplăți. Nu te aduce acasă cu ambulanța și nu plătește clinica privată de lângă hotel. Asigurarea de călătorie face asta: consultații, medicamente, spitalizare, repatriere. O faci online, pe o plecare sau pe tot anul, chiar și în dimineața zborului.",
+  "desc": "Consultații, spitalizare, repatriere în străinătate. O închei online, pentru o plecare sau pe tot anul, inclusiv în ziua plecării. Polița ajunge pe e-mail.",
+  "h1": "Asigurarea de călătorie: ca să nu plătești din buzunar spitalul din străinătate",
+  "answer": "Cardul european îți oferă acces la spitalul public din țara respectivă, în condițiile localnicilor, cu coplăți. Nu acoperă repatrierea cu ambulanța și nici clinica privată de lângă hotel. Asigurarea de călătorie face acest lucru: consultații, medicamente, spitalizare, repatriere. O închei online, pentru o singură plecare sau pe tot anul, chiar și în dimineața zborului.",
   "covers": [
    "Consultații și tratamente de urgență",
-   "Spitalizare și operații neprevăzute",
+   "Spitalizare și intervenții chirurgicale neprevăzute",
    "Medicamentele prescrise la urgență",
    "Transport medical și repatriere",
-   "Urgențe la dentist, în limita din condiții",
-   "Poți suna oricând, îți răspunde cineva în română"
+   "Urgențe stomatologice, în limita din condiții",
+   "Linie de asistență disponibilă permanent, cu răspuns în limba română"
   ],
   "not_covers": [
-   "Bolile cronice și cele pe care le aveai dinainte, fără clauză specială",
+   "Bolile cronice și afecțiunile preexistente, fără clauză specială",
    "Tratamente programate de acasă, turism medical",
-   "Accidente cu alcool sau droguri la mijloc",
-   "Schi, snowboard, sporturi extreme, fără clauza pentru ele",
+   "Accidente produse sub influența alcoolului sau a drogurilor",
+   "Schi, snowboard, sporturi extreme, fără clauza specifică",
    "Sarcina avansată și nașterea, peste limita din condiții"
   ],
   "docs": [
-   "Pașaportul sau buletinul fiecărei persoane",
-   "Țara și zilele exacte",
-   "Un e-mail pe care îl verifici, că acolo vine polița"
+   "Pașaportul sau actul de identitate al fiecărei persoane",
+   "Țara și perioada exactă",
+   "O adresă de e-mail pe care o verifici, pentru că acolo ajunge polița"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de călătorie de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina de călătorie de pe platforma brokerului, pe contul meu."
    ],
    [
-    "Pui țara, zilele și persoanele",
-    "Alegi limita de acoperire (pentru SUA, Canada sau Japonia iei limita cea mai mare) și bifezi ce ți se potrivește: schi, bagaj, storno."
+    "Introduci țara, perioada și persoanele",
+    "Alegi limita de acoperire (pentru SUA, Canada sau Japonia recomand limita cea mai mare) și bifezi ce ți se potrivește: schi, bagaj, storno."
    ],
    [
     "Plătești și pleci",
-    "Polița vine pe e-mail. Salvează numărul de asistență în telefon înainte de decolare, la spital nu ai chef să cauți prin PDF."
+    "Polița ajunge pe e-mail. Salvează numărul de asistență în telefon înainte de plecare, ca să nu îl cauți în document într-un moment dificil."
    ]
   ],
   "faq": [
    [
     "Nu îmi ajunge cardul european?",
-    "Nu. Cardul îți dă acces la sistemul public din țara respectivă, în aceleași condiții ca localnicii, deci cu coplăți. Nu acoperă clinica privată, repatrierea sau transportul medical. Le iei pe amândouă."
+    "Nu. Cardul îți oferă acces la sistemul public din țara respectivă, în aceleași condiții ca localnicii, deci cu coplăți. Nu acoperă clinica privată, repatrierea sau transportul medical. Este bine să le ai pe amândouă."
    ],
    [
     "Ce limită aleg pentru SUA?",
-    "Cea mai mare disponibilă. O noapte de spital acolo costă cât un concediu întreg. Pentru Europa, limitele medii sunt de obicei suficiente."
+    "Cea mai mare disponibilă. O noapte de spital acolo poate costa cât un concediu întreg. Pentru Europa, limitele medii sunt de obicei suficiente."
    ],
    [
-    "Merg la schi. E acoperit?",
-    "Doar dacă bifezi clauza pentru sporturi de iarnă. Fără ea, accidentul de pe pârtie e din buzunarul tău. Am avut un client cu ligamentele rupte în Austria care a aflat asta la casierie."
+    "Merg la schi. Sunt acoperit?",
+    "Doar dacă bifezi clauza pentru sporturi de iarnă. Fără ea, accidentul de pe pârtie rămâne în sarcina ta. Am avut un client care a aflat acest lucru la casieria spitalului din Austria, cu ligamentele rupte."
    ],
    [
-    "Pot să o fac în ziua plecării?",
-    "Da, cât timp nu ai ieșit din țară. Eu aș face-o odată cu biletele, dar știu că lumea o face în aeroport."
+    "Pot încheia polița în ziua plecării?",
+    "Da, atât timp cât nu ai ieșit din țară. Recomand să o închei odată cu biletele, ca să ai timp să verifici condițiile."
    ],
    [
     "Copiii intră pe aceeași poliță?",
-    "Da, pe polița de familie. La multe produse minorii au condiții mai bune."
+    "Da, pe polița de familie. La multe produse minorii au condiții mai avantajoase."
    ],
    [
-    "Mi-e rău în străinătate. Ce fac?",
-    "Suni la numărul de asistență din poliță înainte să mergi la clinică. Ei îți spun unde să te duci și, unde se poate, plătesc direct. Dacă te duci pe cont propriu, păstrezi toate chitanțele."
+    "Am o problemă medicală în străinătate. Ce fac?",
+    "Suni la numărul de asistență din poliță înainte să mergi la clinică. Ei îți indică unde să te adresezi și, unde este posibil, plătesc direct. Dacă mergi pe cont propriu, păstrezi toate chitanțele."
    ],
    [
     "Acoperă și bagajul?",
@@ -442,66 +442,66 @@
    "pf"
   ],
   "icon": "🎫",
-  "short": "Îți dă banii înapoi dacă nu mai poți pleca.",
+  "short": "Primești banii înapoi dacă nu mai poți pleca în călătorie.",
   "wa_text": "Bună Marina, vreau asigurare storno pentru o vacanță plătită.",
   "service_type": "Asigurare de anulare a călătoriei (storno)",
   "title": "Asigurare storno: banii înapoi dacă anulezi | IașiAsigură",
   "desc": "Storno îți returnează sumele nerambursabile (pachet, cazare, bilete) dacă anulezi din motivele din condiții. O adaugi online, la asigurarea de călătorie.",
-  "h1": "Storno: ce se întâmplă cu banii pe vacanță dacă te îmbolnăvești înainte",
-  "answer": "Ai plătit vacanța din ianuarie și în iunie copilul face varicelă. Agenția nu îți dă banii înapoi. Storno da, dacă motivul e dintre cele acoperite: boală, accident, spitalizare sau deces în familie, pagubă mare la casă. O adaugi pe platformă, în același formular cu asigurarea de călătorie, și o iei cât mai aproape de rezervare.",
+  "h1": "Storno: ce se întâmplă cu banii plătiți pe vacanță dacă te îmbolnăvești înainte de plecare",
+  "answer": "Primești banii înapoi dacă nu mai poți pleca în călătorie. Ai plătit vacanța din ianuarie, iar în iunie copilul se îmbolnăvește: agenția nu returnează suma, dar polița storno o face, dacă motivul este dintre cele acoperite: boală, accident, spitalizare sau deces în familie, pagubă majoră la locuință. O adaugi pe platformă, în același formular cu asigurarea de călătorie.",
   "covers": [
-   "Te-ai îmbolnăvit sau ai avut un accident și nu poți pleca",
+   "Te-ai îmbolnăvit sau ai suferit un accident și nu poți pleca",
    "Deces sau spitalizare în familia apropiată",
-   "Ți-a ars sau ți-a inundat casa chiar înainte de plecare",
-   "Citație la tribunal și alte situații din condiții",
-   "Pachetul turistic, cazarea, biletele: tot ce e nerambursabil"
+   "Un incendiu sau o inundație la locuință chiar înainte de plecare",
+   "Citație în instanță și alte situații prevăzute în condiții",
+   "Pachetul turistic, cazarea, biletele: tot ce este nerambursabil"
   ],
   "not_covers": [
-   "Te-ai răzgândit. Nu mai ai chef.",
-   "Boli pe care le aveai când ai făcut polița",
+   "Te-ai răzgândit și nu mai dorești să pleci",
+   "Afecțiuni pe care le aveai la încheierea poliței",
    "Anularea de către agenție sau de către compania aeriană",
-   "Sumele pe care furnizorul ți le dă înapoi oricum",
-   "Ce știai deja când ai cumpărat polița"
+   "Sumele pe care furnizorul ți le returnează oricum",
+   "Situații pe care le cunoșteai deja când ai cumpărat polița"
   ],
   "docs": [
-   "Rezervarea sau contractul cu agenția și cât ai plătit",
-   "Cine pleacă",
+   "Rezervarea sau contractul cu agenția și suma plătită",
+   "Persoanele care pleacă",
    "Perioada și destinația"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe formularul de călătorie de pe platforma brokerului. Storno nu e produs separat, se bifează acolo."
+    "Ajungi pe formularul de călătorie de pe platforma brokerului. Storno nu este un produs separat; se bifează în același formular."
    ],
    [
-    "Treci valoarea rezervării și bifezi anularea",
-    "Suma pe care o pui e suma pe care o recuperezi, deci pune tot ce e nerambursabil, inclusiv biletele low-cost."
+    "Introduci valoarea rezervării și bifezi anularea",
+    "Suma declarată este suma pe care o recuperezi, deci include tot ce este nerambursabil, inclusiv biletele low-cost."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail, cu condițiile de anulare. Citește lista de motive acoperite, e scurtă."
+    "Polița ajunge pe e-mail, împreună cu condițiile de anulare. Citește lista motivelor acoperite; este scurtă."
    ]
   ],
   "faq": [
    [
     "Când o cumpăr?",
-    "Cât mai aproape de rezervare, ideal în primele zile după ce ai plătit avansul. Luată cu o săptămână înainte de plecare, nu mai acoperă ce era deja previzibil."
+    "Cât mai aproape de rezervare, ideal în primele zile după plata avansului. Încheiată cu o săptămână înainte de plecare, nu mai acoperă ce era deja previzibil."
    ],
    [
     "Ce motive sunt acceptate?",
-    "Cele scrise în condiții: boală, accident, spitalizare sau deces în familie, pagube grave la locuință și altele asemenea. Toate cu acte."
+    "Cele prevăzute în condiții: boală, accident, spitalizare sau deces în familie, pagube grave la locuință și alte situații similare. Toate se dovedesc cu documente."
    ],
    [
-    "Biletele low-cost intră?",
-    "Da, dacă le declari valoarea și sunt nerambursabile. Se plătește ce nu îți dă înapoi compania."
+    "Biletele low-cost sunt acoperite?",
+    "Da, dacă le declari valoarea și sunt nerambursabile. Se despăgubește suma pe care compania nu ți-o returnează."
    ],
    [
-    "Care e diferența față de asigurarea medicală?",
-    "Medicala acoperă ce ți se întâmplă acolo, în vacanță. Storno acoperă banii pierduți când vacanța nu mai are loc. Sunt două lucruri diferite, de aceea se iau împreună."
+    "Care este diferența față de asigurarea medicală?",
+    "Asigurarea medicală acoperă ce ți se întâmplă la destinație, în timpul călătoriei. Storno acoperă banii pierduți când călătoria nu mai are loc. Sunt două acoperiri diferite, de aceea se încheie împreună."
    ],
    [
-    "Primesc toți banii?",
-    "Costurile nerambursabile declarate, minus franșiza din condiții. Ce ți-a returnat agenția nu se plătește a doua oară."
+    "Primesc toată suma?",
+    "Costurile nerambursabile declarate, minus franșiza din condiții. Ce ți-a returnat agenția nu se despăgubește a doua oară."
    ]
   ],
   "related": [
@@ -527,8 +527,8 @@
   "service_type": "Asigurare privată de sănătate",
   "title": "Asigurare de sănătate privată, online | IașiAsigură",
   "desc": "Consultații la specialist fără trimitere, analize, imagistică și, după pachet, spitalizare, în clinici private. Online, pentru tine, familie sau angajați.",
-  "h1": "Asigurarea privată de sănătate: la specialist săptămâna asta, nu peste două luni",
-  "answer": "Asigurarea privată de sănătate îți decontează consultațiile la specialiști, analizele, RMN-ul sau ecografia și, în funcție de pachet, spitalizarea și operațiile. Merge în rețele de clinici private, pe lângă sistemul public, nu în locul lui. O faci online, pentru tine, pentru familie sau pe firmă pentru angajați. Verifică lista de clinici din orașul tău înainte de plată.",
+  "h1": "Asigurarea privată de sănătate: la specialist săptămâna aceasta, nu peste două luni",
+  "answer": "Asigurarea privată de sănătate îți decontează consultațiile la specialiști, analizele, RMN-ul sau ecografia și, în funcție de pachet, spitalizarea și intervențiile chirurgicale. Funcționează în rețele de clinici private, în completarea sistemului public, nu în locul lui. O închei online, pentru tine, pentru familie sau pe firmă, pentru angajați. Verifică lista clinicilor din orașul tău înainte de plată.",
   "covers": [
    "Consultații la specialiști, fără trimitere de la medicul de familie",
    "Analize și imagistică: ecografie, RMN, CT",
@@ -545,48 +545,48 @@
    "Serviciile cerute în perioada de așteptare de la început"
   ],
   "docs": [
-   "Nume, CNP, e-mail pentru fiecare persoană",
-   "Declarația de sănătate a asigurătorului",
+   "Numele, CNP-ul și adresa de e-mail pentru fiecare persoană",
+   "Declarația de sănătate solicitată de asigurător",
    "Pe firmă: CUI-ul și lista angajaților"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de sănătate de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina de sănătate de pe platforma brokerului, pe contul meu."
    ],
    [
-    "Alegi pachetul și te uiți la clinici",
-    "Ambulatoriu sau ambulatoriu plus spitalizare. Înainte de plată, verifică lista de clinici partenere pentru orașul tău, asta e întrebarea pe care o primesc cel mai des după."
+    "Alegi pachetul și verifici clinicile",
+    "Ambulatoriu sau ambulatoriu plus spitalizare. Înainte de plată, verifică lista clinicilor partenere din orașul tău; este întrebarea pe care o primesc cel mai des după încheiere."
    ],
    [
-    "Declarația de sănătate, apoi plata",
-    "O treci sincer, la nedeclarare asigurătorul poate refuza despăgubirea. Polița vine pe e-mail."
+    "Completezi declarația de sănătate, apoi plătești",
+    "O completezi corect și complet; la nedeclarare, asigurătorul poate refuza despăgubirea. Polița ajunge pe e-mail."
    ]
   ],
   "faq": [
    [
     "Asigurare sau abonament la clinică?",
-    "Abonamentul îți dă acces la o singură rețea, pe un pachet fix. Asigurarea merge pe sume asigurate, acoperă mai multe tipuri de servicii și poate include spitalizare și operații. Sunt oameni care le au pe amândouă."
+    "Abonamentul îți oferă acces la o singură rețea, pe un pachet fix. Asigurarea funcționează pe sume asigurate, acoperă mai multe tipuri de servicii și poate include spitalizare și intervenții chirurgicale. Unii clienți le au pe amândouă."
    ],
    [
     "Include spitalizarea?",
-    "Depinde de pachet. Sunt variante doar de ambulatoriu (consultații, analize) și variante care adaugă spitalizare, operații și boli grave."
+    "Depinde de pachet. Există variante doar de ambulatoriu (consultații, analize) și variante care adaugă spitalizare, intervenții chirurgicale și boli grave."
    ],
    [
-    "Am o boală cronică. Mă acoperă?",
-    "În general nu, pentru ce aveai deja. O declari la înscriere și asigurătorul stabilește condițiile. Dacă nu o declari și se află, poți rămâne fără despăgubire."
+    "Am o boală cronică. Sunt acoperit?",
+    "În general nu, pentru afecțiunile preexistente. O declari la înscriere, iar asigurătorul stabilește condițiile. Dacă nu o declari și se constată ulterior, poți rămâne fără despăgubire."
    ],
    [
     "Firma poate plăti pentru angajați?",
-    "Da, e un beneficiu tot mai des dat de firmele din Iași care vor să țină oamenii. Are tratament fiscal reglementat, detaliile le verifici cu contabilul."
+    "Da, este un beneficiu oferit tot mai des de firmele din Iași care doresc să își păstreze angajații. Are tratament fiscal reglementat; detaliile le verifici cu contabilul."
    ],
    [
     "La ce clinici pot merge?",
-    "La cele din rețeaua asigurătorului ales. Uită-te pe listă înainte, pentru orașul tău. Nu ai ce face cu o poliță bună dacă clinica ta nu e pe ea."
+    "La cele din rețeaua asigurătorului ales. Consultă lista înainte, pentru orașul tău. O poliță bună nu îți este de folos dacă clinica pe care o preferi nu se află pe listă."
    ],
    [
     "De când o pot folosi?",
-    "De la data aleasă, dar multe servicii au perioadă de așteptare de câteva săptămâni sau luni. E scrisă în condiții, o citim împreună dacă vrei."
+    "De la data aleasă, dar multe servicii au o perioadă de așteptare de câteva săptămâni sau luni. Este prevăzută în condiții; dacă dorești, o parcurgem împreună."
    ]
   ],
   "related": [
@@ -611,9 +611,9 @@
   "wa_text": "Bună Marina, vreau ofertă pentru asigurare de viață.",
   "service_type": "Asigurare de viață",
   "title": "Asigurare de viață: ofertele comparate | IașiAsigură",
-  "desc": "Asigurarea de viață plătește familiei o sumă dacă tu mori sau rămâi în invaliditate. Cu sau fără economisire. Compar asigurătorii, îți explic diferențele.",
+  "desc": "Asigurarea de viață plătește familiei o sumă în caz de deces sau invaliditate. Cu sau fără economisire. Compar ofertele și îți explic diferențele.",
   "h1": "Asigurarea de viață: ce rămâne familiei dacă tu nu mai ești",
-  "answer": "Asigurarea de viață plătește o sumă persoanelor pe care le alegi tu, dacă mori sau rămâi în invaliditate. Poate fi doar protecție (primă mică, sumă mare) sau cu economisire (acumulezi bani, dar protecția e mai mică la aceeași plată). Îmi scrii ce vrei să acoperi și pentru cine, cer oferte la mai mulți asigurători și ți le explic.",
+  "answer": "Asigurarea de viață plătește o sumă persoanelor desemnate de tine, în caz de deces sau de invaliditate. Poate fi doar protecție (primă mică, sumă asigurată mare) sau cu componentă de economisire (acumulezi bani, dar protecția este mai mică la aceeași contribuție). Îmi scrii ce dorești să acoperi și pentru cine, iar eu solicit oferte de la mai mulți asigurători.",
   "covers": [
    "Deces din orice cauză, pe perioada contractului",
    "Invaliditate permanentă, din accident sau din boală",
@@ -622,55 +622,55 @@
    "Economisire, la variantele mixte"
   ],
   "not_covers": [
-   "Sinuciderea în primii ani, după condiții",
-   "Boli pe care nu le-ai declarat la semnare",
-   "Alcool, droguri",
+   "Sinuciderea în primii ani de contract, conform condițiilor",
+   "Afecțiuni nedeclarate la semnare",
+   "Evenimente produse sub influența alcoolului sau a drogurilor",
    "Sporturi extreme nedeclarate",
    "Război, fapte ilegale"
   ],
   "docs": [
-   "Vârsta, meseria, fumezi sau nu",
+   "Vârsta, profesia, dacă ești fumător",
    "Chestionarul medical al asigurătorului",
-   "Cine sunt beneficiarii"
+   "Beneficiarii desemnați"
   ],
   "steps": [
    [
     "Îmi scrii pe WhatsApp",
-    "Ce vrei să acoperi, pentru cine și cam pe cât timp. Dacă ai credit ipotecar, spune-mi și asta, contează."
+    "Ce dorești să acoperi, pentru cine și pe ce perioadă. Dacă ai credit ipotecar, menționează și acest lucru; contează."
    ],
    [
     "Cer oferte și le compar pe clauze",
-    "La viață mă uit la excluderi și la perioada de așteptare, nu la primă în sine. Revin în una-două zile lucrătoare cu două-trei variante explicate."
+    "La asigurările de viață mă uit la excluderi și la perioada de așteptare, nu doar la primă. Revin în una sau două zile lucrătoare cu două sau trei variante explicate."
    ],
    [
     "Chestionar, semnătură, poliță",
-    "Răspunzi la chestionarul medical, semnezi electronic, iar polița vine pe e-mail."
+    "Completezi chestionarul medical, semnezi electronic, iar polița ajunge pe e-mail."
    ]
   ],
   "faq": [
    [
     "Ce sumă aleg?",
-    "Un reper: veniturile tale pe câțiva ani plus creditele rămase de plată. Ideea e ca familia să poată continua fără să vândă casa în primul an."
+    "Un reper: veniturile tale pe câțiva ani plus creditele rămase de plată. Scopul este ca familia să poată continua fără să fie nevoită să vândă locuința în primul an."
    ],
    [
     "Cu economisire sau fără?",
-    "Protecția pură îți dă suma cea mai mare pentru aceeași contribuție. Cu economisire acumulezi bani în timp, dar la aceeași plată ești acoperit pe mai puțin. Eu întreb întâi ce vrei să rezolvi."
+    "Protecția pură îți oferă suma asigurată cea mai mare pentru aceeași contribuție. Cu economisire acumulezi bani în timp, dar la aceeași plată ești acoperit pentru o sumă mai mică. Eu întreb mai întâi ce dorești să rezolvi."
    ],
    [
-    "Mă pune să fac analize?",
-    "La sume mici, de obicei un chestionar. Peste anumite sume sau vârste, asigurătorul poate cere analize sau un consult."
+    "Trebuie să fac analize?",
+    "La sume mici, de obicei este suficient un chestionar. Peste anumite sume sau vârste, asigurătorul poate solicita analize sau un consult medical."
    ],
    [
-    "Banca îmi cere pentru ipotecar. Trebuie a lor?",
-    "Nu. Banca cere o asigurare de viață cesionată în favoarea ei, dar asigurătorul îl alegi tu. Nu ești obligat să iei ce ți se pune în față la ghișeu."
+    "Banca îmi cere o asigurare pentru creditul ipotecar. Trebuie să fie a lor?",
+    "Nu. Banca solicită o asigurare de viață cesionată în favoarea ei, dar asigurătorul îl alegi tu. Nu ești obligat să accepți oferta prezentată la ghișeu."
    ],
    [
-    "Dacă renunț, îmi iau banii înapoi?",
-    "La protecție pură, nu: se termină acoperirea și atât. La cele cu economisire există o valoare de răscumpărare, în primii ani mai mică decât ai plătit."
+    "Dacă renunț, primesc banii înapoi?",
+    "La protecția pură, nu: acoperirea încetează și atât. La produsele cu economisire există o valoare de răscumpărare, în primii ani mai mică decât suma plătită."
    ],
    [
     "Cine primește banii?",
-    "Beneficiarii pe care i-ai trecut în contract. Îi poți schimba oricând, cu o cerere la asigurător."
+    "Beneficiarii desemnați în contract. Îi poți schimba oricând, printr-o cerere adresată asigurătorului."
    ]
   ],
   "related": [
@@ -696,9 +696,9 @@
   "wa_text": "Bună Marina, vreau detalii despre Pilonul III.",
   "service_type": "Pensie privată facultativă (Pilon III)",
   "title": "Pensie privată Pilon III: cum funcționează | IașiAsigură",
-  "desc": "Pilon III e pensia facultativă: contribui lunar într-un fond, deduci din venitul impozabil în limita legală, retragi banii la pensie. Îți explic cum merge.",
-  "h1": "Pilon III: pui deoparte lunar și deduci din venitul impozabil",
-  "answer": "Pilonul III e pensia facultativă, pe lângă cea de stat și pe lângă Pilonul II. Contribui cât vrei, lunar, într-un fond administrat privat, iar contribuția se deduce din venitul impozabil, în limita legală. Banii îi retragi la vârsta prevăzută de lege, nu oricând. Îmi scrii, îți arăt administratorii și comisioanele lor și decizi.",
+  "desc": "Pilonul III este pensia facultativă: contribui lunar într-un fond, deduci din venitul impozabil în limita legală, retragi banii la pensie. Îți explic.",
+  "h1": "Pilonul III: contribui lunar și deduci din venitul impozabil",
+  "answer": "Pilonul III este pensia facultativă, în completarea pensiei de stat și a Pilonului II. Contribui lunar, cu suma aleasă de tine, într-un fond administrat privat, iar contribuția se deduce din venitul impozabil, în limita legală. Banii se retrag la vârsta prevăzută de lege, nu oricând. Îmi scrii, îți prezint administratorii și comisioanele lor, iar decizia îți aparține.",
   "covers": [
    "Contribuție lunară pe care o poți schimba sau opri",
    "Deducere din venitul impozabil, în limita legală",
@@ -707,51 +707,51 @@
    "Transfer la alt administrator, după perioada minimă din lege"
   ],
   "not_covers": [
-   "Un randament garantat. Depinde de piețe.",
+   "Un randament garantat. Rezultatele depind de piețe.",
    "Retragere oricând, ca dintr-un cont curent",
    "Înlocuirea pensiei de stat sau a Pilonului II",
    "Deducere peste limita legală",
-   "Protecție de tip asigurare de viață, dacă nu iei un produs combinat"
+   "Protecție de tip asigurare de viață, dacă nu alegi un produs combinat"
   ],
   "docs": [
-   "Buletinul și datele de contact",
-   "Cât vrei să pui lunar",
-   "Beneficiarii, pentru caz de deces"
+   "Actul de identitate și datele de contact",
+   "Suma pe care dorești să o contribui lunar",
+   "Beneficiarii, pentru cazul de deces"
   ],
   "steps": [
    [
     "Îmi scrii pe WhatsApp",
-    "Cât ai vrea să pui deoparte lunar și dacă ești salariat, PFA sau ai firmă. La deducere contează."
+    "Cât ai dori să contribui lunar și dacă ești salariat, PFA sau ai firmă. Contează la deducere."
    ],
    [
-    "Îți arăt administratorii",
-    "Trimit variantele fondurilor de pensii facultative, cu comisioanele și cu randamentele publicate, fără promisiuni de la mine."
+    "Îți prezint administratorii",
+    "Îți trimit variantele fondurilor de pensii facultative, cu comisioanele și cu randamentele publicate, fără promisiuni din partea mea."
    ],
    [
     "Semnezi actul de aderare",
-    "Se poate electronic. Contribuțiile le faci tu, lunar, prin transfer sau din salariu, dacă angajatorul acceptă."
+    "Se poate semna electronic. Contribuțiile le faci tu, lunar, prin transfer sau din salariu, dacă angajatorul acceptă."
    ]
   ],
   "faq": [
    [
     "Pilon II sau Pilon III?",
-    "Pilonul II e obligatoriu pentru cei mai mulți salariați și se alimentează din contribuția ta la pensie, automat. Pilonul III e voluntar: alegi tu fondul, tu suma, iar contribuția se deduce fiscal în limita legală."
+    "Pilonul II este obligatoriu pentru cei mai mulți salariați și se alimentează automat din contribuția ta la pensie. Pilonul III este voluntar: alegi tu fondul și suma, iar contribuția se deduce fiscal în limita legală."
    ],
    [
-    "Cât pot pune?",
-    "Cât vrei, în limitele administratorului. Deducerea fiscală merge însă doar până la plafonul legal pe an. Peste el pui, dar nu deduci."
+    "Cât pot contribui?",
+    "Cât dorești, în limitele stabilite de administrator. Deducerea fiscală se aplică însă doar până la plafonul legal anual. Peste el poți contribui, dar fără deducere."
    ],
    [
-    "Când iau banii?",
-    "La vârsta de pensionare din lege, după un număr minim de contribuții. Excepții: invaliditate, deces. Nu e cont de economii."
+    "Când pot încasa banii?",
+    "La vârsta de pensionare prevăzută de lege, după un număr minim de contribuții. Excepții: invaliditate, deces. Nu este un cont de economii."
    ],
    [
     "Ce randament am?",
-    "Nu îți pot promite unul, și nimeni nu poate. Fondurile investesc pe piețe reglementate, randamentele trecute le vezi la administrator, viitorul nu îl știe nimeni."
+    "Nu îți pot promite unul, și nimeni nu poate. Fondurile investesc pe piețe reglementate; randamentele trecute le consulți la administrator, iar viitorul nu îl cunoaște nimeni."
    ],
    [
     "Firma poate contribui pentru angajați?",
-    "Da, cu propriul plafon de deductibilitate. Detaliile fiscale le confirmi cu contabilul, eu îți dau actul de aderare."
+    "Da, cu propriul plafon de deductibilitate. Detaliile fiscale le confirmi cu contabilul; eu îți furnizez actul de aderare."
    ]
   ],
   "related": [
@@ -772,62 +772,62 @@
    "pf"
   ],
   "icon": "⚕️",
-  "short": "Obligatorie pentru medici, asistenți, rezidenți. Se cere la aviz.",
+  "short": "Obligatorie pentru medici, asistenți, rezidenți. Se solicită la aviz.",
   "wa_text": "Bună Marina, sunt cadru medical și am nevoie de malpraxis.",
   "service_type": "Asigurare de răspundere civilă profesională medicală (malpraxis)",
   "title": "Malpraxis online: medici, asistenți, rezidenți | IașiAsigură",
-  "desc": "Malpraxisul e obligatoriu pentru personalul medical și se cere la avizul anual. Alegi limita după specialitate, plătești cu cardul, polița vine pe e-mail.",
-  "h1": "Malpraxis: polița pe care ți-o cere colegiul la avizul anual",
-  "answer": "Malpraxisul e răspunderea civilă profesională a personalului medical: dacă un pacient are de suferit dintr-o eroare în actul medical, polița plătește despăgubirea. E obligatoriu prin lege pentru medici, rezidenți, asistenți, moașe, farmaciști, kinetoterapeuți și psihologi, și se cere la avizarea anuală. O faci online, alegi limita după specialitate și grad, vine pe e-mail.",
+  "desc": "Malpraxis, obligatoriu pentru personalul medical, solicitat la avizul anual. Alegi limita după specialitate, plătești cu cardul, polița ajunge pe e-mail.",
+  "h1": "Malpraxis: polița pe care ți-o solicită colegiul la avizul anual",
+  "answer": "Malpraxisul este asigurarea de răspundere civilă profesională a personalului medical: dacă un pacient are de suferit în urma unei erori în actul medical, polița plătește despăgubirea. Este obligatorie prin lege pentru medici, rezidenți, asistenți, moașe, farmaciști, kinetoterapeuți și psihologi și se solicită la avizarea anuală. O închei online, alegi limita după specialitate și grad, iar polița ajunge pe e-mail.",
   "covers": [
    "Despăgubirile datorate pacienților pentru erori în actul medical",
    "Prejudiciile materiale și morale stabilite de comisie sau de instanță",
-   "Cheltuielile de judecată și avocatul",
+   "Cheltuielile de judecată și onorariul avocatului",
    "Toate locurile de muncă pe care le declari",
-   "Perioada cerută la avizul anual"
+   "Perioada solicitată la avizul anual"
   ],
   "not_covers": [
-   "Fapte făcute cu intenție",
-   "Acte medicale fără drept de liberă practică",
-   "Ce faci în afara specialității declarate",
+   "Fapte săvârșite cu intenție",
+   "Acte medicale efectuate fără drept de liberă practică",
+   "Activități în afara specialității declarate",
    "Amenzile",
-   "Cazuri de dinainte de intrarea în vigoare a poliței"
+   "Cazuri anterioare intrării în vigoare a poliței"
   ],
   "docs": [
    "Certificatul de membru al colegiului",
-   "Specialitatea, gradul și unde lucrezi",
-   "Buletinul și un e-mail"
+   "Specialitatea, gradul și locurile de muncă",
+   "Actul de identitate și o adresă de e-mail"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de malpraxis de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina de malpraxis de pe platforma brokerului, pe contul meu."
    ],
    [
     "Specialitate, grad, locuri de muncă",
-    "Le treci pe toate, inclusiv cabinetul privat de după program. Alegi limita: cel puțin minimul cerut pentru gradul tău, la chirurgicale îți recomand mai sus."
+    "Le declari pe toate, inclusiv cabinetul privat de după program. Alegi limita: cel puțin minimul cerut pentru gradul tău; la specialitățile chirurgicale recomand o limită mai mare."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail, în formatul pe care îl acceptă colegiul. O atașezi la dosarul de aviz."
+    "Polița ajunge pe e-mail, în formatul acceptat de colegiu. O atașezi la dosarul de aviz."
    ]
   ],
   "faq": [
    [
-    "Cine e obligat?",
-    "Personalul medical care acordă îngrijiri: medici, dentiști, rezidenți, farmaciști, asistenți, moașe, kinetoterapeuți, psihologi clinicieni. Se cere la avizarea anuală a certificatului de membru."
+    "Cine este obligat să o încheie?",
+    "Personalul medical care acordă îngrijiri: medici, medici dentiști, rezidenți, farmaciști, asistenți, moașe, kinetoterapeuți, psihologi clinicieni. Se solicită la avizarea anuală a certificatului de membru."
    ],
    [
     "Ce limită aleg?",
-    "Cel puțin minimul cerut pentru specialitatea și gradul tău. La chirurgie, ATI, obstetrică sau la activitate în privat, o limită mai mare e mai prudentă."
+    "Cel puțin minimul cerut pentru specialitatea și gradul tău. La chirurgie, ATI, obstetrică sau la activitatea în sistemul privat, o limită mai mare este mai prudentă."
    ],
    [
-    "Sunt rezident. Îmi trebuie?",
-    "Da. Obligația e și pentru rezidenți, și pentru asistenți, cu limite specifice gradului. Am mulți rezidenți de la UMF Iași care o fac în ultima săptămână de aviz."
+    "Sunt rezident. Am nevoie de ea?",
+    "Da. Obligația se aplică și rezidenților, și asistenților, cu limite specifice gradului. Lucrez cu mulți rezidenți de la UMF Iași; recomand încheierea poliței înainte de ultima săptămână de aviz."
    ],
    [
-    "Lucrez și la spital, și la un cabinet privat. O poliță?",
-    "Da, dar treci toate locurile la încheiere. Ce nu e declarat nu e acoperit."
+    "Lucrez și la spital, și la un cabinet privat. Ajunge o poliță?",
+    "Da, dar declari toate locurile de muncă la încheiere. Ce nu este declarat nu este acoperit."
    ],
    [
     "Acoperă și avocatul?",
@@ -835,7 +835,7 @@
    ],
    [
     "Am primit o reclamație. Ce fac?",
-    "Anunți asigurătorul imediat ce afli de reclamație sau de citație. Nu recunoști nimic pe cont propriu, nu semnezi nimic. Îmi scrii și mergem pe pași."
+    "Anunți asigurătorul imediat ce afli de reclamație sau de citație. Nu recunoști nimic pe cont propriu și nu semnezi nimic. Îmi scrii și parcurgem împreună pașii necesari."
    ]
   ],
   "related": [
@@ -857,66 +857,66 @@
    "pj"
   ],
   "icon": "⚖️",
-  "short": "Profesională sau personală: pagubele pe care le faci altora.",
+  "short": "Profesională sau personală: pagubele pe care le produci altora.",
   "wa_text": "Bună Marina, vreau ofertă pentru răspundere civilă.",
   "service_type": "Asigurare de răspundere civilă",
   "title": "Răspundere civilă profesională și personală | IașiAsigură",
-  "desc": "Răspunderea civilă plătește pagubele făcute altora: din meserie (contabil, arhitect, IT) sau din viața de zi cu zi (ai inundat vecinul). Compar ofertele.",
-  "h1": "Răspunderea civilă: când greșeala ta costă pe altcineva",
-  "answer": "Răspunderea civilă plătește despăgubirile pe care le datorezi altora când le produci o pagubă. Varianta profesională e pentru erorile din meserie: un contabil care ratează un termen, un arhitect cu un calcul greșit, o firmă de IT care pierde datele clientului. Cea personală e pentru viața privată: câinele, copilul, vecinul inundat. Îmi scrii ce faci și ce limită ai nevoie.",
+  "desc": "Răspunderea civilă acoperă pagubele produse altora: din profesie (contabil, arhitect, IT) sau din viața privată (o inundație la vecini). Compar ofertele.",
+  "h1": "Răspunderea civilă: când o greșeală a ta îl costă pe altcineva",
+  "answer": "Răspunderea civilă acoperă despăgubirile pe care le datorezi altora când le produci o pagubă. Varianta profesională este pentru erorile din activitate: un contabil care ratează un termen, un arhitect cu un calcul greșit, o firmă de IT care pierde datele clientului. Cea personală este pentru viața privată: câinele, copilul, o inundație la vecini. Îmi scrii activitatea și limita dorită.",
   "covers": [
-   "Pagube materiale făcute altora prin activitatea ta",
+   "Pagube materiale produse altora prin activitatea ta",
    "Vătămări corporale ale altor persoane",
    "Erori și omisiuni din exercitarea profesiei",
-   "Ce fac copiii, câinele sau familia ta, la varianta personală",
+   "Faptele copiilor, ale animalului de companie sau ale familiei, la varianta personală",
    "Cheltuielile de judecată și de apărare"
   ],
   "not_covers": [
-   "Ce faci intenționat",
+   "Fapte săvârșite cu intenție",
    "Amenzi, penalități",
    "Bunurile tale și pierderile tale",
-   "Obligații contractuale asumate peste ce cere legea",
-   "Profesiile cu poliță proprie prin lege, cum e malpraxisul"
+   "Obligații contractuale asumate peste ce prevede legea",
+   "Profesiile cu poliță proprie prin lege, cum este malpraxisul"
   ],
   "docs": [
-   "Ce faci și codul CAEN, dacă e pe firmă",
-   "Cifra de afaceri sau câți clienți ai",
-   "Limita cerută de clienți sau de lege"
+   "Activitatea desfășurată și codul CAEN, dacă este pe firmă",
+   "Cifra de afaceri sau numărul de clienți",
+   "Limita solicitată de clienți sau prevăzută de lege"
   ],
   "steps": [
    [
     "Îmi scrii pe WhatsApp",
-    "Ce faci, pe PFA sau SRL, și ce limită ți se cere prin contract sau prin lege. Dacă e personală, îmi spui dacă ești chiriaș sau proprietar."
+    "Ce activitate ai, pe PFA sau SRL, și ce limită ți se solicită prin contract sau prin lege. Dacă este vorba de varianta personală, îmi spui dacă ești chiriaș sau proprietar."
    ],
    [
-    "Cer cotații pe domeniul tău",
+    "Cer cotații pentru domeniul tău",
     "Condițiile diferă mult între un contabil și o firmă de construcții. Revin în aceeași zi sau a doua zi lucrătoare cu oferta și cu excluderile."
    ],
    [
-    "Plătești, primești polița",
-    "Pe e-mail. Dacă ai nevoie de ea pentru un contract, o ai într-un format pe care îl poți trimite clientului."
+    "Plătești și primești polița",
+    "Ajunge pe e-mail. Dacă ai nevoie de ea pentru un contract, o primești într-un format pe care îl poți transmite clientului."
    ]
   ],
   "faq": [
    [
-    "Ce profesii au nevoie?",
-    "Cele în care o greșeală costă clientul: avocați, notari, contabili, experți, arhitecți, proiectanți, firme de IT, agenți imobiliari, constructori, consultanți. La unele e cerută prin lege, la altele prin contract."
+    "Ce profesii au nevoie de ea?",
+    "Cele în care o greșeală îl costă pe client: avocați, notari, contabili, experți, arhitecți, proiectanți, firme de IT, agenți imobiliari, constructori, consultanți. La unele este cerută prin lege, la altele prin contract."
    ],
    [
-    "Care e diferența față de malpraxis?",
-    "Malpraxisul e răspunderea profesională a personalului medical, reglementată separat și obligatorie. Răspunderea civilă profesională e pentru restul meseriilor, cu condiții diferite de la domeniu la domeniu."
+    "Care este diferența față de malpraxis?",
+    "Malpraxisul este răspunderea profesională a personalului medical, reglementată separat și obligatorie. Răspunderea civilă profesională este pentru celelalte profesii, cu condiții diferite de la un domeniu la altul."
    ],
    [
     "Plătește și amenda?",
-    "Nu. Amenzile rămân la tine. Polița plătește despăgubirea către păgubit și cheltuielile de judecată."
+    "Nu. Amenzile rămân în sarcina ta. Polița plătește despăgubirea către păgubit și cheltuielile de judecată."
    ],
    [
-    "Sunt chiriaș. Îmi trebuie?",
-    "Ți-aș zice da. Dacă inunzi apartamentul de dedesubt, proprietarul tău și vecinul vin la tine, nu la polița proprietarului. Clauza personală e ieftină."
+    "Sunt chiriaș. Am nevoie de ea?",
+    "Recomand să o ai. Dacă produci o inundație la apartamentul de dedesubt, proprietarul tău și persoana afectată se îndreaptă către tine, nu către polița proprietarului. Clauza personală costă puțin."
    ],
    [
-    "Merge pe PFA?",
-    "Da, pe PFA, pe SRL sau pe persoană fizică, după ce vrei să acoperi."
+    "Se poate încheia pe PFA?",
+    "Da, pe PFA, pe SRL sau pe persoană fizică, în funcție de ce dorești să acoperi."
    ]
   ],
   "related": [
@@ -939,13 +939,13 @@
    "pj"
   ],
   "icon": "🚕",
-  "short": "Accidente pentru șofer, pasageri, bagaje. Pentru autorizare.",
+  "short": "Accidente pentru șofer, pasageri, bagaje. Necesară la autorizare.",
   "wa_text": "Bună Marina, sunt șofer Bolt/Uber și vreau asigurarea de accidente.",
   "service_type": "Asigurare de accidente pentru transport alternativ de persoane",
   "title": "Asigurare accidente taxi, Uber, Bolt online | IașiAsigură",
-  "desc": "Asigurarea de accidente pentru șofer, pasageri și bagaje, cerută la dosarul de autorizare pentru taxi și ridesharing. O faci online, pe mașină.",
+  "desc": "Asigurarea de accidente pentru șofer, pasageri și bagaje, solicitată la dosarul de autorizare pentru taxi și ridesharing. O închei online, pe vehicul.",
   "h1": "Asigurarea de accidente pentru Bolt, Uber și taxi: cea de la dosarul de autorizare",
-  "answer": "E asigurarea de accidente pentru persoanele din mașină, șofer inclus, pe care ți-o cer la autorizarea pentru taxi sau transport alternativ (verifică la primărie ce vor exact). Acoperă decesul și invaliditatea din accident, cheltuielile medicale și bagajele pasagerilor. Se face pe mașină, online, și vine pe e-mail. Cea mai des cumpărată poliță de la mine în Iași, sincer.",
+  "answer": "Este asigurarea de accidente pentru persoanele aflate în vehicul, inclusiv șoferul, solicitată la autorizarea pentru taxi sau transport alternativ (cerințele exacte le verifici la primărie). Acoperă decesul și invaliditatea din accident, cheltuielile medicale și bagajele pasagerilor. Se încheie pe vehicul, online, iar polița ajunge pe e-mail. Este una dintre cele mai solicitate polițe din Iași.",
   "covers": [
    "Deces din accident, șofer și pasageri",
    "Invaliditate permanentă, totală sau parțială",
@@ -955,55 +955,55 @@
    "Asistență rutieră non-stop cu tractare, dacă o bifezi"
   ],
   "not_covers": [
-   "Mașina. Pentru ea sunt RCA și CASCO.",
-   "Accidente cu alcool sau droguri",
-   "Curse fără autorizațiile cerute de lege",
-   "Ce se întâmplă în afara activității de transport",
+   "Vehiculul. Pentru el există RCA și CASCO.",
+   "Accidente produse sub influența alcoolului sau a drogurilor",
+   "Curse efectuate fără autorizațiile prevăzute de lege",
+   "Evenimente din afara activității de transport",
    "Boli fără legătură cu un accident"
   ],
   "docs": [
-   "Talonul mașinii cu care lucrezi",
-   "Buletinul sau CUI-ul (PFA sau SRL)",
+   "Certificatul de înmatriculare al vehiculului cu care lucrezi",
+   "Actul de identitate sau CUI-ul (PFA sau SRL)",
    "Autorizația, dacă o ai deja"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina de accidente de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina de accidente de pe platforma brokerului, pe contul meu."
    ],
    [
-    "Datele mașinii și ale operatorului",
-    "PFA, SRL sau persoană fizică. Alegi suma asigurată și perioada. Dacă nu știi ce sumă ți se cere la primărie, îmi scrii și te ajut."
+    "Datele vehiculului și ale operatorului",
+    "PFA, SRL sau persoană fizică. Alegi suma asigurată și perioada. Dacă nu știi ce sumă ți se solicită la primărie, îmi scrii și te ajut."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail, o pui la dosar sau o încarci în aplicație."
+    "Polița ajunge pe e-mail; o atașezi la dosar sau o încarci în aplicație."
    ]
   ],
   "faq": [
    [
-    "E obligatorie la Bolt și Uber?",
-    "Ți-o cer la dosarul de autorizare pentru taxi și transport alternativ, iar platformele o verifică la activarea contului. Cerințele exacte le confirmi la primăria sau la autoritatea care îți dă autorizația, se mai schimbă."
+    "Este obligatorie la Bolt și Uber?",
+    "Este solicitată la dosarul de autorizare pentru taxi și transport alternativ, iar platformele o verifică la activarea contului. Cerințele exacte le confirmi la primăria sau la autoritatea care emite autorizația, pentru că se mai modifică."
    ],
    [
     "Ce primesc pasagerii?",
-    "Despăgubiri la deces sau invaliditate permanentă din accident în timpul cursei, cheltuielile medicale și bagajele distruse, în limitele din poliță."
+    "Despăgubiri pentru deces sau invaliditate permanentă din accident în timpul cursei, cheltuielile medicale și bagajele distruse, în limitele din poliță."
    ],
    [
-    "Pe mașină sau pe mine?",
-    "Pe mașină. Acoperă locurile din ea, inclusiv al șoferului. Dacă schimbi mașina, îmi scrii."
+    "Se încheie pe vehicul sau pe persoană?",
+    "Pe vehicul. Acoperă locurile din el, inclusiv pe cel al șoferului. Dacă schimbi vehiculul, îmi scrii."
    ],
    [
-    "Cine o poate face?",
-    "SRL-uri și PFA-uri care au mașini de taxi sau ridesharing, dar și persoane fizice, proprietare sau șoferi pe platforme."
+    "Cine o poate încheia?",
+    "SRL-uri și PFA-uri care dețin vehicule de taxi sau ridesharing, dar și persoane fizice, proprietari sau șoferi pe platforme."
    ],
    [
     "Include tractarea?",
-    "Nu implicit. Se adaugă opțional: asistență non-stop, tractare până la 200 km dus-întors, recuperare, transportul pasagerilor dacă rămâi în afara localității."
+    "Nu implicit. Se adaugă opțional: asistență permanentă, tractare până la 200 km dus-întors, recuperare, transportul pasagerilor dacă rămâi imobilizat în afara localității."
    ],
    [
-    "Înlocuiește RCA-ul?",
-    "Nu. RCA rămâne obligatoriu pentru mașină. Asta acoperă oamenii din ea. Sunt două polițe separate."
+    "Înlocuiește RCA?",
+    "Nu. RCA rămâne obligatorie pentru vehicul. Această poliță acoperă persoanele din el. Sunt două polițe separate."
    ]
   ],
   "related": [
@@ -1028,9 +1028,9 @@
   "wa_text": "Bună Marina, vreau asigurare ROTR pentru licența de transport.",
   "service_type": "Asigurare de răspundere a operatorului de transport rutier (ROTR)",
   "title": "Asigurare ROTR pentru licența de transport | IașiAsigură",
-  "desc": "ROTR e una dintre modalitățile de a dovedi capacitatea financiară la licența de transport rutier. Se face pe firmă și pe numărul de vehicule, online.",
-  "h1": "ROTR: polița pe care o pui la dosarul de licență de transport",
-  "answer": "ROTR e asigurarea de răspundere a operatorului de transport rutier. La licență trebuie să dovedești capacitatea financiară, iar polița e una dintre modalitățile acceptate, pe lângă celelalte din lege. Se face pe firmă, cu valoarea calculată după numărul de vehicule pentru care ceri copii conforme. Online, cu polița pe e-mail. Sub 3,5 tone poate nici nu ai nevoie de licență.",
+  "desc": "ROTR este una dintre modalitățile de a dovedi capacitatea financiară la licența de transport rutier. Se încheie pe firmă și pe numărul de vehicule, online.",
+  "h1": "ROTR: polița pe care o atașezi la dosarul de licență de transport",
+  "answer": "ROTR este asigurarea de răspundere a operatorului de transport rutier. La licență trebuie să dovedești capacitatea financiară, iar polița este una dintre modalitățile acceptate, alături de celelalte prevăzute de lege. Se încheie pe firmă, cu valoarea calculată după numărul de vehicule pentru care soliciți copii conforme. Online, cu polița pe e-mail. Sub 3,5 tone poate nu ai nevoie de licență.",
   "covers": [
    "Dovada capacității financiare la dosarul de licență",
    "Răspunderea operatorului de transport, marfă sau persoane",
@@ -1039,51 +1039,51 @@
    "Document electronic, acceptat la dosar"
   ],
   "not_covers": [
-   "Marfa. Pentru ea sunt CMR și CARGO.",
+   "Marfa. Pentru ea există CMR și CARGO.",
    "Pagubele din trafic, care intră la RCA",
-   "Avariile la camioanele tale",
-   "Amenzile de la control",
+   "Avariile la propriile vehicule",
+   "Amenzile aplicate la control",
    "Activitate fără licență valabilă"
   ],
   "docs": [
    "CUI-ul și certificatul constatator",
-   "Câte vehicule pui pe copii conforme",
-   "Datele administratorului și un e-mail"
+   "Numărul de vehicule pentru care soliciți copii conforme",
+   "Datele administratorului și o adresă de e-mail"
   ],
   "steps": [
    [
     "Apasă „Cumpără online”",
-    "Ajungi pe pagina ROTR de pe platforma brokerului, contul meu."
+    "Ajungi pe pagina ROTR de pe platforma brokerului, pe contul meu."
    ],
    [
     "Datele firmei și numărul de vehicule",
-    "Valoarea garantată se calculează automat: o sumă pentru primul vehicul, alta pentru fiecare următor, după reglementările în vigoare."
+    "Valoarea garantată se calculează automat: o sumă pentru primul vehicul, alta pentru fiecare vehicul următor, conform reglementărilor în vigoare."
    ],
    [
     "Plătești cu cardul",
-    "Polița vine pe e-mail și o atașezi la dosar în aceeași zi."
+    "Polița ajunge pe e-mail și o poți atașa la dosar în aceeași zi."
    ]
   ],
   "faq": [
    [
     "Cine are nevoie de ROTR?",
-    "Firmele care cer sau reînnoiesc licența de transport rutier de marfă sau persoane și aleg să dovedească capacitatea financiară cu o asigurare, în locul celorlalte variante acceptate. Dacă ai doar dube sub 3,5 tone, s-ar putea să nu ai nevoie de licență deloc, verifici înainte."
+    "Firmele care solicită sau reînnoiesc licența de transport rutier de marfă sau persoane și aleg să dovedească capacitatea financiară printr-o asigurare, în locul celorlalte variante acceptate. Dacă ai doar autoutilitare sub 3,5 tone, este posibil să nu ai nevoie de licență; verifici înainte."
    ],
    [
-    "Ce sumă se cere?",
-    "Se stabilește pe vehicul, după reglementările pentru operatorii de transport, diferit pentru primul față de următoarele. Pe platformă se calculează automat după câte vehicule declari."
+    "Ce sumă se solicită?",
+    "Se stabilește pe vehicul, conform reglementărilor pentru operatorii de transport, diferit pentru primul vehicul față de următoarele. Pe platformă se calculează automat după numărul de vehicule declarate."
    ],
    [
-    "Pe firmă sau pe camion?",
-    "Pe firmă. Valoarea se calculează după numărul de vehicule pentru care ceri copii conforme."
+    "Se încheie pe firmă sau pe vehicul?",
+    "Pe firmă. Valoarea se calculează după numărul de vehicule pentru care soliciți copii conforme."
    ],
    [
-    "Care e diferența față de CMR?",
-    "ROTR e garanție financiară pentru licență. CMR acoperă răspunderea ta față de marfa pe care o duci. Transportatorii de marfă le au pe amândouă."
+    "Care este diferența față de CMR?",
+    "ROTR este o garanție financiară pentru licență. CMR acoperă răspunderea ta față de marfa transportată. Transportatorii de marfă le au pe amândouă."
    ],
    [
-    "Mi-a crescut parcul. Ce fac?",
-    "Se emite o poliță suplimentară sau se modifică cea existentă pentru camioanele noi. Îmi scrii pe WhatsApp cu noul număr și rezolvăm."
+    "Mi-a crescut parcul auto. Ce fac?",
+    "Se emite o poliță suplimentară sau se modifică cea existentă pentru vehiculele noi. Îmi scrii pe WhatsApp noul număr de vehicule și rezolvăm."
    ]
   ],
   "related": [
@@ -1108,9 +1108,9 @@
   "wa_text": "Bună Marina, vreau ofertă CMR/CARGO. Transport marfă intern și extern.",
   "service_type": "Asigurare de marfă și de răspundere a transportatorului (CARGO, CMR)",
   "title": "Asigurare CMR și CARGO pentru transport marfă | IașiAsigură",
-  "desc": "CMR acoperă răspunderea ta de transportator pentru marfa preluată. CARGO acoperă marfa în sine, pentru proprietar. Îmi spui ce duci, îți compar ofertele.",
-  "h1": "CMR și CARGO: cine plătește marfa avariată în camion",
-  "answer": "CMR e răspunderea ta de transportator pentru marfa preluată, în limitele Convenției CMR, care se calculează pe kilogram. CARGO e asigurarea mărfii în sine, la valoarea ei reală, pentru proprietar, indiferent cine e vinovat. Îmi spui ce transporți, pe ce rute, cu câte camioane și ce valoare medie are un transport, iar eu cer oferte și ți le compar.",
+  "desc": "CMR acoperă răspunderea ta de transportator pentru marfa preluată. CARGO acoperă marfa în sine, pentru proprietar. Îmi spui ce transporți, compar ofertele.",
+  "h1": "CMR și CARGO: cine plătește marfa avariată în timpul transportului",
+  "answer": "CMR este răspunderea ta de transportator pentru marfa preluată, în limitele Convenției CMR, calculate pe kilogram. CARGO este asigurarea mărfii în sine, la valoarea ei reală, pentru proprietar, indiferent cine este vinovat. Îmi spui ce transporți, pe ce rute, cu câte vehicule și ce valoare medie are un transport, iar eu solicit oferte și ți le compar.",
   "covers": [
    "Pierderea totală sau parțială a mărfii pe drum",
    "Marfă avariată din accident, răsturnare, incendiu",
@@ -1119,55 +1119,55 @@
    "Marfa proprietarului, pe tot drumul, la CARGO"
   ],
   "not_covers": [
-   "Ambalaj prost făcut de expeditor",
+   "Ambalaj necorespunzător realizat de expeditor",
    "Viciile mărfii și pierderile naturale de greutate",
    "Bani, bijuterii, valori",
-   "Marfa refrigerată stricată, fără clauza de temperatură",
+   "Marfa refrigerată deteriorată, fără clauza de temperatură",
    "Transport fără documente valabile"
   ],
   "docs": [
-   "Ce marfă și cât valorează în medie un transport",
+   "Tipul mărfii și valoarea medie a unui transport",
    "Rute: intern, extern, cabotaj",
-   "Câte camioane și copiile conforme"
+   "Numărul de vehicule și copiile conforme"
   ],
   "steps": [
    [
     "Îmi scrii pe WhatsApp",
-    "Ce transporți, pe unde, cu câte camioane, dacă faci și cabotaj sau frig. Cu cât îmi spui mai precis, cu atât iese oferta mai bine."
+    "Ce transporți, pe ce rute, cu câte vehicule, dacă efectuezi și cabotaj sau transport frigorific. Cu cât informațiile sunt mai precise, cu atât oferta este mai potrivită."
    ],
    [
     "Cer cotații și le compar",
-    "Asigurătorii vor detalii despre flotă, rute și istoricul de daune, așa că durează una-două zile lucrătoare. Îți trimit variantele cu limitele pe eveniment și cu excluderile."
+    "Asigurătorii solicită detalii despre flotă, rute și istoricul de daune, așa că durează una sau două zile lucrătoare. Îți trimit variantele cu limitele pe eveniment și cu excluderile."
    ],
    [
     "Alegi, plătești, primești polița",
-    "Pe e-mail. Dacă ai un client care cere dovada, i-o poți trimite direct."
+    "Ajunge pe e-mail. Dacă un client îți solicită dovada, i-o poți transmite direct."
    ]
   ],
   "faq": [
    [
     "CMR sau CARGO?",
-    "CMR acoperă răspunderea ta ca transportator, în limitele convenției, calculate pe kilogram. CARGO acoperă valoarea reală a mărfii, pentru proprietarul ei, indiferent de vină. Dacă duci marfă scumpă și ușoară, limita CMR pe kilogram nu ajunge, și atunci clientul tău vrea CARGO."
+    "CMR acoperă răspunderea ta ca transportator, în limitele convenției, calculate pe kilogram. CARGO acoperă valoarea reală a mărfii, pentru proprietarul ei, indiferent de vinovăție. Dacă transporți marfă scumpă și ușoară, limita CMR pe kilogram nu este suficientă, iar clientul tău va solicita CARGO."
    ],
    [
     "Ce sumă aleg?",
-    "La CMR, limitele vin din convenție și din valoarea transporturilor tale. La CARGO, suma trebuie să acopere valoarea facturată a mărfii de pe fiecare transport."
+    "La CMR, limitele rezultă din convenție și din valoarea transporturilor tale. La CARGO, suma trebuie să acopere valoarea facturată a mărfii de pe fiecare transport."
    ],
    [
-    "Merge și pe intern?",
-    "Da, cu condiții specifice, pentru că regulile Convenției CMR sunt pentru transportul internațional."
+    "Se aplică și pe transportul intern?",
+    "Da, cu condiții specifice, pentru că regulile Convenției CMR vizează transportul internațional."
    ],
    [
-    "Duc marfă refrigerată. Ce îmi trebuie?",
-    "Clauza pentru mărfuri sub temperatură controlată. Fără ea, tot ce se strică din cauza temperaturii rămâne la tine."
+    "Transport marfă refrigerată. Ce îmi trebuie?",
+    "Clauza pentru mărfuri sub temperatură controlată. Fără ea, tot ce se deteriorează din cauza temperaturii rămâne în sarcina ta."
    ],
    [
-    "Fac și cabotaj. Contează?",
-    "Da. Îl spui de la început, unele polițe îl exclud sau îl acoperă doar în anumite țări."
+    "Efectuez și cabotaj. Contează?",
+    "Da. Îl menționezi de la început; unele polițe îl exclud sau îl acoperă doar în anumite țări."
    ],
    [
     "Am nevoie și de ROTR?",
-    "ROTR e pentru licență, altă discuție. CMR e pentru marfă. Cei mai mulți transportatori le au pe amândouă."
+    "ROTR este pentru licență, o discuție separată. CMR este pentru marfă. Cei mai mulți transportatori le au pe amândouă."
    ]
   ],
   "related": [
@@ -1189,13 +1189,13 @@
    "pj"
   ],
   "icon": "🏢",
-  "short": "Hala, marfa, utilajele, oamenii. Pentru firme mici.",
+  "short": "Spațiul, marfa, utilajele, angajații. Pentru firme mici.",
   "wa_text": "Bună Marina, am o firmă mică și vreau să văd ce ar trebui să asigur.",
   "service_type": "Asigurări pentru firme (IMM, PFA)",
   "title": "Asigurări pentru IMM și PFA, ofertă comparată | IașiAsigură",
   "desc": "Pentru firme mici: spațiul, stocul, echipamentele, răspunderea față de clienți și vecini, accidentele angajaților. Îmi spui ce face firma, îți fac oferta.",
-  "h1": "Asigurări pentru firma ta: spațiul, marfa, oamenii",
-  "answer": "La o firmă mică asigurarea se face din bucăți: spațiul și ce e în el, stocul și echipamentele, răspunderea față de clienți și vecini, accidentele angajaților. Un service auto are alt risc decât o brutărie sau un birou de contabilitate. Îmi scrii ce face firma și unde, cer oferte de la mai mulți asigurători și îți spun ce aș lua.",
+  "h1": "Asigurări pentru firma ta: spațiul, marfa, angajații",
+  "answer": "La o firmă mică, asigurarea se construiește din componente: spațiul și ce se află în el, stocul și echipamentele, răspunderea față de clienți și vecini, accidentele angajaților. Un service auto are alt risc decât o brutărie sau un birou de contabilitate. Îmi scrii ce face firma și unde, solicit oferte de la mai mulți asigurători și îți recomand una.",
   "covers": [
    "Clădirea, spațiul comercial, amenajările",
    "Stocuri, mobilier, echipamente, utilaje",
@@ -1205,55 +1205,55 @@
    "Întreruperea activității, ca opțiune. Contează când un incendiu te ține închis două luni."
   ],
   "not_covers": [
-   "Uzura echipamentelor și defecțiunile interne, fără clauză",
-   "Pierderile din management prost, amenzile",
-   "Bunuri ținute afară, nedeclarate",
-   "Marfa în camion, unde intră CMR și CARGO",
+   "Uzura echipamentelor și defecțiunile interne, fără clauză specifică",
+   "Pierderile din decizii de management, amenzile",
+   "Bunuri depozitate în exterior, nedeclarate",
+   "Marfa în timpul transportului, unde intră CMR și CARGO",
    "Activități pe care nu le-ai declarat"
   ],
   "docs": [
-   "CUI-ul și ce faceți",
+   "CUI-ul și obiectul de activitate",
    "Adresa spațiului, suprafața, tipul construcției",
-   "Cât valorează bunurile și stocul"
+   "Valoarea bunurilor și a stocului"
   ],
   "steps": [
    [
     "Îmi scrii pe WhatsApp",
-    "Ce face firma, în ce spațiu (al tău sau închiriat), câți angajați, cam cât valorează ce e înăuntru. Nu trebuie să fie la leu, ne apropiem împreună."
+    "Ce face firma, în ce spațiu (propriu sau închiriat), câți angajați are, cam cât valorează bunurile din interior. Nu este nevoie de o cifră exactă; o estimăm împreună."
    ],
    [
     "Cer oferte și le compar",
-    "Pe activitatea ta, nu pe un pachet standard. Revin în una-două zile lucrătoare cu variante și cu ce lipsește din fiecare."
+    "Pe activitatea ta, nu pe un pachet standard. Revin în una sau două zile lucrătoare cu variante și cu ce lipsește din fiecare."
    ],
    [
     "Alegi și plătești",
-    "Polița vine pe e-mail. La sume mari, asigurătorul poate trimite pe cineva să vadă spațiul, te anunț dinainte."
+    "Polița ajunge pe e-mail. La sume mari, asigurătorul poate trimite un inspector de risc să vadă spațiul; te anunț din timp."
    ]
   ],
   "faq": [
    [
-    "Ce e obligatoriu pentru o firmă?",
-    "Depinde ce faci: RCA pe mașini, PAD pe clădirile cu destinație de locuință, malpraxis pentru personal medical, ROTR pentru transport. Restul e facultativ, dar proprietarii de spații și clienții mari le cer prin contract."
+    "Ce este obligatoriu pentru o firmă?",
+    "Depinde de activitate: RCA pentru vehicule, PAD pentru clădirile cu destinație de locuință, malpraxis pentru personalul medical, ROTR pentru transport. Restul este facultativ, dar proprietarii de spații și clienții mari le solicită prin contract."
    ],
    [
     "Am un magazin, un restaurant, un atelier. Ce îmi trebuie?",
-    "De obicei o poliță pentru spațiu și conținut, una de răspundere față de clienți și una de accidente pentru angajați. Diferă mult între comerț, HoReCa și producție, de asta întreb înainte."
+    "De obicei o poliță pentru spațiu și conținut, una de răspundere față de clienți și una de accidente pentru angajați. Diferă mult între comerț, HoReCa și producție, de aceea întreb înainte."
    ],
    [
-    "Spațiul e închiriat. Ce asigur?",
-    "Ce e al tău: amenajările, echipamentele, stocul. Plus răspunderea față de proprietar și vecini. Clădirea o asigură proprietarul, dar verifică în contract cine răspunde pentru ce."
+    "Spațiul este închiriat. Ce asigur?",
+    "Ce îți aparține: amenajările, echipamentele, stocul. Plus răspunderea față de proprietar și vecini. Clădirea o asigură proprietarul, dar verifică în contract cine răspunde pentru ce."
    ],
    [
     "Pot asigura angajații?",
-    "Da, printr-o poliță de accidente sau printr-un pachet de sănătate pe firmă, pe o listă de salariați."
+    "Da, printr-o poliță de accidente sau printr-un pachet de sănătate pe firmă, pe baza unei liste de salariați."
    ],
    [
     "Cât aștept oferta?",
-    "În general una-două zile lucrătoare după ce îmi trimiți datele firmei și valorile."
+    "În general una sau două zile lucrătoare după ce îmi trimiți datele firmei și valorile."
    ],
    [
-    "Merge și pe PFA?",
-    "Da. Bunuri, răspundere civilă profesională, ce se potrivește cu ce faci."
+    "Se poate și pe PFA?",
+    "Da. Bunuri, răspundere civilă profesională, în funcție de activitatea desfășurată."
    ]
   ],
   "related": [
@@ -1274,13 +1274,13 @@
    "pj"
   ],
   "icon": "🌾",
-  "short": "Culturi, animale, utilaje. Pentru dosar la bancă sau la APIA.",
+  "short": "Culturi, animale, utilaje. Pentru dosarul de la bancă sau de la APIA.",
   "wa_text": "Bună Marina, am fermă și vreau ofertă pentru asigurare agricolă.",
   "service_type": "Asigurări agricole (culturi, animale, utilaje)",
   "title": "Asigurări agricole: culturi, animale, utilaje | IașiAsigură",
-  "desc": "Culturi contra grindinei, furtunii, înghețului. Animale pentru boli și accidente. Utilaje pentru avarii și furt. Cerute la subvenție și credit. Compar.",
-  "h1": "Asigurări agricole: culturile, animalele și utilajele, pe bune, nu pe hârtie",
-  "answer": "Asigurarea de culturi acoperă grindina, furtuna, înghețul târziu, ploile torențiale și, la unele culturi, seceta. Animalele se asigură separat, pentru boli și accidente. Utilajele la fel, pentru avarii, furt, incendiu. Le cer băncile la credit și apar în dosarele de subvenție. Îmi trimiți suprafețele, culturile sau lista de utilaje și cer oferte. Durează câteva zile, asigurătorii se uită la zonă.",
+  "desc": "Culturi contra grindinei, furtunii, înghețului. Animale pentru boli și accidente. Utilaje pentru avarii și furt. Solicitate la subvenție și credit. Compar.",
+  "h1": "Asigurări agricole: culturile, animalele și utilajele, acoperite cu adevărat",
+  "answer": "Asigurarea culturilor acoperă grindina, furtuna, înghețul târziu, ploile torențiale și, la unele culturi, seceta. Animalele se asigură separat, pentru boli și accidente. Utilajele la fel, pentru avarii, furt, incendiu. Sunt solicitate de bănci la credit și apar în dosarele de subvenție. Îmi trimiți suprafețele, culturile sau lista utilajelor și solicit oferte. Durează câteva zile, pentru că asigurătorii analizează zona.",
   "covers": [
    "Culturi: grindină, furtună, îngheț târziu, ploi torențiale",
    "Secetă, la culturile unde asigurătorul o oferă",
@@ -1289,29 +1289,29 @@
    "Clădirile fermei, silozuri, depozite"
   ],
   "not_covers": [
-   "Lucrări agricole făcute prost",
-   "Producție de calitate mai slabă fără un risc asigurat la mijloc",
-   "Boli la animale fără programul sanitar-veterinar respectat",
+   "Lucrări agricole executate necorespunzător",
+   "Producție de calitate inferioară fără un risc asigurat la mijloc",
+   "Boli la animale fără respectarea programului sanitar-veterinar",
    "Culturi înființate în afara perioadelor agrotehnice",
-   "Daune de dinainte de intrarea în vigoare"
+   "Daune anterioare intrării în vigoare"
   ],
   "docs": [
    "Suprafețele, culturile și blocurile fizice din APIA",
-   "Efectivele și actele sanitar-veterinare",
-   "Lista utilajelor, cu serie și an"
+   "Efectivele și documentele sanitar-veterinare",
+   "Lista utilajelor, cu serie și an de fabricație"
   ],
   "steps": [
    [
     "Îmi trimiți datele pe WhatsApp",
-    "Suprafețe și culturi pe blocuri fizice, sau efectivele, sau lista de utilaje. O poză cu adeverința APIA merge foarte bine."
+    "Suprafețe și culturi pe blocuri fizice, sau efectivele, sau lista utilajelor. O fotografie a adeverinței APIA este foarte utilă."
    ],
    [
     "Aștept cotațiile",
-    "Asigurătorii se uită la zonă, la cultură și la istoricul de grindină, așa că durează câteva zile lucrătoare. Îți spun de la început cât."
+    "Asigurătorii analizează zona, cultura și istoricul de grindină, așa că durează câteva zile lucrătoare. Îți spun de la început cât."
    ],
    [
     "Alegi și plătești",
-    "Îți trimit oferta cu franșize și cu riscurile incluse, alegi, plătești, polița vine pe e-mail. La bancă o trimiți tot de pe telefon."
+    "Îți trimit oferta cu franșize și cu riscurile incluse; alegi, plătești, iar polița ajunge pe e-mail. La bancă o poți transmite direct de pe telefon."
    ]
   ],
   "faq": [
@@ -1320,20 +1320,20 @@
     "În mod obișnuit grindina, furtuna, ploaia torențială și înghețul. Seceta se poate adăuga la anumite culturi și în anumite pachete, nu peste tot."
    ],
    [
-    "Se cere la APIA?",
-    "La unele măsuri și la sprijinul pentru prima de asigurare, polița e în dosar. Verifici cerințele campaniei în curs înainte să închei."
+    "Se solicită la APIA?",
+    "La unele măsuri și la sprijinul pentru prima de asigurare, polița face parte din dosar. Verifici cerințele campaniei în curs înainte de încheiere."
    ],
    [
-    "Când se face polița?",
-    "Înainte să apară riscul și în ferestrele stabilite de asigurător, după stadiul culturii. Toamna și primăvara au calendare diferite. Nu se face în iulie pentru grindina de săptămâna viitoare."
+    "Când se încheie polița?",
+    "Înainte de apariția riscului și în ferestrele stabilite de asigurător, în funcție de stadiul culturii. Toamna și primăvara au calendare diferite. Nu se poate încheia în iulie pentru grindina de săptămâna următoare."
    ],
    [
     "Tractorul are nevoie de RCA?",
-    "Dacă e înmatriculat sau înregistrat și iese pe drum public, da. Avariile la el se acoperă separat, printr-o poliță de utilaje."
+    "Dacă este înmatriculat sau înregistrat și circulă pe drumurile publice, da. Avariile la el se acoperă separat, printr-o poliță de utilaje."
    ],
    [
-    "Mi-a bătut grindina. Ce fac?",
-    "Anunți asigurătorul imediat, nu intri în parcelă până la constatare, faci poze. Îmi scrii și te ajut cu dosarul."
+    "Grindina mi-a afectat cultura. Ce fac?",
+    "Anunți asigurătorul imediat, nu intervii în parcelă până la constatare și faci fotografii. Îmi scrii și te ajut cu dosarul."
    ]
   ],
   "related": [
