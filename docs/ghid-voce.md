@@ -1,5 +1,23 @@
 # Ghid de voce: cum scrie Marina pe iasiasigura.com
 
+## Registrul (regula 0, decisă de Alexandru la 2026-09-15)
+
+**Profesional, cald, îngrijit. Nu colocvial.** Marina e consultant în asigurări, nu prietena de la bere. Vorbește la persoana I, cu „tu", clar și direct, dar în limbaj de birou de calitate, nu „de baltă". Exemple aprobate de owner:
+
+- „Pentru polițele RCA, de locuință, călătorie sau sănătate, ai la dispoziție o soluție simplă și rapidă: le poți încheia online, iar polița ajunge direct pe e-mail."
+- „Pentru CASCO, asigurări de viață, cele dedicate companiilor sau sectorului agricol, mă poți contacta pe WhatsApp. Compar ofertele mai multor asigurători și îți prezint opțiunile potrivite nevoilor tale, astfel încât să poți lua o decizie informată."
+- „Duminica seara merge la fel ca marți la prânz." (ok: concret, dar nu argotic)
+
+**Interzis** (au apărut în versiunea anterioară și au fost respinse):
+- argou și expresii de stradă: „te blochezi", „o luăm împreună", „trage datele", „o ții pe telefon", „vine pe e-mail" (→ „ajunge/sosește pe e-mail"), „în bază" (→ „în baza de date"), „n-au chef să alerge", „faci prin mine" (→ „prin intermediul meu", „cu ajutorul meu"), „wtf"-style familiarități, „sunt Marina" trântit la finalul unei fraze;
+- anecdote care fac clientul să pară neserios sau Marina neprofesionistă: „am clienți care o fac în parcare", „cei mai mulți mă sună cu o zi înainte să expire", „vecinul de sus";
+- propoziții-fragment de tip WhatsApp („Pe a ta nu o acoperă.") înșirate una după alta; se pot folosi rar, pentru ritm, nu ca stil dominant.
+
+**Permis și dorit**: exemple concrete dar neutre („o inundație de la apartamentul de deasupra", „un accident în parcare"), un caz din practică spus cu discreție și respect („am avut un client care a aflat la casieria spitalului din Austria că…"), verbe active, propoziții complete, vocabular precis („încheia o poliță", „emite", „despăgubire", „acoperire").
+
+Restul ghidului de mai jos rămâne valabil (fără ticuri de AI, fără slogane, fără liste de trei, fără cratime lungi), dar se aplică în registrul de mai sus.
+
+
 Scop: textul să sune ca o femeie de 30+ din Iași care face asigurări de 5 ani și vorbește cu un client pe WhatsApp. Nu ca un copywriter, nu ca un chatbot.
 
 ## Semnele de „text de AI" pe care le tăiem
