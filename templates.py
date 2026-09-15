@@ -77,16 +77,16 @@ def cta_block(p, R):
     <div class="cta-row">
       <a href="{ss}" class="btn btn-primary" target="_blank" rel="noopener">Cumpără online</a>
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Întreabă pe WhatsApp</span></a>
-      <p class="cta-note">Cumperi direct pe platforma brokerului, când ai timp, și seara. Polița vine pe e-mail după plată.</p>
+      <p class="cta-note">Închei polița direct pe platforma brokerului, când ai timp, inclusiv seara. Polița ajunge pe e-mail după plată.</p>
     </div>"""
     return f"""
     <div class="cta-row">
       <a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{WA_SVG}<span>Cere ofertă pe WhatsApp</span></a>
       <a href="{ss}" class="btn btn-ghost-dark" target="_blank" rel="noopener">Sau completezi datele pe platformă</a>
-      <p class="cta-note">Aici nu e preț pe loc: îmi scrii, cer oferte de la mai mulți asigurători și ți le trimit pe WhatsApp sau e-mail. Nu mă plătești tu.</p>
+      <p class="cta-note">Pentru această asigurare nu există preț pe loc: îmi scrii, cer oferte de la mai mulți asigurători și ți le trimit pe WhatsApp sau pe e-mail. Serviciul nu te costă nimic în plus.</p>
     </div>"""
 
-def faq_block(faqs, heading="Ce mă întreabă lumea"):
+def faq_block(faqs, heading="Întrebări pe care le primesc des"):
     # Întrebarea e escapată; RĂSPUNSUL e inserat brut, intenționat, ca să permită
     # markup inline (<strong>, <a>) scris în content/. Siguranța e asigurată de
     # teste: test_related_and_faq_answers_are_safe verifică toate răspunsurile
