@@ -52,7 +52,7 @@ Un detaliu care scapă multora: perioadele scurte puse cap la cap nu se adună �
 
 ## De ce doi șoferi cu aceeași mașină plătesc diferit?
 
-Pentru că RCA nu asigură mașina, ci răspunderea ta față de ceilalți. Un șofer de 22 de ani cu permis de un an și unul de 45 de ani cu douăzeci de ani fără daune reprezintă două riscuri complet diferite, chiar dacă conduc același model.
+Pentru că RCA nu asigură mașina, ci răspunderea ta față de ceilalți. Un șofer de 22 de ani cu permis de un an și unul de 45 de ani cu douăzeci de ani fără daune reprezintă două riscuri diferite, chiar dacă conduc același model.
 
 Și fiecare companie își construiește portofoliul după propria strategie. Una caută activ mașini mici în orașe mari, alta evită tocmai acest segment. De aceea aceeași persoană poate primi, în aceeași zi, oferte foarte diferite, fără ca vreuna dintre ele să fie greșită.
 
