@@ -47,6 +47,6 @@ render og-default.svg og-default.png 1200
 render og-produs.svg og-produs.png 1200
 render og-articol.svg og-articol.png 1200
 render logo.svg logo.png 840
-render favicon.svg apple-touch-icon.png 180
+render apple-touch-icon.svg apple-touch-icon.png 180
 
 # Poza reală (assets/marina.webp, assets/marina-portret.webp) se pune manual; vezi README.
