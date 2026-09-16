@@ -88,10 +88,10 @@ def render_home():
     <div class="grid">{cards}</div></div></section>
   <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce prin intermediul meu</p><h2>Ce este diferit când lucrezi cu mine</h2><div class="grid">{why}</div></div></section>
   <section><div class="container container-narrow">{T.faq_block(HOME['faq'])}</div></section>
-  <section class="section-alt" id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid">{testi}</div></div></section>
+  <section class="section-alt" id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid grid-testimonials">{testi}</div></div></section>
   <section id="zone"><div class="container"><p class="eyebrow">Zone</p><h2>Unde lucrez</h2>
     <p>La Iași ne putem întâlni, cu programare. Cu clienții din restul țării lucrez pe WhatsApp și pe platforma brokerului, la fel de bine.</p><ul class="grid" style="list-style:none;padding:0">{zones}</ul></div></section>
-  <section class="section-alt" id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Articole despre întrebările pe care le primesc des</h2><div class="grid" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
+  <section class="section-alt" id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Articole despre întrebările pe care le primesc des</h2><div class="grid grid-4" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
     jsonld = [T.website_node(), T.agency_node(), T.person_node(), T.faqpage([tuple(x) for x in HOME["faq"]])]
     return T.page(HOME["title"], HOME["desc"], "/", jsonld, R, body, WA_DEFAULT)
 
@@ -322,7 +322,7 @@ def build(root=ROOT):
     WRITTEN.clear(); LASTMOD.clear()
     arts = load_articles()
     ARTICLES_BY_SLUG.clear(); ARTICLES_BY_SLUG.update({a["slug"]: a for a in arts})
-    LATEST_ARTICLES_HTML[0] = "".join(article_card(a, "") for a in arts[:3])
+    LATEST_ARTICLES_HTML[0] = "".join(article_card(a, "") for a in arts[:4])
     d_products = source_date("content/products.json")
     d_zones = source_date("content/zones.json")
     write(root, "/index.html", render_home(), lastmod=source_date("content/home.json"))

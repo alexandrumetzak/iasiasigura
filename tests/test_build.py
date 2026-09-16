@@ -128,9 +128,9 @@ def test_articles_rendered_with_article_schema_and_author(out):
     assert idx.count('class="card article-card"') >= 12
 
 
-def test_homepage_shows_three_latest_articles(out):
+def test_homepage_shows_four_latest_articles(out):
     h = read(out, "index.html")
-    assert h.count('class="card article-card"') == 3
+    assert h.count('class="card article-card"') == 4
     first = re.search(r'<a class="card article-card" href="([^"]+)"', h).group(1)
     assert first == "blog/pret-rca-2026-cum-se-calculeaza.html", first
 
