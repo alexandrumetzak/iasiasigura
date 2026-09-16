@@ -25,7 +25,7 @@ img,svg{max-width:100%;height:auto}ul,ol{padding-left:1.3rem;color:var(--slate)}
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .header-inner{display:flex;align-items:center;gap:16px;min-height:68px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--navy);text-decoration:none!important}
-.brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--sun);color:var(--navy);font-weight:900;font-size:1.1rem}
+.brand-mark{display:grid;place-items:center;width:42px;height:42px}.brand-mark svg{width:40px;height:40px}
 .brand-text strong{display:block;font-size:1.15rem;line-height:1.1}.brand-text em{font-style:normal;color:var(--blue)}.brand-text small{display:block;font-size:.72rem;color:var(--muted)}
 .nav{margin-left:auto}.nav-menu{list-style:none;margin:0;padding:0;display:flex;gap:4px}
 .nav-menu a{display:block;padding:10px 12px;border-radius:10px;color:var(--ink);font-weight:600;font-size:.95rem}.nav-menu a:hover{background:var(--bg-alt);text-decoration:none}
