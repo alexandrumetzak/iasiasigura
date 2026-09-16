@@ -81,8 +81,8 @@ def render_home():
     <div class="hero-photo"><picture><source media="(max-width:860px)" srcset="assets/marina.webp" /><img src="assets/marina-portret.webp" alt="Marina Metzak, asistent în brokeraj" width="320" height="400" fetchpriority="high" /></picture></div>
   </div></section>
   <section id="cine" class="section-tight"><div class="container container-narrow"><p class="eyebrow">Cine sunt</p><h2>Marina Metzak, consultant în asigurări din Iași</h2>
-    <p>{html.escape(HOME['lead'])}</p><p><a href="despre.html">Mai multe despre mine și cum lucrez →</a></p></div></section>
-  <section class="section-alt" id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Ce ai de făcut</h2><div class="steps">{steps}</div></div></section>
+    <p>{html.escape(HOME['about'])}</p><p><a href="despre.html">Mai multe despre mine și cum lucrez →</a></p></div></section>
+  <section class="section-alt" id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Ce ai de făcut</h2><p class="container-narrow" style="margin-inline:0">{html.escape(HOME['lead'])}</p><div class="steps">{steps}</div></div></section>
   <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Ce asigurare îți trebuie?</h2>
     <p>Cele marcate <strong>Online</strong> le închei direct pe platforma brokerului. La cele cu <strong>Ofertă pe WhatsApp</strong> îmi scrii, iar eu cer ofertele, le compar și ți le trimit.</p>
     <div class="grid">{cards}</div></div></section>
