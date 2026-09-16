@@ -78,7 +78,7 @@ def render_home():
       <div class="cta-row"><a href="#asigurari" class="btn btn-primary">Alege asigurarea</a><a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie-mi pe WhatsApp</span></a></div>
       <ul class="hero-points">{points}</ul>
     </div>
-    <div class="hero-photo"><picture><source media="(max-width:860px)" srcset="assets/marina.webp" /><img src="assets/marina-portret.webp" alt="Marina Metzak, asistent în brokeraj" width="360" height="450" fetchpriority="high" /></picture></div>
+    <div class="hero-photo"><picture><source media="(max-width:860px)" srcset="assets/marina.webp" /><img src="assets/marina-portret.webp" alt="Marina Metzak, asistent în brokeraj" width="320" height="400" fetchpriority="high" /></picture></div>
   </div></section>
   <section id="cine" class="section-tight"><div class="container container-narrow"><p class="eyebrow">Cine sunt</p><h2>Marina Metzak, consultant în asigurări din Iași</h2>
     <p>{html.escape(HOME['lead'])}</p><p><a href="despre.html">Mai multe despre mine și cum lucrez →</a></p></div></section>
