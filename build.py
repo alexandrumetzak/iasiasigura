@@ -70,23 +70,28 @@ def render_home():
     zones = "".join(f'<li><a href="zone/{s}.html">Asigurări {n}</a></li>' for s, n in ZONE_LINKS)
     wa = T.wa_link(WA_DEFAULT)
     body = f"""
-  <section class="hero"><div class="container">
-    <p class="eyebrow">Marina Metzak · asistent în brokeraj · RAF {T.P['raf']}</p>
-    <h1>{html.escape(HOME['h1'])}</h1>
-    <p>{html.escape(HOME['lead'])}</p>
-    <div class="cta-row"><a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie pe WhatsApp</span></a><a href="#asigurari" class="btn btn-primary">Vezi asigurările</a></div>
-    <ul class="hero-points">{points}</ul>
+  <section class="hero"><div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">IașiAsigură · asigurări online</p>
+      <h1>{html.escape(HOME['h1'])}</h1>
+      <p class="hero-sub">{html.escape(HOME['sub'])}</p>
+      <div class="cta-row"><a href="#asigurari" class="btn btn-primary">Alege asigurarea</a><a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie-mi pe WhatsApp</span></a></div>
+      <ul class="hero-points">{points}</ul>
+    </div>
+    <div class="hero-photo"><picture><source media="(max-width:860px)" srcset="assets/marina.webp" /><img src="assets/marina-portret.webp" alt="Marina Metzak, asistent în brokeraj" width="360" height="450" fetchpriority="high" /></picture></div>
   </div></section>
+  <section id="cine" class="section-tight"><div class="container container-narrow"><p class="eyebrow">Cine sunt</p><h2>Marina Metzak, consultant în asigurări din Iași</h2>
+    <p>{html.escape(HOME['lead'])}</p><p><a href="despre.html">Mai multe despre mine și cum lucrez →</a></p></div></section>
+  <section class="section-alt" id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Ce ai de făcut</h2><div class="steps">{steps}</div></div></section>
   <section id="asigurari"><div class="container"><p class="eyebrow">Asigurări</p><h2>Ce asigurare îți trebuie?</h2>
     <p>Cele marcate <strong>Online</strong> le închei direct pe platforma brokerului. La cele cu <strong>Ofertă pe WhatsApp</strong> îmi scrii, iar eu cer ofertele, le compar și ți le trimit.</p>
     <div class="grid">{cards}</div></div></section>
   <section class="section-alt" id="de-ce"><div class="container"><p class="eyebrow">De ce prin intermediul meu</p><h2>Ce este diferit când lucrezi cu mine</h2><div class="grid">{why}</div></div></section>
-  <section id="cum"><div class="container"><p class="eyebrow">Cum funcționează</p><h2>Ce ai de făcut</h2><div class="steps">{steps}</div></div></section>
-  <section class="section-alt"><div class="container container-narrow">{T.faq_block(HOME['faq'])}</div></section>
-  <section id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid">{testi}</div></div></section>
-  <section class="section-alt" id="zone"><div class="container"><p class="eyebrow">Zone</p><h2>Unde lucrez</h2>
+  <section><div class="container container-narrow">{T.faq_block(HOME['faq'])}</div></section>
+  <section class="section-alt" id="testimoniale"><div class="container"><p class="eyebrow">Clienți</p><h2>Ce spun clienții</h2><div class="grid">{testi}</div></div></section>
+  <section id="zone"><div class="container"><p class="eyebrow">Zone</p><h2>Unde lucrez</h2>
     <p>La Iași ne putem întâlni, cu programare. Cu clienții din restul țării lucrez pe WhatsApp și pe platforma brokerului, la fel de bine.</p><ul class="grid" style="list-style:none;padding:0">{zones}</ul></div></section>
-  <section id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Articole despre întrebările pe care le primesc des</h2><div class="grid" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
+  <section class="section-alt" id="blog"><div class="container"><p class="eyebrow">Blog</p><h2>Articole despre întrebările pe care le primesc des</h2><div class="grid" id="home-articles">{LATEST_ARTICLES_HTML[0]}</div><p><a href="blog/">Toate articolele →</a></p></div></section>"""
     jsonld = [T.website_node(), T.agency_node(), T.person_node(), T.faqpage([tuple(x) for x in HOME["faq"]])]
     return T.page(HOME["title"], HOME["desc"], "/", jsonld, R, body, WA_DEFAULT)
 

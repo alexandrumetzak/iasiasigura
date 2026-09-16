@@ -49,6 +49,4 @@ render og-articol.svg og-articol.png 1200
 render logo.svg logo.png 840
 render favicon.svg apple-touch-icon.png 180
 
-render marina-placeholder.svg marina-placeholder.png 600
-towebp marina-placeholder.png marina.webp
-rm -f marina-placeholder.png
+# Poza reală (assets/marina.webp, assets/marina-portret.webp) se pune manual; vezi README.
