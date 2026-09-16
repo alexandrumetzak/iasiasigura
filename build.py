@@ -72,7 +72,7 @@ def render_home():
     body = f"""
   <section class="hero"><div class="container hero-grid">
     <div class="hero-text">
-      <p class="eyebrow">IașiAsigură · asigurări online</p>
+      <p class="eyebrow">Ia și Asigură · asigurări online</p>
       <h1>{html.escape(HOME['h1'])}</h1>
       <p class="hero-sub">{html.escape(HOME['sub'])}</p>
       <div class="cta-row"><a href="#asigurari" class="btn btn-primary">Alege asigurarea</a><a href="{wa}" class="btn btn-wa" target="_blank" rel="noopener">{T.WA_SVG}<span>Scrie-mi pe WhatsApp</span></a></div>
