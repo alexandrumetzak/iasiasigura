@@ -132,7 +132,7 @@ def test_homepage_shows_four_latest_articles(out):
     h = read(out, "index.html")
     assert h.count('class="card article-card"') == 4
     first = re.search(r'<a class="card article-card" href="([^"]+)"', h).group(1)
-    assert first == "blog/pret-rca-2026-cum-se-calculeaza.html", first
+    assert first == "blog/drone-razboi-asigurare-locuinta.html", first
 
 
 def test_every_article_has_three_related_cards(out):
