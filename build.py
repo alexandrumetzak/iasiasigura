@@ -248,6 +248,8 @@ def testimonials_html():
     return "".join(f'<blockquote class="testimonial"><p>{html.escape(q)}</p><cite>{html.escape(w)}</cite></blockquote>'
                    for q, w in HOME["testimonials"])
 
+WA_COLAB = "Bună Marina, aș vrea să aflu mai multe despre colaborarea ca asistent în brokeraj."
+
 def fill_tokens(frag, key):
     """Înlocuiește tokenurile {{...}} din fragmentele content/pages (fără motor de template)."""
     P = T.P
@@ -255,7 +257,8 @@ def fill_tokens(frag, key):
             "{{PHONE}}": P["phone_display"], "{{PHONE_E164}}": P["phone_e164"],
         "{{EMAIL}}": P["email"],
             "{{RAF}}": P["raf"], "{{BROKER}}": T.S["broker"]["name"], "{{ASF_REGISTRY}}": T.S["links"]["asf_registry"],
-            "{{SMARTSALES_TERMS}}": T.smartsales_url("/privacy/terms", "legal")}
+            "{{SMARTSALES_TERMS}}": T.smartsales_url("/privacy/terms", "legal"),
+            "{{WA_COLAB}}": T.wa_link(WA_COLAB)}
     for k, v in repl.items():
         frag = frag.replace(k, v)
     rest = re.findall(r"\{\{[^}]+\}\}", frag)
@@ -271,7 +274,8 @@ def render_static(key):
     body = f"""<section class="page-hero"><div class="container container-narrow">{crumbs_html(crumbs, R)}<h1>{html.escape(m['h1'])}</h1></div></section>
   <div class="container container-narrow prose">{frag}</div>"""
     extra = {"despre": [T.person_node()], "contact": [T.agency_node()]}.get(key, [])
-    return T.page(m["title"], m["desc"], path, extra + [T.breadcrumb(crumbs)], R, body, WA_DEFAULT)
+    wa = WA_COLAB if key == "colaborare" else WA_DEFAULT
+    return T.page(m["title"], m["desc"], path, extra + [T.breadcrumb(crumbs)], R, body, wa)
 
 def render_404():
     body = """<section class="page-hero"><div class="container container-narrow"><h1>Pagina nu există</h1><p class="lead">Este posibil să fi fost mutată sau linkul să fie greșit. Paginile cele mai căutate:</p>

@@ -33,9 +33,11 @@ def test_no_forbidden_smartsales_links(out):
                 assert "destine.smartsales.ro" not in t and "/presale/" not in t, f
 
 def test_static_pages_and_technical_files(out):
-    for p in ["despre", "contact", "termeni", "confidentialitate", "cookies"]:
+    for p in ["despre", "contact", "termeni", "confidentialitate", "cookies", "colaborare"]:
         assert read(out, f"{p}.html").count("<h1") == 1
     assert "RAF 160354" in read(out, "despre.html") and "programare" in read(out, "contact.html")
+    colab = read(out, "colaborare.html")
+    assert "RBK-425" in colab and "colaborarea%20ca%20asistent" in colab and 'href="colaborare.html"' in read(out, "index.html")
     assert read(out, "404.html").count("<h1") == 1
     robots = read(out, "robots.txt")
     assert "GPTBot" in robots and "ClaudeBot" in robots and "Sitemap: https://iasiasigura.com/sitemap.xml" in robots

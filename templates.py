@@ -191,7 +191,8 @@ def footer(R, wa_text):
         <li><a href="tel:{P['phone_e164']}">{P['phone_display']}</a></li>
         <li><a href="mailto:{P['email']}">{P['email']}</a></li>
         <li>{a['street']}, {a['city']} · {a['note'].lower()}</li>
-        <li><a href="{R}despre.html">Despre Marina</a> · <a href="{R}blog/">Blog</a></li></ul></div>
+        <li><a href="{R}despre.html">Despre Marina</a> · <a href="{R}blog/">Blog</a></li>
+        <li><a href="{R}colaborare.html">Colaborează cu mine</a></li></ul></div>
     </div>
     <div class="container footer-legal">
       <p><strong>{P['name']}</strong> — {P['job_title'].lower()}, {P['legal_form']}, cod RAF {P['raf']}. Înregistrat la Autoritatea de Supraveghere Financiară. Activitate desfășurată în numele și pe seama {b['name']} ({b['rbk']}).</p>
