@@ -58,7 +58,7 @@ Câteva recomandări practice:
 - uită-te la clasa ta de bonus-malus, pentru că influențează prima mai mult decât variația anuală a tarifelor;
 - nu lăsa polița să expire în așteptarea unei ieftiniri, pentru că întreruperea te costă mai mult.
 
-Tot în 2026, ASF a revizuit și regulile bonus-malus. Despre asta am scris separat, în articolul despre [noua normă bonus-malus](bonus-malus-schimbari-asf-2026.html).
+Tot în 2026, ASF a pregătit și o revizuire a regulilor bonus-malus, aflată încă în stadiu de proiect. Despre asta am scris separat, în articolul despre [schimbările propuse la bonus-malus](bonus-malus-schimbari-asf-2026.html).
 
 ## De unde încep?
 
