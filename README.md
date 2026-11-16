@@ -2,7 +2,7 @@
 
 Site static pentru **Marina Metzak**, asistent în brokeraj (persoană fizică independentă), care activează în numele și pe seama **DESTINE BROKER DE ASIGURARE-REASIGURARE SRL** (RBK-425). Site-ul informează despre asigurări (RCA, CASCO, locuință, PAD, călătorie, sănătate, viață, malpraxis, ROTR, CMR, agricole, IMM etc.), redirecționează spre platforma brokerului (`metzak-marina.smartsales.ro`) pentru produsele „online" și spre WhatsApp pentru cele „consultanță". **Nu afișează prețuri, nu are formulare pe site și nu colectează date personale.**
 
-Generat static de `build.py` (Python 3) din fișierele JSON/Markdown din `content/`. Output-ul HTML se comite în repo; GitHub Pages servește direct din `main` / root.
+Generat static de `build.py` (Python 3) din fișierele JSON/Markdown din `content/`. Output-ul HTML se comite în repo (pentru review), dar publicarea o face workflow-ul `.github/workflows/pages.yml`: la fiecare push pe `main` rulează testele, construiește site-ul în `_site/` (`python build.py _site` + `CNAME`), trece gate-ul `check_site.py --release` și publică pe GitHub Pages **doar** `_site/`. Sursele (`content/`, `docs/`, `scripts/`, `tests/`, `*.py`, `*.md`) nu mai ajung pe domeniu. Necesită Settings → Pages → Source: „GitHub Actions".
 
 ## Date fixe
 

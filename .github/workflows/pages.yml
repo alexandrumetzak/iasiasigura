@@ -1,0 +1,67 @@
+# Publică pe GitHub Pages DOAR site-ul generat (fără content/, docs/, scripts/, tests/, *.py, *.md).
+# Necesită: Settings → Pages → Build and deployment → Source: „GitHub Actions".
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}   # nu întrerupe un deploy în curs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # istoric complet: lastmod din sitemap vine din data ultimului commit al sursei
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependențe
+        run: pip install -r requirements.txt
+
+      - name: Teste
+        run: python -m pytest -q
+
+      - name: Build în _site
+        run: |
+          python build.py _site
+          cp CNAME _site/
+
+      - name: Verificare (gate de release)
+        run: python scripts/check_site.py --release _site
+
+      - name: Nicio sursă în artefact
+        run: |
+          if find _site \( -name '*.py' -o -name '*.md' -o -path '_site/content*' -o -path '_site/docs*' -o -path '_site/scripts*' -o -path '_site/tests*' \) | grep .; then
+            echo "Fișiere sursă în _site"; exit 1
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
