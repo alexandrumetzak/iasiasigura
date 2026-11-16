@@ -15,6 +15,8 @@
 
 **Permis și dorit**: exemple concrete dar neutre („o inundație de la apartamentul de deasupra", „un accident în parcare"), un caz din practică spus cu discreție și respect („am avut un client care a aflat la casieria spitalului din Austria că…"), verbe active, propoziții complete, vocabular precis („încheia o poliță", „emite", „despăgubire", „acoperire").
 
+**Fără cacofonii** (cerință Marina, 2026-11-16): nu „ca ca", „că ca", „ca co", „că co", „ca cu", „că cu", „că CASCO" etc. Se reformulează („de aceea CASCO", „deoarece CASCO", „ca de pildă"). `scripts/check_site.py` le prinde automat în textul vizibil.
+
 Restul ghidului de mai jos rămâne valabil (fără ticuri de AI, fără slogane, fără liste de trei, fără cratime lungi), dar se aplică în registrul de mai sus.
 
 

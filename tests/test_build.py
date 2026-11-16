@@ -157,3 +157,13 @@ def test_check_site_release_passes_on_clean_build_and_catches_placeholders(out, 
     r = subprocess.run([sys.executable, "scripts/check_site.py", "--release", str(dirty)], capture_output=True, text=True)
     assert r.returncode != 0
     assert "TODO-MARINA" in (r.stdout + r.stderr)
+
+
+def test_check_site_catches_cacophony(out, tmp_path):
+    import shutil
+    dirty = tmp_path / "caco"
+    shutil.copytree(out, dirty)
+    page = dirty / "despre.html"
+    page.write_text(page.read_text(encoding="utf-8").replace("</main>", "<p>Am ales așa că CASCO e mai bun.</p></main>", 1), encoding="utf-8")
+    r = subprocess.run([sys.executable, "scripts/check_site.py", str(dirty)], capture_output=True, text=True)
+    assert r.returncode != 0 and "cacofonie" in r.stdout
