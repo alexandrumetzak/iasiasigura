@@ -250,7 +250,7 @@ def testimonials_html():
     return "".join(f'<blockquote class="testimonial"><p>{html.escape(q)}</p><cite>{html.escape(w)}</cite></blockquote>'
                    for q, w in HOME["testimonials"])
 
-WA_COLAB = "Bună Marina, aș vrea să aflu mai multe despre colaborarea ca asistent în brokeraj."
+WA_COLAB = "Bună ziua, doamna Metzak. Aș dori să aflu mai multe despre colaborarea ca asistent în brokeraj."
 
 def fill_tokens(frag, key):
     """Înlocuiește tokenurile {{...}} din fragmentele content/pages (fără motor de template)."""
