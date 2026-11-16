@@ -43,7 +43,7 @@ def test_static_pages_and_technical_files(out):
     assert "GPTBot" in robots and "ClaudeBot" in robots and "Sitemap: https://iasiasigura.com/sitemap.xml" in robots
     assert "Disallow: /content/" in robots and robots.count("Disallow: /content/") == robots.count("Allow: /")
     sm = read(out, "sitemap.xml"); assert sm.count("<url>") >= 40 and "<lastmod>" in sm and "404" not in sm
-    llms = read(out, "llms.txt"); assert llms.startswith("# IașiAsigură") and "/asigurari/rca.html" in llms
+    llms = read(out, "llms.txt"); assert llms.startswith("# IașiAsigură") and "/asigurari/rca.html" in llms and "/colaborare.html" in llms
 
 
 def test_nojekyll_written_to_output_root(out):
@@ -126,6 +126,7 @@ def test_articles_rendered_with_article_schema_and_author(out):
         h = read(out, f"blog/{a['slug']}.html")
         assert h.count("<h1") == 1 and '"@type": "Article"' in h and '"@id": "https://iasiasigura.com/#marina"' in h
         assert "Actualizat:" in h and a["words"] >= 900, (a["slug"], a["words"])
+        assert '"name": "Marina Metzak"' in h and '"logo": {"@type": "ImageObject"' in h, a["slug"]
     idx = read(out, "blog/index.html")
     assert idx.count('class="card article-card"') >= 12
 

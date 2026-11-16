@@ -57,3 +57,6 @@ Site-ul nu afișează prețuri; cumpărarea se face pe platforma brokerului (met
 ## Despre
 - [Despre Marina](https://iasiasigura.com/despre.html)
 - [Contact](https://iasiasigura.com/contact.html)
+- [Colaborare: devino asistent în brokeraj](https://iasiasigura.com/colaborare.html)
+- [Toate asigurările](https://iasiasigura.com/asigurari/)
+- [Blog](https://iasiasigura.com/blog/)

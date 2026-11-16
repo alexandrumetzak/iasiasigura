@@ -19,7 +19,7 @@ HOME = load_json("home.json")
 ZONES = load_json("zones.json")
 ZONE_LINKS = [(z["slug"], z["name"]) for z in ZONES]
 PAGES_META = load_json("pages/meta.json")
-STATIC = ["css", "js", "assets", "site.webmanifest"]
+STATIC = ["css", "js", "assets", "site.webmanifest", "favicon.ico"]
 WRITTEN = []
 LASTMOD = {}   # path generat -> data ISO a SURSEI (pentru sitemap; nu mtime-ul fișierului generat)
 TODAY = datetime.date.today().isoformat()
@@ -226,7 +226,9 @@ def render_article(a, all_articles):
     <h2>Citește și</h2><div class="grid">{"".join(article_card(x, R) for x in others)}</div></article>"""
     node = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["desc"],
             "datePublished": a["date"], "dateModified": a["updated"], "inLanguage": "ro-RO",
-            "author": {"@id": T.PERSON_ID}, "publisher": {"@id": T.AGENCY_ID},
+            "author": {"@type": "Person", "@id": T.PERSON_ID, "name": T.P["name"], "jobTitle": T.P["job_title"], "url": T.SITE + "/despre.html"},
+            "publisher": {"@type": "InsuranceAgency", "@id": T.AGENCY_ID, "name": T.S["brand"], "url": T.SITE + "/",
+                          "logo": {"@type": "ImageObject", "url": T.SITE + "/assets/logo.png"}},
             "mainEntityOfPage": T.SITE + path, "image": T.SITE + "/assets/og-articol.png", "wordCount": a["words"]}
     jsonld = [node, T.breadcrumb(crumbs)] + ([T.faqpage(faq)] if faq else [])
     wa = f"Bună Marina, am citit articolul „{a['title']}” și am o întrebare."
@@ -308,7 +310,9 @@ def render_llms(arts):
     lines += [f"- [{p['name']}]({T.SITE}/asigurari/{p['slug']}.html): {p['short']} ({'cumpărare online' if p['type']=='online' else 'ofertă pe WhatsApp'})" for p in PRODUCTS]
     lines += ["", "## Zone"] + [f"- [Asigurări {n}]({T.SITE}/zone/{s}.html)" for s, n in ZONE_LINKS]
     lines += ["", "## Articole"] + [f"- [{a['title']}]({T.SITE}/blog/{a['slug']}.html): {a['desc']}" for a in arts]
-    lines += ["", "## Despre", f"- [Despre Marina]({T.SITE}/despre.html)", f"- [Contact]({T.SITE}/contact.html)", ""]
+    lines += ["", "## Despre", f"- [Despre Marina]({T.SITE}/despre.html)", f"- [Contact]({T.SITE}/contact.html)",
+              f"- [Colaborare: devino asistent în brokeraj]({T.SITE}/colaborare.html)", f"- [Toate asigurările]({T.SITE}/asigurari/)",
+              f"- [Blog]({T.SITE}/blog/)", ""]
     return "\n".join(lines)
 
 def copy_static(root):
