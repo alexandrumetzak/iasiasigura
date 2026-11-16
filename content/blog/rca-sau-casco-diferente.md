@@ -69,7 +69,7 @@ Dacă ai decis că vrei CASCO, diferențele dintre oferte nu sunt doar în prim�
 - condițiile: sisteme antifurt cerute, locul de parcare declarat, cine are voie să conducă;
 - serviciile: tractare, mașină la schimb, asistență rutieră.
 
-Condițiile variază mult, așa că CASCO este produsul pentru care are sens o ofertă comparată, nu primul rezultat.
+Condițiile variază mult, de aceea CASCO este produsul pentru care are sens o ofertă comparată, nu primul rezultat.
 
 ## Ce fac în primele minute după accident?
 

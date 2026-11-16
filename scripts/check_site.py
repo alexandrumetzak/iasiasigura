@@ -40,6 +40,10 @@ for dp, dns, fs in os.walk(ROOT):
             if "destine.smartsales.ro" in t or "/presale/" in t: problems.append(f"{r}: link smartsales interzis")
             ss_urls.update(re.findall(r'https://metzak-marina\.smartsales\.ro[^"\s]*', t))
             if re.search(r"\b(de la|doar|numai)\s+\d+\s*(lei|ron|€|eur)", t, re.I): problems.append(f"{r}: pare să conțină un preț")
+            # cacofonii („ca ca", „că co", „ca cu", „că CASCO"…) în textul vizibil, fără scripturi și JSON-LD
+            vis = re.sub(r"<(script|style)\b.*?</\1>|<[^>]+>", " ", t, flags=re.S)
+            for m in re.finditer(r"(?<![\wăâîșț])(ca|că)\s+(c[aăoâu]\w*)", vis, re.I):
+                problems.append(f"{r}: cacofonie „{m.group(0)}”")
         # gate de release: verifică TODO-MARINA pe orice .html generat, inclusiv 404.html
         if RELEASE and "TODO-MARINA" in t: problems.append(f"{r}: conține TODO-MARINA")
         # linkurile și asset-urile se verifică și pentru 404.html (are href=/src= absolute, ex. /js/script.js)

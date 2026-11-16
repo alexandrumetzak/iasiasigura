@@ -31,7 +31,7 @@ O confuzie frecventă: polițele pe o lună sau pe câteva luni nu construiesc b
 
 Aici apare surpriza. O daună plătită nu te coboară o clasă, ci mai multe deodată. Cineva care a urcat ani la rând poate pierde, după un singur accident din vina lui, câteva clase dintr-odată. Două daune în același an de referință, iar coborârea este și mai abruptă.
 
-Contează daunele plătite din polița ta, adică acelea în care tu ai produs paguba. Accidentele în care te-a lovit altcineva și s-a plătit din RCA lui nu te afectează. Nici daunele plătite din CASCO nu intră în bonus-malus RCA, pentru că CASCO este facultativă, cu istoric separat, ținut de fiecare asigurător în parte.
+Contează daunele plătite din polița ta, adică acelea în care tu ai produs paguba. Accidentele în care te-a lovit altcineva și s-a plătit din RCA lui nu te afectează. Nici daunele plătite din CASCO nu intră în bonus-malus RCA, deoarece CASCO este facultativă, cu istoric separat, ținut de fiecare asigurător în parte.
 
 De aici, o întrebare pe care o primesc des: am o tamponare ușoară, deschid dosar de daună? Depinde de raportul dintre paguba reală și ce pierzi din bonus în anii următori. La avarii foarte mici, unii preferă să rezolve direct cu păgubitul. Este decizia ta și nu există o rețetă universală. Dar ia-o în cunoștință de cauză, nu din reflex.
 

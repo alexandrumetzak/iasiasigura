@@ -23,7 +23,7 @@ Primul: polița nu se reînnoiește automat. Mulți proprietari au încheiat PAD
 
 Al doilea: controlul este rar. Amenda există în lege, dar constatarea revine primăriilor, iar verificările sistematice lipsesc în majoritatea localităților. Același sondaj arată că doar 55% dintre respondenți știu că pot fi amendați.
 
-Al treilea: percepția riscului. Mulți asociază PAD doar cu cutremurul și cred că, dacă nu locuiesc în București, nu îi privește. Polița acoperă însă și inundațiile din cauze naturale și alunecările de teren. În Moldova, ploile torențiale din ultimii ani au arătat că nu doar locuințele de lângă râuri sunt expuse.
+Al treilea: percepția riscului. Mulți cred că PAD acoperă doar cutremurul și că, dacă nu locuiesc în București, nu îi privește. Polița acoperă însă și inundațiile din cauze naturale și alunecările de teren. În Moldova, ploile torențiale din ultimii ani au arătat că nu doar locuințele de lângă râuri sunt expuse.
 
 ## Ce riști concret fără PAD?
 
