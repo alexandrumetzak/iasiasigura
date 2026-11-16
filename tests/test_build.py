@@ -126,7 +126,8 @@ def test_articles_rendered_with_article_schema_and_author(out):
         h = read(out, f"blog/{a['slug']}.html")
         assert h.count("<h1") == 1 and '"@type": "Article"' in h and '"@id": "https://iasiasigura.com/#marina"' in h
         assert "Actualizat:" in h and a["words"] >= 900, (a["slug"], a["words"])
-        assert '"name": "Marina Metzak"' in h and '"logo": {"@type": "ImageObject"' in h, a["slug"]
+        art = next(n for n in (json.loads(b) for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)) if n.get("@type") == "Article")
+        assert art["author"]["name"] == "Marina Metzak" and art["publisher"]["logo"]["url"].endswith("/assets/logo.png"), a["slug"]
     idx = read(out, "blog/index.html")
     assert idx.count('class="card article-card"') >= 12
 
